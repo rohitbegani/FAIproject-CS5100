@@ -1,95 +1,95 @@
 [
-  {
-    "review_id": "fZIKNRMfZ86yrmwWYuib-Q",
-    "text": "Wow, what a disappointment!  I was not impressed with this place.  It was the night of the NCAA BB Finals and the front bar was too packed.  We went to the the back room and small patio area to join some friends who were part of a large party.  \n\nThere was hardly any room back there either and the server ignored us for most of the night.  We had to serve ourselves by going into the bar.  We also had to bus our own tables because nobody came out to clean up.  Also, the back room was very muggy and humid....this can't be the first time they've done large parties, right?!\n\nLike I said, I expected more out of this place and left disappointed.\n\nReturn Factor - 10%",
-    "business_id": "45puCRQ6Vh_IIAy7kkfFDQ",
-    "full_address": "24 N 2nd St\nPhoenix, AZ 85004",
-    "hours": {},
-    "date": "2011-04-15",
-    "review_count": 170,
-    "open": true,
-    "categories": [
-      "Bars",
-      "Restaurants",
-      "American (Traditional)",
-      "Sports Bars",
-      "Nightlife"
-    ],
-    "city": "Phoenix",
-    "votes": {
-      "funny": 1,
-      "useful": 2,
-      "cool": 2
+    {
+      "review_id": "fZIKNRMfZ86yrmwWYuib-Q",
+      "text": "Wow, what a disappointment!  I was not impressed with this place.  It was the night of the NCAA BB Finals and the front bar was too packed.  We went to the the back room and small patio area to join some friends who were part of a large party.  \n\nThere was hardly any room back there either and the server ignored us for most of the night.  We had to serve ourselves by going into the bar.  We also had to bus our own tables because nobody came out to clean up.  Also, the back room was very muggy and humid....this can't be the first time they've done large parties, right?!\n\nLike I said, I expected more out of this place and left disappointed.\n\nReturn Factor - 10%",
+      "business_id": "45puCRQ6Vh_IIAy7kkfFDQ",
+      "full_address": "24 N 2nd St\nPhoenix, AZ 85004",
+      "hours": {},
+        "date": "2011-04-15",
+      "review_count": 170,
+      "open": true,
+      "categories": [
+        "Bars",
+        "Restaurants",
+        "American (Traditional)",
+        "Sports Bars",
+        "Nightlife"
+      ],
+      "city": "Phoenix",
+      "votes": {
+        "funny": 1,
+        "useful": 2,
+        "cool": 2
+      },
+      "user_id": "kGgAARL2UmvCcTRfiscjug",
+      "name": "Majerle's Sports Grill",
+      "neighborhoods": [],
+      "longitude": -112.0712574,
+      "state": "AZ",
+      "stars": 3.5,
+      "latitude": 33.4484654,
+      "attributes": {
+        "Alcohol": "full_bar",
+        "Noise Level": "average",
+        "Music": {
+          "dj": false,
+          "background_music": true,
+          "karaoke": false,
+          "live": false,
+          "video": false,
+          "jukebox": false
+        },
+        "Attire": "casual",
+        "Ambience": {
+          "romantic": false,
+          "intimate": false,
+          "touristy": false,
+          "hipster": false,
+          "divey": false,
+          "classy": false,
+          "trendy": false,
+          "upscale": false,
+          "casual": true
+        },
+        "Good for Kids": false,
+        "Price Range": 2,
+        "Good For Dancing": false,
+        "Delivery": false,
+        "Coat Check": false,
+        "Smoking": "outdoor",
+        "Accepts Credit Cards": true,
+        "Take-out": true,
+        "Happy Hour": true,
+        "Wheelchair Accessible": true,
+        "Outdoor Seating": true,
+        "Takes Reservations": true,
+        "Waiter Service": true,
+        "Wi-Fi": "no",
+        "Caters": true,
+        "Good For": {
+          "dessert": false,
+          "latenight": true,
+          "lunch": true,
+          "dinner": false,
+          "brunch": false,
+          "breakfast": false
+        },
+        "Parking": {
+          "garage": false,
+          "street": true,
+          "validated": false,
+          "lot": false,
+          "valet": false
+        },
+        "Has TV": true,
+        "Good For Kids": false,
+        "Good For Groups": true
+      },
+      "_id": {
+        "$oid": "564b8ff97388471cfc44d377"
+      },
+      "type": "business"
     },
-    "user_id": "kGgAARL2UmvCcTRfiscjug",
-    "name": "Majerle's Sports Grill",
-    "neighborhoods": [],
-    "longitude": -112.0712574,
-    "state": "AZ",
-    "stars": 3.5,
-    "latitude": 33.4484654,
-    "attributes": {
-      "Alcohol": "full_bar",
-      "Noise Level": "average",
-      "Music": {
-        "dj": false,
-        "background_music": true,
-        "karaoke": false,
-        "live": false,
-        "video": false,
-        "jukebox": false
-      },
-      "Attire": "casual",
-      "Ambience": {
-        "romantic": false,
-        "intimate": false,
-        "touristy": false,
-        "hipster": false,
-        "divey": false,
-        "classy": false,
-        "trendy": false,
-        "upscale": false,
-        "casual": true
-      },
-      "Good for Kids": false,
-      "Price Range": 2,
-      "Good For Dancing": false,
-      "Delivery": false,
-      "Coat Check": false,
-      "Smoking": "outdoor",
-      "Accepts Credit Cards": true,
-      "Take-out": true,
-      "Happy Hour": true,
-      "Wheelchair Accessible": true,
-      "Outdoor Seating": true,
-      "Takes Reservations": true,
-      "Waiter Service": true,
-      "Wi-Fi": "no",
-      "Caters": true,
-      "Good For": {
-        "dessert": false,
-        "latenight": true,
-        "lunch": true,
-        "dinner": false,
-        "brunch": false,
-        "breakfast": false
-      },
-      "Parking": {
-        "garage": false,
-        "street": true,
-        "validated": false,
-        "lot": false,
-        "valet": false
-      },
-      "Has TV": true,
-      "Good For Kids": false,
-      "Good For Groups": true
-    },
-    "_id": {
-      "$oid": "564b8ff97388471cfc44d377"
-    },
-    "type": "business"
-  },
   {
     "review_id": "3RVdcl6DzMQNtNYTbgM8rA",
     "text": "Upgrading this place 1 Star.  Over the past couple of years, we've dropped by here after a game (Suns/Dbacks/Rattlers).  It's a fun place to come and hangout and have a nightcap.\n\nAfter Rattlers games, the team will come and party with the fans in the back room.  Those guys are super cool and the atmosphere is fun.\n\nReturn Factor - 75%",

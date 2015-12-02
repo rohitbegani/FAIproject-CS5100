@@ -17,6 +17,6 @@ def business_object_decoder(obj):
 
 
 def review_object_decoder(obj):
-    if '__type__' in obj and obj['__type__'] == 'Review':
+    if '__type__' in obj and obj['__type__'] == 'Review ':
         return Business(obj['id'], obj['business_id'])
     return obj

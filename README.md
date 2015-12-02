@@ -25,3 +25,13 @@ pymongo >= 3.1.1
 - static
     - csv
     - json
+    
+- algorithm
+    This folder will contain the actual KNN algo.
+
+- docs
+    Contains all the docs related to the project
+    
+- models
+    Contains the model data classes
+    
