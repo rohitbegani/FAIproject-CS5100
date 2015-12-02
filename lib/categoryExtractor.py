@@ -13,7 +13,11 @@ cat = []
 
 cursor = db.business.find({"categories": {"$in": ["Restaurants"] }})
 for i in cursor:
-	cat += i["categories"]
+	for c in i["categories"]:
+		if c not in cat:
+			cat.append(c)
+
+
 
 
 #with open('../static/json/categories.json', 'w+') as outfile:
