@@ -39,10 +39,10 @@ for r in db.review.find({"user_id": 'kGgAARL2UmvCcTRfiscjug'}):
 
 
 
-#with open('../static/json/categories.json', 'w+') as outfile:
-#    json.dump(cat, outfile, default=json_util.default)
+with open('../static/json/categories.json', 'w+') as outfile:
+    json.dump(cat, outfile, default=json_util.default)
 
 
-myfile = open('../static/csv/categories.csv', 'w+')
-wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
-wr.writerow(cat)
+#myfile = open('../static/csv/categories.csv', 'w+')
+#wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+#wr.writerow(cat)
