@@ -19,7 +19,7 @@ def get_attr_value(key):
 		if cursor.count():
 			attrs = cursor[0]["attributes"]
 			#print attrs
-			for k in attrs.keys():
+			for k in attrs:
 				if k == key:
 					if attrs[k] not in attr:
 						attr.append(attrs[k])
@@ -35,7 +35,7 @@ def get_sub_attr(sub_attr):
 		if cursor.count() and cursor[0]["attributes"].has_key(sub_attr):
 			attrs = cursor[0]["attributes"][sub_attr]
 			#print attrs
-			for k in attrs.keys():
+			for k in attrs:
 				if k not in attr:
 					attr.append(k)
 		else:
@@ -76,10 +76,10 @@ def get_all_attr():
 	return attr
 
 
-data = get_attr_value("Dietary Restrictions")
+data = get_sub_attr("Dietary Restrictions")
 print data
-data = get_attr_value("Ages Allowed")
-print data
+#data = get_attr_value("Ages Allowed")
+#print data
 
 
 #with open('../static/json/attr_data_dump.json', 'w+') as outfile:
