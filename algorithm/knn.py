@@ -7,8 +7,14 @@ with open('/home/bhanu/Documents/MSCS/AI/proj/FAIproject-CS5100'
     data = json.load(data_file)
 
 businessList =[]
+set = set()
 for i, obj in enumerate(data):
     business = Business()
-    business.id = obj["business_id"]
-    print(str(i) + business.id)
-    businessList.append(business)
+    business.id = obj["attributes"]
+    music = business.id["Ambience"]
+    for m in music:
+        set.add(m)
+    for s in set:
+        print(s)
+    # print  music
+    # businessList.append(business)
