@@ -6,32 +6,32 @@ Main Project for CS 5100: Foundations of AI.
 
 ## Packages Used
 
-pymongo >= 3.1.1
+`pymongo >= 3.1.1`
 
 
 ## File Structure
 
-- lib 
+- `lib:` 
     Main files.
     
-- helpers
+- `helpers:`
     Contains all the helper files.
 
-- util
+- `util:`
     This folder contains all the utility functions.
     File Operations
     Dictionary Operations
     
-- static
+- `static:`
     - csv
     - json
     
-- algorithm
+- `algorithm:`
     This folder will contain the actual KNN algo.
 
-- docs
+- `docs:`
     Contains all the docs related to the project
     
-- models
+- `models:`
     Contains the model data classes
     
