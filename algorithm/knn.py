@@ -1,20 +1,33 @@
-import json
+import sys
 
-from models.business import Business
+from helpers.jsonToObject import Decode
 
-with open('/home/bhanu/Documents/MSCS/AI/proj/FAIproject-CS5100'
-          '/static/json/kGgAARL2UmvCcTRfiscjug_reviews_business_model.json') as data_file:
-    data = json.load(data_file)
 
-businessList =[]
-set = set()
-for i, obj in enumerate(data):
-    business = Business()
-    business.id = obj["attributes"]
-    music = business.id["Ambience"]
-    for m in music:
-        set.add(m)
-    for s in set:
-        print(s)
-    # print  music
-    # businessList.append(business)
+class Knn(object):
+    def __init__(self, businessModels=[], jsonFile=None):
+        # Store Default Values for KNN
+        print("Inside KNN Init")
+        self._jsonFile = jsonFile
+        self._businessModels = businessModels
+
+    def load_business_models(self):
+
+        jsonDecoder = Decode()
+        jsonDecoder.jsonFilePath = self.jsonFile
+
+        self.businessModels = jsonDecoder.get_business()
+        print("Indie KNN load_business_models")
+        for b in self.businessModels:
+            print(b)
+
+
+def main():
+    reload(sys);
+    sys.setdefaultencoding("utf8")
+    knn = Knn()
+    knn.jsonFile = 'static/json/kGgAARL2UmvCcTRfiscjug_reviews_business_model.json'
+    knn.load_business_models()
+
+
+if __name__ == "__main__":
+    main()
