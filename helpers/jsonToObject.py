@@ -18,12 +18,42 @@ class Decode:
         for i, obj in enumerate(data):
             business = Business()
 
-            business.business_id = obj["business_id"]
-            business.name = obj["name"]
-            business.location_lat = obj["latitude"]
-            business.location_lon = obj["longitude"]
-            business.stars = obj["stars"]
-            business.open_now = obj["open"]
+            if "business_id" in obj.keys():
+                business.business_id = obj["business_id"]
+            if "name" in obj.keys():
+                business.name = obj["name"]
+            if "latitude" in obj.keys():
+                business.location_lat = obj["latitude"]
+            if "longitude" in obj.keys():
+                business.location_lon = obj["longitude"]
+            if "stars" in obj.keys():
+                business.stars = obj["stars"]
+            if "open" in obj.keys():
+                business.open_now = obj["open"]
 
-            businessList.append(business)
+            businessList.append(self.processBusinessAttributes(business, obj))
+
         return businessList
+
+    def processBusinessAttributes(self, business, obj):
+
+        attributes = obj["attributes"]
+
+        if "Wi-Fi" in attributes.keys():
+            business.wifi = attributes["Wi-Fi"]
+        if "Alcohol" in attributes.keys():
+            business.alcohol = attributes["Alcohol"]
+        if "Noise Level" in attributes.keys():
+            business.noise_level = attributes["Noise Level"]
+        if "Music" in attributes.keys():
+            business.music = attributes["Music"]
+        if "Attire" in attributes.keys():
+            business.attire = attributes["Attire"]
+        if "Ambience" in attributes.keys():
+            ambDict = attributes["Ambience"]
+            ambList = []
+            for k in ambDict:
+                if ambDict[k] is True:
+                    ambList.append(k)
+            business.ambience = ambList
+        return business
