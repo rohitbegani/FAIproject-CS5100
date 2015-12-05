@@ -1,6 +1,6 @@
 class User(object):
 
-    def __init__(self, name=None, id=None):
+    def __init__(self, name=None, id=None, user_id=None, stars=None, location_lat=None, location_lon=None):
         self.name = name
         self.user_id = user_id
         self.stars = stars
