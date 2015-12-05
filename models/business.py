@@ -58,7 +58,7 @@ class Business(object):
     def __str__(self):
         return "business_id: %s\n" \
                "name: %s\n" \
-               "location_lot: %s\n" \
+               "location_lat: %s\n" \
                "location_lon: %s\n" \
                "stars: %s\n" \
                "open_now: %s\n" \
