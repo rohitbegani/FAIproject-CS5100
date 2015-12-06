@@ -37,9 +37,7 @@ class Decode:
         return businessList
 
     def processBusinessAttributes(self, business, obj):
-
         attributes = obj["attributes"]
-
         if "Wi-Fi" in attributes.keys():
             business.wifi = attributes["Wi-Fi"]
         if "Alcohol" in attributes.keys():
@@ -56,10 +54,10 @@ class Decode:
             business.price_range = attributes["Price Range"]
         if "Good For" in attributes.keys():
             business.good_for = attributes["Good For"]
-        if "Good For Kids" in attributes.keys():
-            business.good_for = {"Good For Kids": attributes["Good For Kids"]}
-        if "Good For Groups" in attributes.keys():
-            business.good_for = {"Good For Groups": attributes["Good For Groups"]}
-        if "Good For Dancing" in attributes.keys():
-            business.good_for = {"Good For Dancing": attributes["Good For Dancing"]}
+        if "Good For Kids" in attributes.keys() and attributes["Good For Kids"] is True:
+            business.good_for = {"kids": True}
+        if "Good For Groups" in attributes.keys() and attributes["Good For Groups"] is True:
+            business.good_for = {"groups": True}
+        if "Good For Dancing" in attributes.keys() and attributes["Good For Dancing"] is True:
+            business.good_for = {"dancing": True}
         return business

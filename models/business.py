@@ -141,13 +141,12 @@ class Business(object):
         goodForList = []
         if self.good_for is not None:
             goodForList.extend(self.good_for)
-        if isinstance(good_for, dict):
-            for k in good_for:
-                if good_for[k] is True:
-                    if isinstance(k, unicode):
-                        goodForList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
-                    else:
-                        goodForList.append(k[9:].lower())
+        for k in good_for:
+            if good_for[k] is True:
+                if isinstance(k, unicode):
+                    goodForList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
+                else:
+                    goodForList.append(k)
         self._good_for = goodForList
 
     def __str__(self):
