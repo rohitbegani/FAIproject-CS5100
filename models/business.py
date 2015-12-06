@@ -1,6 +1,7 @@
 class Business(object):
     def __init__(self, name=None, business_id=None, location_lon=None, location_lat=None, stars=None, open_now=None,
-                 wifi=None, alcohol=None, noise_level=None, music=None, attire=None, ambience=None):
+                 wifi=None, alcohol=None, noise_level=None, music=None, attire=None, ambience=None, price_range=None,
+                 good_for=None):
         self._name = name
         self._business_id = business_id
         self._location_lon = location_lon
@@ -13,6 +14,8 @@ class Business(object):
         self._music = music
         self._attire = attire
         self._ambience = ambience
+        self._price_range = price_range
+        self._good_for = good_for
 
     @property
     def name(self):
@@ -110,6 +113,22 @@ class Business(object):
     def ambience(self, ambience):
         self._ambience = ambience
 
+    @property
+    def price_range(self):
+        return self._price_range
+
+    @price_range.setter
+    def price_range(self, price_range):
+        self._price_range = price_range
+
+    @property
+    def good_for(self):
+        return self._good_for
+
+    @good_for.setter
+    def good_for(self, good_for):
+        self._good_for = good_for
+
     def __str__(self):
         return "business_id: %s\n" \
                "name: %s\n" \
@@ -123,6 +142,8 @@ class Business(object):
                "music: %s\n" \
                "attire: %s\n" \
                "ambience: %s\n" \
+               "price_range: %s\n" \
+               "good_for: %s\n" \
                % (self.business_id,
                   self.name,
                   self.location_lat,
@@ -134,4 +155,6 @@ class Business(object):
                   self.noise_level,
                   self.music,
                   self.attire,
-                  self.ambience)
+                  self.ambience,
+                  self.price_range,
+                  self.good_for)

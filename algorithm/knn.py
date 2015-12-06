@@ -1,5 +1,7 @@
 import sys
 
+import knn as knn
+
 from helpers.jsonToObject import Decode
 
 

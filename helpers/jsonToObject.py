@@ -1,5 +1,6 @@
 import json
 import os
+import unicodedata
 
 from models.business import Business
 
@@ -54,6 +55,22 @@ class Decode:
             ambList = []
             for k in ambDict:
                 if ambDict[k] is True:
-                    ambList.append(k)
+                    ambList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
             business.ambience = ambList
+        if "Price Range" in attributes.keys():
+            business.price_range = attributes["Price Range"]
+
+        goodForList = []
+        if "Good For" in attributes.keys():
+            goodForDic = attributes["Good For"]
+            for k in goodForDic:
+                if goodForDic[k] is True:
+                    goodForList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
+        if "Good For Kids" in attributes.keys():
+            goodForList.append(attributes["Good For Kids"])
+        if "Good For Groups" in attributes.keys() and attributes["Good For Groups"] is True:
+            goodForList.append('groups')
+        if "Good For Dancing" in attributes.keys() and attributes["Good For Dancing"] is True:
+            goodForList.append('dancing')
+        business.good_for = goodForList
         return business
