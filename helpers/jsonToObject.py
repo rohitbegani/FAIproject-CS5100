@@ -51,26 +51,15 @@ class Decode:
         if "Attire" in attributes.keys():
             business.attire = attributes["Attire"]
         if "Ambience" in attributes.keys():
-            ambDict = attributes["Ambience"]
-            ambList = []
-            for k in ambDict:
-                if ambDict[k] is True:
-                    ambList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
-            business.ambience = ambList
+            business.ambience = attributes["Ambience"]
         if "Price Range" in attributes.keys():
             business.price_range = attributes["Price Range"]
-
-        goodForList = []
         if "Good For" in attributes.keys():
-            goodForDic = attributes["Good For"]
-            for k in goodForDic:
-                if goodForDic[k] is True:
-                    goodForList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
+            business.good_for = attributes["Good For"]
         if "Good For Kids" in attributes.keys():
-            goodForList.append(attributes["Good For Kids"])
-        if "Good For Groups" in attributes.keys() and attributes["Good For Groups"] is True:
-            goodForList.append('groups')
-        if "Good For Dancing" in attributes.keys() and attributes["Good For Dancing"] is True:
-            goodForList.append('dancing')
-        business.good_for = goodForList
+            business.good_for = {"Good For Kids": attributes["Good For Kids"]}
+        if "Good For Groups" in attributes.keys():
+            business.good_for = {"Good For Groups": attributes["Good For Groups"]}
+        if "Good For Dancing" in attributes.keys():
+            business.good_for = {"Good For Dancing": attributes["Good For Dancing"]}
         return business

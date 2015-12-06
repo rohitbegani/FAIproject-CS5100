@@ -1,3 +1,6 @@
+import unicodedata
+
+
 class Business(object):
     def __init__(self, name=None, business_id=None, location_lon=None, location_lat=None, stars=None, open_now=None,
                  wifi=None, alcohol=None, noise_level=None, music=None, attire=None, ambience=None, price_range=None,
@@ -95,7 +98,11 @@ class Business(object):
 
     @music.setter
     def music(self, music):
-        self._music = music
+        musicList = []
+        for k in music:
+            if music[k] is True:
+                musicList .append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
+        self._music = musicList
 
     @property
     def attire(self):
@@ -111,7 +118,11 @@ class Business(object):
 
     @ambience.setter
     def ambience(self, ambience):
-        self._ambience = ambience
+        ambList = []
+        for k in ambience:
+            if ambience[k] is True:
+                ambList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
+        self._ambience = ambList
 
     @property
     def price_range(self):
@@ -127,7 +138,17 @@ class Business(object):
 
     @good_for.setter
     def good_for(self, good_for):
-        self._good_for = good_for
+        goodForList = []
+        if self.good_for is not None:
+            goodForList.extend(self.good_for)
+        if isinstance(good_for, dict):
+            for k in good_for:
+                if good_for[k] is True:
+                    if isinstance(k, unicode):
+                        goodForList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
+                    else:
+                        goodForList.append(k[9:].lower())
+        self._good_for = goodForList
 
     def __str__(self):
         return "business_id: %s\n" \
