@@ -1,8 +1,6 @@
 import sys
 
-import knn as knn
-
-from helpers.jsonToObject import Decode
+from util.jsonToObject import Decode
 
 
 class Knn(object):

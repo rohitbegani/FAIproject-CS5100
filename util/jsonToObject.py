@@ -1,6 +1,5 @@
 import json
 import os
-import unicodedata
 
 from models.business import Business
 
@@ -31,6 +30,8 @@ class Decode:
                 business.stars = obj["stars"]
             if "open" in obj.keys():
                 business.open_now = obj["open"]
+            if "categories" in obj.keys():
+                business.categories = obj["categories"]
 
             businessList.append(self.processBusinessAttributes(business, obj))
 
@@ -60,4 +61,6 @@ class Decode:
             business.good_for = {"groups": True}
         if "Good For Dancing" in attributes.keys() and attributes["Good For Dancing"] is True:
             business.good_for = {"dancing": True}
+        if "Parking" in attributes.keys():
+            business.parking = attributes["Parking"]
         return business

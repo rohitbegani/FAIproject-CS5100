@@ -1,10 +1,13 @@
 import unicodedata
 
+from util.valueExtractor import ValueExtractor
+
 
 class Business(object):
     def __init__(self, name=None, business_id=None, location_lon=None, location_lat=None, stars=None, open_now=None,
                  wifi=None, alcohol=None, noise_level=None, music=None, attire=None, ambience=None, price_range=None,
-                 good_for=None):
+                 good_for=None, parking=None, categories=None):
+
         self._name = name
         self._business_id = business_id
         self._location_lon = location_lon
@@ -19,6 +22,8 @@ class Business(object):
         self._ambience = ambience
         self._price_range = price_range
         self._good_for = good_for
+        self._parking = parking
+        self._categories = categories
 
     @property
     def name(self):
@@ -98,11 +103,7 @@ class Business(object):
 
     @music.setter
     def music(self, music):
-        musicList = []
-        for k in music:
-            if music[k] is True:
-                musicList .append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
-        self._music = musicList
+        self._music = ValueExtractor.booleanValueExtractor(music)
 
     @property
     def attire(self):
@@ -118,11 +119,7 @@ class Business(object):
 
     @ambience.setter
     def ambience(self, ambience):
-        ambList = []
-        for k in ambience:
-            if ambience[k] is True:
-                ambList.append(unicodedata.normalize('NFKD', k).encode('ascii', 'ignore'))
-        self._ambience = ambList
+        self._ambience = ValueExtractor.booleanValueExtractor(ambience)
 
     @property
     def price_range(self):
@@ -149,6 +146,22 @@ class Business(object):
                     goodForList.append(k)
         self._good_for = goodForList
 
+    @property
+    def parking(self):
+        return self._parking
+
+    @parking.setter
+    def parking(self, parking):
+        self._parking = ValueExtractor.booleanValueExtractor(parking)
+
+    @property
+    def categories(self):
+        return self._categories
+
+    @categories.setter
+    def categories(self, categories):
+        self._categories = ValueExtractor.listValueExtractor(categories)
+
     def __str__(self):
         return "business_id: %s\n" \
                "name: %s\n" \
@@ -164,6 +177,8 @@ class Business(object):
                "ambience: %s\n" \
                "price_range: %s\n" \
                "good_for: %s\n" \
+               "parking: %s\n" \
+               "categories: %s\n" \
                % (self.business_id,
                   self.name,
                   self.location_lat,
@@ -177,4 +192,8 @@ class Business(object):
                   self.attire,
                   self.ambience,
                   self.price_range,
-                  self.good_for)
+                  self.good_for,
+                  self.parking,
+                  self.categories)
+
+
