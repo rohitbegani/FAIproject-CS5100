@@ -9,7 +9,7 @@ class Decode:
         self._jsonFilePath = jsonFilePath
 
     def get_business(self):
-        os.chdir("..")
+        # os.chdir("..")
         complete_jsonFilePath = os.path.join(os.path.abspath(os.curdir), self.jsonFilePath)
         with open(complete_jsonFilePath) as data_file:
             data = json.load(data_file)
