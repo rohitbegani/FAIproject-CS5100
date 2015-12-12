@@ -2,6 +2,7 @@ import json
 import os
 import sys
 from util.jsonToObject import Decode
+from models.user import User
 # import random
 # from numpy.random import permutation
 
@@ -11,6 +12,7 @@ class DataSet(object):
         # Store Default Values for KNN
         print("Inside KNN Init")
         self.jsonFile = jsonFile
+        self._user = User()
         self._rawData = self.loadData()
         # self._testData = testData
         # self._trainData = trainData
@@ -36,3 +38,15 @@ class DataSet(object):
         for b in businessModels:
             print(b)
         return businessModels
+
+    def update_user(self, business):
+        b = business
+        self._user.set_features(b.stars, b.location_lat, b.location_lon, b.wifi, b.alcohol, b.noise_level, b.music,
+                              b.attire, b.ambience, b.price_range, b.good_for,
+                              b.parking, b.categories, b.dietary_restrictions, b.misc_attributes)
+
+
+    def compute_user_model(self):
+        for b in self._businessModels:
+            self.update_user(b)
+        self._user.normalize()
