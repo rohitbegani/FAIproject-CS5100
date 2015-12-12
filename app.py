@@ -1,7 +1,14 @@
-from algorithm.knn import Knn
+import sys
 
-ref_user_id = "kGgAARL2UmvCcTRfiscjug"
+from algorithm.dataSet import DataSet
 
-knn = Knn()
-knn.jsonFile = 'static/json/kGgAARL2UmvCcTRfiscjug_reviews_business_model.json'
-knn.load_business_models()
+
+def main():
+    reload(sys)
+    sys.setdefaultencoding("utf8")
+    dataSet = DataSet('static/json/kGgAARL2UmvCcTRfiscjug_reviews_business_model.json')
+    dataSet.loadBusinessModels()
+
+
+if __name__ == "__main__":
+    main()
