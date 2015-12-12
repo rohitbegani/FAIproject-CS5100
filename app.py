@@ -2,6 +2,7 @@ import sys
 
 from algorithm.dataSet import DataSet
 
+ref_user_id = "kGgAARL2UmvCcTRfiscjug"
 
 def main():
     reload(sys)
