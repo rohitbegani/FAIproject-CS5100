@@ -97,7 +97,8 @@ class User(object):
 
     @music.setter
     def music(self, music):
-        self._music = ValueExtractor.booleanValueExtractor(music)
+        for m in music:
+            self._music = self.update_feature_weight(self._music, m)
 
     @property
     def attire(self):
@@ -113,7 +114,8 @@ class User(object):
 
     @ambience.setter
     def ambience(self, ambience):
-        self._ambience = ValueExtractor.booleanValueExtractor(ambience)
+        for a in ambience:
+            self._ambience = self.update_feature_weight(self._music, a)
 
     @property
     def price_range(self):
@@ -129,7 +131,8 @@ class User(object):
 
     @good_for.setter
     def good_for(self, good_for):
-        pass
+        for i in good_for:
+            self._good_for = self.update_feature_weight(self._good_for, i)
 
     @property
     def parking(self):
@@ -137,7 +140,8 @@ class User(object):
 
     @parking.setter
     def parking(self, parking):
-        self._parking = ValueExtractor.booleanValueExtractor(parking)
+       for p in parking:
+            self._parking = self.update_feature_weight(self._parking, p)
 
     @property
     def categories(self):
@@ -145,7 +149,8 @@ class User(object):
 
     @categories.setter
     def categories(self, categories):
-        self._categories = ValueExtractor.listValueExtractor(categories)
+        for c in categories:
+            self._categories = self.update_feature_weight(self._categories, c)
 
     @property
     def dietary_restrictions(self):
@@ -153,7 +158,9 @@ class User(object):
 
     @dietary_restrictions.setter
     def dietary_restrictions(self, dietary_restrictions):
-        self._dietary_restrictions = ValueExtractor.booleanValueExtractor(dietary_restrictions)
+       for d in dietary_restrictions:
+            self._dietary_restrictions = self.update_feature_weight(self._dietary_restrictions, d)
+
 
     @property
     def misc_attributes(self):
@@ -161,11 +168,9 @@ class User(object):
 
     @misc_attributes.setter
     def misc_attributes(self, misc_attributes):
-        miscAttrList = []
-        if self.misc_attributes is not None:
-            miscAttrList.extend(self.misc_attributes)
-        miscAttrList.append(misc_attributes)
-        self._misc_attributes = miscAttrList
+       for m in misc_attributes:
+            self._misc_attributes = self.update_feature_weight(self._misc_attributes, m)
+
 
     def __str__(self):
         return "user_id: %s\n" \
@@ -203,9 +208,8 @@ class User(object):
                   self.dietary_restrictions,
                   self.misc_attributes)
 
-    def compute_feature_weight(self, feature, value, rating):
-        pass
-
+    def compute_feature_weight(self, weight, value, rating):
+        return weight + value * rating
 
     def update_feature_weight (self, feature, value):
         temp = feature
@@ -217,16 +221,14 @@ class User(object):
             temp[value] = (value, 0)
         return temp
 
-    def normalize_weights (self):
+    def normalize(self):
         pass
 
-    def value_setter(self, *args, **kwargs): # real signature unknown
-            """ Descriptor to change the setter on a property. """
-            for arg in args:
-                if arg == True:
-                    return 1
-                elif arg == False:
-                    return 0
-                else:
-                    return 0
-            pass
+    def normalize_feature_weight(self, feature):
+        """
+        Iterates through all the weight vectors and normalizes its values to 1.
+        """
+        n = sum(feature.values())
+        for k in feature.keys():
+            feature[k] /= n
+        return feature
