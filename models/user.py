@@ -14,18 +14,18 @@ class User(object):
         self._stars = stars
         self.location_lat = location_lat
         self.location_lon = location_lon
-        self._wifi = wifi
-        self._alcohol = alcohol
-        self._noise_level = noise_level
-        self._music = music
-        self._attire = attire
-        self._ambience = ambience
-        self._price_range = price_range
-        self._good_for = good_for
-        self._parking = parking
-        self._categories = categories
-        self._dietary_restrictions = dietary_restrictions
-        self._misc_attributes = misc_attributes
+        self._wifi = self.wifi(wifi)
+        self._alcohol = self.alcohol(alcohol)
+        self._noise_level = self.noise_level(noise_level)
+        self._music = self.music(music)
+        self._attire = self.attire(attire)
+        self._ambience = self.ambience(ambience)
+        self._price_range = self.price_range(price_range)
+        self._good_for = self.good_for(good_for)
+        self._parking = self.parking(parking)
+        self._categories = self.categories(categories)
+        self._dietary_restrictions = self.dietary_restrictions(dietary_restrictions)
+        self._misc_attributes = self.misc_attributes(misc_attributes)
 
     @property
     def name(self):
@@ -221,9 +221,6 @@ class User(object):
             temp[value] = (value, 0)
         return temp
 
-    def normalize(self):
-        pass
-
     def normalize_feature_weight(self, feature):
         """
         Iterates through all the weight vectors and normalizes its values to 1.
@@ -232,3 +229,19 @@ class User(object):
         for k in feature.keys():
             feature[k] /= n
         return feature
+
+    def normalize(self):
+        self._wifi = self.normalize_feature_weight(self._wifi)
+        self._alcohol = self.normalize_feature_weight(self._alcohol)
+        self._noise_level = self.normalize_feature_weight(self._noise_level)
+        self._music = self.normalize_feature_weight(self._music)
+        self._attire = self.normalize_feature_weight(self._attire)
+        self._ambience = self.normalize_feature_weight(self._ambience)
+        self._price_range = self.normalize_feature_weight(self._price_range)
+        self._good_for = self.normalize_feature_weight(self._good_for)
+        self._parking = self.normalize_feature_weight(self._parking)
+        self._categories = self.normalize_feature_weight(self._categories)
+        self._dietary_restrictions = self.normalize_feature_weight(self._dietary_restrictions)
+        self._misc_attributes = self.normalize_feature_weight(self._misc_attributes)
+
+
