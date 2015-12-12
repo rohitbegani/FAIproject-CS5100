@@ -1,12 +1,14 @@
 import unicodedata
 
+from models.hours import Hours
 from util.valueExtractor import ValueExtractor
 
 
 class Business(object):
     def __init__(self, name=None, business_id=None, location_lon=None, location_lat=None, stars=None, open_now=None,
                  wifi=None, alcohol=None, noise_level=None, music=None, attire=None, ambience=None, price_range=None,
-                 good_for=None, parking=None, categories=None):
+                 good_for=None, parking=None, categories=None, dietary_restrictions=None, misc_attributes=None,
+                 hours=None):
 
         self._name = name
         self._business_id = business_id
@@ -24,6 +26,9 @@ class Business(object):
         self._good_for = good_for
         self._parking = parking
         self._categories = categories
+        self._dietary_restrictions = dietary_restrictions
+        self._misc_attributes = misc_attributes
+        self._hours = hours
 
     @property
     def name(self):
@@ -162,6 +167,56 @@ class Business(object):
     def categories(self, categories):
         self._categories = ValueExtractor.listValueExtractor(categories)
 
+    @property
+    def dietary_restrictions(self):
+        return self._dietary_restrictions
+
+    @dietary_restrictions.setter
+    def dietary_restrictions(self, dietary_restrictions):
+        self._dietary_restrictions = ValueExtractor.booleanValueExtractor(dietary_restrictions)
+
+    @property
+    def misc_attributes(self):
+        return self._misc_attributes
+
+    @misc_attributes.setter
+    def misc_attributes(self, misc_attributes):
+        miscAttrList = []
+        if self.misc_attributes is not None:
+            miscAttrList.extend(self.misc_attributes)
+        miscAttrList.append(misc_attributes)
+        self._misc_attributes = miscAttrList
+
+    @property
+    def hours(self):
+        return self._hours
+
+    @hours.setter
+    def hours(self, hours):
+        hoursObject = Hours()
+        if "Sunday" in hours.keys():
+            day = hours["Sunday"]
+            hoursObject.sunday = day["open"] + "-" + day["close"]
+        if "Monday" in hours.keys():
+            day = hours["Monday"]
+            hoursObject.monday = day["open"] + "-" + day["close"]
+        if "Tuesday" in hours.keys():
+            day = hours["Tuesday"]
+            hoursObject.tuesday = day["open"] + "-" + day["close"]
+        if "Wednesday" in hours.keys():
+            day = hours["Wednesday"]
+            hoursObject.wednesday = day["open"] + "-" + day["close"]
+        if "Thursday" in hours.keys():
+            day = hours["Thursday"]
+            hoursObject.thursday = day["open"] + "-" + day["close"]
+        if "Friday" in hours.keys():
+            day = hours["Friday"]
+            hoursObject.friday = day["open"] + "-" + day["close"]
+        if "Saturday" in hours.keys():
+            day = hours["Saturday"]
+            hoursObject.saturday = day["open"] + "-" + day["close"]
+        self._hours = hoursObject
+
     def __str__(self):
         return "business_id: %s\n" \
                "name: %s\n" \
@@ -179,6 +234,9 @@ class Business(object):
                "good_for: %s\n" \
                "parking: %s\n" \
                "categories: %s\n" \
+               "dietary_restrictions: %s\n" \
+               "misc_attributes: %s\n" \
+               "hours: %s\n" \
                % (self.business_id,
                   self.name,
                   self.location_lat,
@@ -194,6 +252,7 @@ class Business(object):
                   self.price_range,
                   self.good_for,
                   self.parking,
-                  self.categories)
-
-
+                  self.categories,
+                  self.dietary_restrictions,
+                  self.misc_attributes,
+                  self.hours)
