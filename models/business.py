@@ -256,3 +256,15 @@ class Business(object):
                   self.dietary_restrictions,
                   self.misc_attributes,
                   self.hours)
+
+
+    def value_setter(self, *args, **kwargs): # real signature unknown
+            """ Descriptor to change the setter on a property. """
+            for arg in args:
+                if arg == True:
+                    return 1
+                elif arg == False:
+                    return 0
+                else:
+                    return 0
+            pass

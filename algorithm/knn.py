@@ -17,15 +17,3 @@ class Knn(object):
         print("Indie KNN load_business_models")
         for b in self.businessModels:
             print(b)
-
-
-def main():
-    reload(sys);
-    sys.setdefaultencoding("utf8")
-    knn = Knn()
-    knn.jsonFile = 'static/json/kGgAARL2UmvCcTRfiscjug_reviews_business_model.json'
-    knn.load_business_models()
-
-
-if __name__ == "__main__":
-    main()
