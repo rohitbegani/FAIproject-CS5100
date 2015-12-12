@@ -5,17 +5,15 @@ from models.business import Business
 
 
 class Decode:
-    def __init__(self, jsonFilePath=None):
+    def __init__(self, jsonFilePath=None, data=None):
         self._jsonFilePath = jsonFilePath
+        self._data = data
 
     def get_business(self):
         # os.chdir("..")
-        complete_jsonFilePath = os.path.join(os.path.abspath(os.curdir), self.jsonFilePath)
-        with open(complete_jsonFilePath) as data_file:
-            data = json.load(data_file)
 
         businessList = []
-        for i, obj in enumerate(data):
+        for i, obj in enumerate(self.data):
             business = Business()
 
             if "business_id" in obj.keys():
