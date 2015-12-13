@@ -308,3 +308,5 @@ class User(object):
         self.add_features(b.stars, b.userRating, b.location_lat, b.location_lon, b.wifi, b.alcohol, b.noise_level, b.music,
                           b.attire, b.ambience, b.price_range, b.good_for,
                           b.parking, b.categories, b.dietary_restrictions, b.misc_attributes)
+
+    #print type(location_lon)

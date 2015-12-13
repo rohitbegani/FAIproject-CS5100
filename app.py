@@ -1,3 +1,4 @@
+
 import sys
 
 from algorithm.dataSet import DataSet
@@ -11,9 +12,10 @@ dataSet.loadRawData()
 dataSet.processBusinessModels()
 dataSet.sliceData()
 print(len(dataSet.testData))
-dataSet.timeFilterBusinessModel()
 dataSet.trainUserModel()
-# for d in dataSet.trainingData:
+dataSet.timeFilterBusinessModel()
+dataSet.distFilterBusinessModel()
+#for d in dataSet.trainingData:
 #     print(d)
 print(len(dataSet.trainingData))
 print(len(dataSet.testData))
