@@ -4,6 +4,9 @@ from setuptools import setup, find_packages
 
 requires = [
         'pymongo',
+        'nltk',
+        'stop-words',
+        'gensim'
         ]
 
 setup(

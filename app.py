@@ -28,6 +28,8 @@ knn = Knn()
 knn.inputData = dataSet
 prediction = knn.getNearestNeighbours(5)
 for p in prediction:
+	#print p
 	print dataSet.findUserRating(p)
-	print dataSet.findUserReview(p)
+	#print dataSet.findUserReview(p)
+	print "_________________________________"
 	print get_topics(dataSet.findUserReview(p))
