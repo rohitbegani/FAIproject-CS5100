@@ -16,6 +16,8 @@
 .idea/misc.xml
 
 .idea/modules.xml
+/User_Modelling.egg-info
+/User_Modelling.egg-info/*
 
 .idea/vcs.xml
 
