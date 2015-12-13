@@ -251,7 +251,7 @@ class User(object):
 
     # can be used to compute weights using complex algo.
     def compute_feature_weight(self, userRating, overallRating):
-        return self.trainingFactor * (userRating/5) + (1 - self.trainingFactor) * (overallRating/5)
+        return (self.trainingFactor * (userRating/5) + (1 - self.trainingFactor) * (overallRating/5))
 
     def update_feature_weight(self, feature, value):
         flag = 0

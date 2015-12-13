@@ -1,6 +1,7 @@
 
 import sys
 
+from datetime import datetime
 from algorithm.dataSet import DataSet
 from algorithm.knn import Knn
 from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME
@@ -13,8 +14,8 @@ dataSet.processBusinessModels()
 dataSet.sliceData()
 print(len(dataSet.testData))
 dataSet.trainUserModel()
-dataSet.timeFilterBusinessModel()
-dataSet.distFilterBusinessModel()
+dataSet.timeFilterBusinessModel(datetime.today())
+dataSet.distFilterBusinessModel(10)
 #for d in dataSet.trainingData:
 #     print(d)
 print(len(dataSet.trainingData))

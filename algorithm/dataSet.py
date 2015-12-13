@@ -1,7 +1,7 @@
 import json
 import os
 import math
-from datetime import timedelta, datetime
+from datetime import timedelta
 
 from math import sin, cos, radians, atan2, sqrt
 from models.user import User
@@ -46,9 +46,9 @@ class DataSet(object):
         user.normalize()
         self.userData = user
 
-    def timeFilterBusinessModel(self):
+    def timeFilterBusinessModel(self, timeNow):
         newData = []
-        today = datetime.today()
+        today = timeNow
         currentTime = timedelta(hours=today.hour, minutes=today.minute)
         for d in self.testData:
             days = [d.hours.monday, d.hours.tuesday, d.hours.wednesday, d.hours.thursday,
@@ -66,7 +66,7 @@ class DataSet(object):
                 newData.append(d)
         self.testData = newData
 
-    def distFilterBusinessModel(self):
+    def distFilterBusinessModel(self, rad):
         newData = []
         latUser = self.userData.location_lat
         lonUser = self.userData.location_lon
@@ -80,6 +80,6 @@ class DataSet(object):
             c = 2 * atan2(sqrt(a), sqrt(1-a))
             radius = 6371
             distance = radius * c
-            if distance < 10:
+            if distance < rad:
                 newData.append(b)
         self.testData = newData
