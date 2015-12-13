@@ -79,7 +79,7 @@ class User(object):
         self._noise_level = self.update_feature_weight(self._noise_level, noise_level)
 
     def music(self, music):
-        if type(music) == "list":
+        if music:
             for m in music:
                 self._music = self.update_feature_weight(self._music, m)
 
@@ -87,35 +87,35 @@ class User(object):
         self._attire = self.update_feature_weight(self._attire, attire)
 
     def ambience(self, ambience):
-        if type(ambience) == "list":
+        if ambience:
             for a in ambience:
-                self._ambience = self.update_feature_weight(self._music, a)
+                self._ambience = self.update_feature_weight(self._ambience, a)
 
     def price_range(self, price_range):
         self._price_range = self.update_feature_weight(self._price_range, price_range)
 
     def good_for(self, good_for):
-        if type(good_for) == "list":
-            for i in good_for:
-                self._good_for = self.update_feature_weight(self._good_for, i)
+        if good_for:
+            for g in good_for:
+                self.update_feature_weight(self._good_for, g)
 
     def parking(self, parking):
-        if type(parking) == "list":
+       if parking:
            for p in parking:
                 self._parking = self.update_feature_weight(self._parking, p)
 
     def categories(self, categories):
-        if type(categories) == "list":
+        if categories:
             for c in categories:
                 self._categories = self.update_feature_weight(self._categories, c)
 
     def dietary_restrictions(self, dietary_restrictions):
-        if type(dietary_restrictions) == "list":
-           for d in dietary_restrictions:
+        if dietary_restrictions:
+            for d in dietary_restrictions:
                 self._dietary_restrictions = self.update_feature_weight(self._dietary_restrictions, d)
 
     def misc_attributes(self, misc_attributes):
-       if type(misc_attributes) == "list":
+        if misc_attributes:
             for m in misc_attributes:
                 self._misc_attributes = self.update_feature_weight(self._misc_attributes, m)
 
@@ -173,21 +173,7 @@ class User(object):
         self.dietary_restrictions(dietary_restrictions)
         self.misc_attributes(misc_attributes)
 
-		#
-        # self._stars = stars
-        # self._wifi = wifi
-        # self._alcohol = alcohol
-        # self._noise_level = noise_level
-        # self._music = music
-        # self._attire = attire
-        # self._ambience = ambience
-        # self._price_range = price_range
-        # self._good_for = good_for
-        # self._parking = parking
-        # self._categories = categories
-        # self._dietary_restrictions = dietary_restrictions
-        # self._misc_attributes = misc_attributes
-
+    # can be used to compute weights using complex algo.
     def compute_feature_weight(self, weight, value, rating):
         return weight + value * rating
 
@@ -198,25 +184,48 @@ class User(object):
 
             if v == value:
                 flag = 1
-                w += self._stars/5
-                #self.compute_feature_weight(w, v, self._stars)
+                w += self._stars / 5
                 feature[feature.index(f)] = (v, w)
 
         if flag == 0:
             feature.append((value, 0))
         return feature
 
+
+    def update_feature_weight_los (self, feature, lvalue):
+        for l in lvalue:
+            flag = 0
+            value = l
+            for f in feature:
+                (v, w) = f
+
+                if v == value:
+                    flag = 1
+                    w += self._stars / 5
+                    feature[feature.index(f)] = (v, w)
+            if flag == 0:
+                feature.append((value, 0))
+            return feature
+
+
     def normalize_feature_weight(self, feature):
         """
         Iterates through all the weight vectors and normalizes its values to 1.
         """
+        total = 0
         if type(feature) == "list":
-            n = sum(feature.values())
-            for k in feature.keys():
-                feature[k] /= n
+            for f in feature:
+                (v,w) = f
+                total += w
+
+            for f in feature:
+                (v, w) = f
+                w /= total
+                feature[feature.index(f)] = (v, w)
         return feature
 
     def normalize(self):
+        self._wifi = self.normalize_feature_weight(self._wifi)
         self._wifi = self.normalize_feature_weight(self._wifi)
         self._alcohol = self.normalize_feature_weight(self._alcohol)
         self._noise_level = self.normalize_feature_weight(self._noise_level)

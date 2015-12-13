@@ -35,8 +35,8 @@ class DataSet(object):
         jsonDecoder.data = self._rawData
         businessModels = jsonDecoder.get_business()
         print("Indie KNN load_business_models")
-        for b in businessModels:
-            print(b)
+        #for b in businessModels:
+         #   print(b)
         return businessModels
 
     def update_user(self, business):
@@ -49,6 +49,6 @@ class DataSet(object):
     def compute_user_model(self):
         for b in self._businessModels:
             self.update_user(b)
-        print self._user
+            #print self._user
         self._user.normalize()
         print self._user
