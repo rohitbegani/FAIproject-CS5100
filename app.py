@@ -4,6 +4,7 @@ import sys
 from datetime import datetime
 from algorithm.dataSet import DataSet
 from algorithm.knn import Knn
+from plots.bubblePlot import BubblePlot
 from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME
 
 reload(sys)
@@ -24,6 +25,10 @@ print(len(dataSet.testData))
 
 knn = Knn()
 knn.inputData = dataSet
-prediction = knn.getNearestNeighbours(5)
-for p in prediction:
-	print dataSet.findUserRating(p)
+predictions = knn.getNearestNeighbours(5)
+
+bp = BubblePlot()
+bp.testData = dataSet.testData
+bp.user = dataSet.userData
+bp.predictions = predictions
+bp.generate()
