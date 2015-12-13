@@ -27,7 +27,7 @@ class User(object):
         self._categories = categories
         self._dietary_restrictions = dietary_restrictions
         self._misc_attributes = misc_attributes
-        self.trainingFactor = 0.8
+        self.trainingFactor = 0.9
 
     @property
     def name(self):
