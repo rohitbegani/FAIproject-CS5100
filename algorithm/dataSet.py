@@ -66,7 +66,8 @@ class DataSet(object):
                 newData.append(d)
         self.testData = newData
 
-    def distFilterBusinessModel(self):
+    ## Using the Haversine Formula
+    def distFilterBusinessModel(self, radius):
         newData = []
         latUser = self.userData.location_lat
         lonUser = self.userData.location_lon
@@ -80,6 +81,6 @@ class DataSet(object):
             c = 2 * atan2(sqrt(a), sqrt(1-a))
             radius = 6371
             distance = radius * c
-            if distance < 10:
+            if distance < radius:
                 newData.append(b)
         self.testData = newData

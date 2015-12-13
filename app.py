@@ -14,7 +14,7 @@ dataSet.sliceData()
 print(len(dataSet.testData))
 dataSet.trainUserModel()
 dataSet.timeFilterBusinessModel()
-dataSet.distFilterBusinessModel()
+dataSet.distFilterBusinessModel(1)
 #for d in dataSet.trainingData:
 #     print(d)
 print(len(dataSet.trainingData))
