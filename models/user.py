@@ -105,7 +105,7 @@ class User(object):
 
     @property
     def attire(self):
-        return self._property
+        return self._attire
 
     @attire.setter
     def attire(self, attire):
