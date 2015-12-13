@@ -7,6 +7,7 @@
 ## Packages Used
 
 `pymongo >= 3.1.1`
+'plotly'
 
 To install all packages, 
 
