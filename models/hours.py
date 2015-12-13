@@ -1,4 +1,5 @@
 class Hours:
+
     def __init__(self, sunday=None, monday=None, tuesday=None, wednesday=None, friday=None, thursday=None,
                  saturday=None):
         self._sunday = sunday
@@ -8,6 +9,7 @@ class Hours:
         self._thursday = thursday
         self._friday = friday
         self._saturday = saturday
+
 
     @property
     def sunday(self):
@@ -80,3 +82,5 @@ class Hours:
                   self.thursday,
                   self.friday,
                   self.saturday)
+
+

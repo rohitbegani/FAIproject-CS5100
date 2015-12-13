@@ -23,6 +23,8 @@ for u in db.review.find():
 
 print max(userdb.iteritems(), key=operator.itemgetter(1)) #(u'kGgAARL2UmvCcTRfiscjug', 1427)
 
+#db.review.find({"user_id": 'kGgAARL2UmvCcTRfiscjug'})
+
 # this is the user with the maximum reviews.
 max_review_user = max(userdb.iteritems(), key=operator.itemgetter(1))[0]
 

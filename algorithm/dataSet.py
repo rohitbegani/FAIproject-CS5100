@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import timedelta, datetime
 
 import math
 
@@ -26,7 +27,7 @@ class DataSet(object):
 
     def sliceData(self):
         # Shuffle the Business Model List
-        shuffle(self._businessModels)
+        #shuffle(self._businessModels)
         test_cutoff = int(math.floor(len(self._businessModels) / 3))
         self.testData = self._businessModels[0:test_cutoff]
         self.trainingData = self._businessModels[test_cutoff:]
@@ -39,8 +40,27 @@ class DataSet(object):
 
     def trainUserModel(self):
         user = User(REF_USER_ID, REF_USER_NAME)
-        for td in self.trainingData:
+        for td in self.timeFilterBusinessModel(self.trainingData):
             user.update_user(td)
         user.normalize()
         # print user
+        self.timeFilterBusinessModel(self.trainingData)
         self.userData = user
+
+    def timeFilterBusinessModel(self, data):
+        newData = []
+        today = datetime.today()
+        currentTime = timedelta(hours=today.hour, minutes=today.minute)
+        for d in data:
+            days = [ d.hours.monday, d.hours.tuesday, d.hours.wednesday, d.hours.thursday,
+                 d.hours.friday, d.hours.saturday, d.hours.sunday]
+            openingHours = days[today.weekday()]
+            if openingHours != None:
+                openingHours = openingHours.split("-")
+                open = openingHours[0].split(":")
+                openTime = timedelta(hours=int(open[0]), minutes=int(open[1]))
+                close = openingHours[1].split(":")
+                closeTime = timedelta(hours=int(close[0]), minutes=int(close[1]))
+                if openTime <= currentTime < closeTime:
+                    newData.append(d)
+        return newData

@@ -11,7 +11,7 @@ dataSet.loadRawData()
 dataSet.processBusinessModels()
 dataSet.sliceData()
 dataSet.trainUserModel()
-# for d in dataSet.trainingData:
+#for d in dataSet.trainingData:
 #     print(d)
 # print(len(dataSet.trainingData))
 # print(len(dataSet.testData))

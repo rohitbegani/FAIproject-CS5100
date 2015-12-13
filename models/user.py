@@ -65,7 +65,6 @@ class User(object):
 
     @stars.setter
     def stars(self, stars):
-        # TODO We need to have some kind of function for the ratings. Right now it is simply overriding the ratings.
         self._stars = stars
 
     @property
@@ -254,21 +253,6 @@ class User(object):
         if flag == 0 and value is not None:
             feature.append((value, self._stars/5))
         return feature
-
-    def update_feature_weight_los(self, feature, lvalue):
-        for l in lvalue:
-            flag = 0
-            value = l
-            for f in feature:
-                (v, w) = f
-
-                if v == value:
-                    flag = 1
-                    w += self._stars / 5
-                    feature[feature.index(f)] = (v, w)
-            if flag == 0 and value is not None:
-                feature.append((value, 0))
-            return feature
 
     def normalize_feature_weight(self, feature):
         """

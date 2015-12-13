@@ -11,6 +11,7 @@ setup(
         name='User-Modelling',
         description='Modelling user preferences from DataSet.',
         author='Bhanu Jain, Rohit Begani, Ronny Mathew',
+        homepage='http://github.com',
         packages=find_packages(),
         install_requires=requires,
         )
