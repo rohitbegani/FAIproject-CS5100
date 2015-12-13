@@ -5,6 +5,7 @@ from datetime import timedelta, datetime
 import math
 
 from models.user import User
+from models.business import Business
 from settings import REF_USER_ID, REF_USER_NAME
 from util.jsonToObject import Decode
 from random import shuffle
@@ -63,4 +64,27 @@ class DataSet(object):
                     newData.append(d)
             else:
                 newData.append(d)
+        self.testData = newData
+
+    def distFilterBusinessModel(self):
+        newData = []
+        lon1 = 0.0
+        lat1 = 0.0
+        lon2 = 0.0
+        lat2 = 0.0
+        for b in self.testData:
+            latBus = b.location_lat
+            lonBus = b.location_lon
+            for u in self.userData:
+                latUser = u.location_lat
+                lonUser = u.location_lon
+                lon1, lat1, lon2, lat2 = map(radians, [lonBus, latBus, lonUser, latUser])
+                dlon = lon2 - lon1
+                dlat = lat2 - lat1
+                a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+                c = 2 * atan2(sqrt(a), sqrt(1-a))
+                radius = 6371
+                distance = radius * c
+                if distance < 10:
+                    newData.append(b)
         self.testData = newData
