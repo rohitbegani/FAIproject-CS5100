@@ -70,7 +70,7 @@ class DataSet(object):
     ## Using the Haversine Formula
     ## http://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points
 
-    def distFilterBusinessModel(self, radius):
+    def distFilterBusinessModel(self, rad):
         '''
         This function u
         :param radius:
@@ -89,12 +89,24 @@ class DataSet(object):
             c = 2 * atan2(sqrt(a), sqrt(1-a))
             radius = 6371
             distance = radius * c
-            if distance < radius:
+            if distance < rad:
                 newData.append(b)
         self.testData = newData
 
 
     def filterDuplicates(self, data):
+        list = []
+        for d in data:
+            f = 0
+            for l in list:
+                if l.name == d.name:
+                    f=1
+                    break
+            if f == 0:
+                list.append(d)
+        return list
+
+        def findHighestRating(self, data):
         list = []
         for d in data:
             f = 0
