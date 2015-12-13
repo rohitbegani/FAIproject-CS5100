@@ -26,7 +26,7 @@ class DataSet(object):
 
     def sliceData(self):
         # Shuffle the Business Model List
-        shuffle(self._businessModels)
+        # shuffle(self._businessModels)
         test_cutoff = int(math.floor(len(self._businessModels) / 3))
         self.testData = self._businessModels[0:test_cutoff]
         self.trainingData = self._businessModels[test_cutoff:]

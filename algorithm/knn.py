@@ -41,5 +41,9 @@ class Knn(object):
                             + cc.attire() \
                             + cc.ambience() \
                             + cc.price_range() \
-                            + cc.good_for() + cc.parking() + cc.categories() + cc.dietary_restrictions()
+                            + cc.good_for() \
+                            + cc.parking() \
+                            + cc.categories() \
+                            + cc.dietary_restrictions() \
+                            # + cc.misc_attributes()
         return similarityFactor
