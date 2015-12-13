@@ -8,6 +8,7 @@
 
 `pymongo >= 3.1.1`
 
+To install all packages, 'run pip install -e .'
 
 ## File Structure
 

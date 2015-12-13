@@ -23,3 +23,5 @@
 
 .idea/
 *.pyc
+
+models/user.pyc
