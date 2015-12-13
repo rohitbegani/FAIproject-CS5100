@@ -53,7 +53,7 @@ class DataSet(object):
             days = [d.hours.monday, d.hours.tuesday, d.hours.wednesday, d.hours.thursday,
                     d.hours.friday, d.hours.saturday, d.hours.sunday]
             openingHours = days[today.weekday()]
-            if openingHours is not None:
+            if openingHours is not None and openingHours != "00:00-00:00":
                 openingHours = openingHours.split("-")
                 open = openingHours[0].split(":")
                 openTime = timedelta(hours=int(open[0]), minutes=int(open[1]))
