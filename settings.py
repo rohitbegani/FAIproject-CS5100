@@ -1,0 +1,5 @@
+SYS_ENCODING_UTF = "utf8"
+JSON_FILE_PATH = "static/json/"
+JSON_FILE_NAME = "kGgAARL2UmvCcTRfiscjug_reviews_business_model.json"
+REF_USER_ID = "kGgAARL2UmvCcTRfiscjug"
+REF_USER_NAME = "Bob"

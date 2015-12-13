@@ -4,10 +4,9 @@ import os
 import math
 
 from models.user import User
+from settings import REF_USER_ID, REF_USER_NAME
 from util.jsonToObject import Decode
 from random import shuffle
-
-ref_user_id = "kGgAARL2UmvCcTRfiscjug"
 
 
 class DataSet(object):
@@ -39,7 +38,7 @@ class DataSet(object):
         self._businessModels = businessModels
 
     def trainUserModel(self):
-        user = User(ref_user_id, "Bob")
+        user = User(REF_USER_ID, REF_USER_NAME)
         for td in self.trainingData:
             user.update_user(td)
         user.normalize()
