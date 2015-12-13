@@ -112,8 +112,8 @@ class ClassComparator:
     def misc_attributes(self):
         factor = 0.0
         if self.business.misc_attributes:
-            for uData in self.user.misc_attributes():
-                for bData in self.business.misc_attributes():
+            for uData in self.user.misc_attributes:
+                for bData in self.business.misc_attributes:
                     if bData == uData[0]:
                         factor += uData[1]
                         break

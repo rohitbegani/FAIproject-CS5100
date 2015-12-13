@@ -45,5 +45,5 @@ class Knn(object):
                             + cc.parking() \
                             + cc.categories() \
                             + cc.dietary_restrictions() \
-                            # + cc.misc_attributes()
+                            + cc.misc_attributes()
         return similarityFactor
