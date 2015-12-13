@@ -71,9 +71,11 @@ class DataSet(object):
 
     def distFilterBusinessModel(self, radius):
         '''
-        This function u
-        :param radius:
-        :return:
+        This function implements the Haversine formula to calculate the
+        distance from the users current location to the location of the
+        business
+        :param radius: 1
+        :return: appends business within a mile
         '''
         newData = []
         latUser = self.userData.location_lat
