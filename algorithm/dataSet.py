@@ -117,3 +117,8 @@ class DataSet(object):
                 rating = max(rating, b.userRating)
         return [business.name, rating]
 
+    def findUserReview(self, business):
+        """Returns the highest rating by the user"""
+        for b in self.testData:
+            if b.name == business.name:
+                return b.userReview

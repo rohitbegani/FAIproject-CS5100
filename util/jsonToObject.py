@@ -31,6 +31,8 @@ class Decode:
                 business.hours = obj["hours"]
             if "userRating" in obj.keys():
                 business.userRating = obj["userRating"]
+            if "text" in obj.keys():
+                business.userReview = obj["text"]
             businessList.append(self.processBusinessAttributes(business, obj))
 
         return businessList

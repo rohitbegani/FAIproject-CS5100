@@ -4,7 +4,9 @@ import sys
 from datetime import datetime
 from algorithm.dataSet import DataSet
 from algorithm.knn import Knn
+from lib.lda import get_topics
 from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME
+
 
 reload(sys)
 sys.setdefaultencoding(SYS_ENCODING_UTF)
@@ -27,3 +29,5 @@ knn.inputData = dataSet
 prediction = knn.getNearestNeighbours(5)
 for p in prediction:
 	print dataSet.findUserRating(p)
+	print dataSet.findUserReview(p)
+	print get_topics(dataSet.findUserReview(p))
