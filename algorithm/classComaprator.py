@@ -53,10 +53,12 @@ class ClassComparator:
 
     def ambience(self):
         factor = 0.0
-        for data in self.user.ambience:
-            if self.business.ambience == data[0]:
-                factor = data[1]
-                break
+        if self.business.ambience:
+            for uData in self.user.ambience:
+                for bData in self.business.ambience:
+                    if bData == uData[0]:
+                        factor += uData[1]
+                        break
         return factor
 
     def price_range(self):
@@ -69,42 +71,53 @@ class ClassComparator:
 
     def good_for(self):
         factor = 0.0
-        for data in self.user.good_for:
-            if self.business.good_for == data[0]:
-                factor = data[1]
-                break
+        if self.business.good_for:
+            for uData in self.user.good_for:
+                for bData in self.business.good_for:
+                    if bData == uData[0]:
+                        factor += uData[1]
+                        break
         return factor
 
     def parking(self):
         factor = 0.0
-        for data in self.user.parking:
-            if self.business.parking == data[0]:
-                factor = data[1]
-                break
+        if self.business.parking:
+            for uData in self.user.parking:
+                for bData in self.business.parking:
+                    if bData == uData[0]:
+                        factor += uData[1]
+                        break
         return factor
 
     def categories(self):
         factor = 0.0
-        for data in self.user.categories:
-            if self.business.categories == data[0]:
-                factor = data[1]
-                break
+        if self.business.categories:
+            for uData in self.user.categories:
+                for bData in self.business.categories:
+                    if bData == uData[0]:
+                        factor += uData[1]
+                        break
         return factor
 
     def dietary_restrictions(self):
         factor = 0.0
-        for data in self.user.dietary_restrictions:
-            if self.business.dietary_restrictions == data[0]:
-                factor = data[1]
-                break
+        if self.business.dietary_restrictions:
+            for uData in self.user.dietary_restrictions:
+                for bData in self.business.dietary_restrictions:
+                    if bData == uData[0]:
+                        factor += uData[1]
+                        break
         return factor
 
-    def m(self):
+    def misc_attributes(self):
         factor = 0.0
-        for data in self.user.dietary_restrictions:
-            if self.business.dietary_restrictions == data[0]:
-                factor = data[1]
-                break
+        if self.business.misc_attributes:
+            for uData in self.user.misc_attributes:
+                for bData in self.business.misc_attributes:
+                    if bData == uData[0]:
+                        factor += uData[1]
+                        break
         return factor
+
 
 
