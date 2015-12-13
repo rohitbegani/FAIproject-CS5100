@@ -212,16 +212,17 @@ class User(object):
         """
         Iterates through all the weight vectors and normalizes its values to 1.
         """
+        print "Normalize"
         total = 0
-        if type(feature) == "list":
-            for f in feature:
-                (v,w) = f
-                total += w
-
-            for f in feature:
+        for f in feature:
+            (v,w) = f
+            total += w
+        print total
+        for f in feature:
                 (v, w) = f
-                w /= total
-                feature[feature.index(f)] = (v, w)
+                if total != 0:
+                    w /= total
+                feature[feature.index(f)] = (v, round(w, 4))
         return feature
 
     def normalize(self):
