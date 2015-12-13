@@ -9,13 +9,10 @@ class Decode:
         self._jsonFilePath = jsonFilePath
         self._data = data
 
-    def get_business(self):
-        # os.chdir("..")
-
+    def getBusiness(self):
         businessList = []
         for i, obj in enumerate(self.data):
             business = Business()
-
             if "business_id" in obj.keys():
                 business.business_id = obj["business_id"]
             if "name" in obj.keys():

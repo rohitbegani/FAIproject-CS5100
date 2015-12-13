@@ -3,7 +3,7 @@ import unicodedata
 
 class ValueExtractor:
     @staticmethod
-    def booleanValueExtractor(attributeDic):
+    def booleanDictValueExtractor(attributeDic):
         finalList = []
         for k in attributeDic:
             if attributeDic[k] is True:
@@ -16,3 +16,7 @@ class ValueExtractor:
         for val in attributeList:
             finalList.append(unicodedata.normalize('NFKD', val.lower()).encode('ascii', 'ignore'))
         return finalList
+
+    @staticmethod
+    def stringValueExtractor(value):
+        return unicodedata.normalize('NFKD', value.lower()).encode('ascii', 'ignore')

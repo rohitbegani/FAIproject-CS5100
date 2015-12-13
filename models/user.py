@@ -5,7 +5,6 @@ from util.valueExtractor import ValueExtractor
 
 
 class User(object):
-
     def __init__(self, user_id=None, name=None, location_lat=None, location_lon=None, stars=None,
                  wifi=[], alcohol=[], noise_level=[], music=[], attire=[], ambience=[], price_range=[],
                  good_for=[], parking=[], categories=[], dietary_restrictions=[], misc_attributes=[]
@@ -50,7 +49,7 @@ class User(object):
 
     @location_lat.setter
     def location_lat(self):
-    	self._location_lat = 36.11470649999999
+        self._location_lat = 36.11470649999999
 
     @property
     def location_lon(self):
@@ -58,22 +57,23 @@ class User(object):
 
     @location_lon.setter
     def location_lon(self):
-    	self._location_lon = -115.17284840000002
+        self._location_lon = -115.17284840000002
 
     def stars(self, stars):
+        # TODO We need to have some kind of function for the ratings. Right now it is simply overriding the ratings.
         self._stars = stars
 
     def update_location_lat(self, l):
-    	self._location_lat = 36.11470649999999
+        self._location_lat = 36.11470649999999
 
     def update_location_lon(self, l):
-    	self._location_lon = -115.17284840000002
+        self._location_lon = -115.17284840000002
 
     def wifi(self, wifi):
         self._wifi = self.update_feature_weight(self._wifi, wifi)
 
     def alcohol(self, alcohol):
-        self._alcohol = self.update_feature_weight (self._alcohol, alcohol)
+        self._alcohol = self.update_feature_weight(self._alcohol, alcohol)
 
     def noise_level(self, noise_level):
         self._noise_level = self.update_feature_weight(self._noise_level, noise_level)
@@ -100,8 +100,8 @@ class User(object):
                 self.update_feature_weight(self._good_for, g)
 
     def parking(self, parking):
-       if parking:
-           for p in parking:
+        if parking:
+            for p in parking:
                 self._parking = self.update_feature_weight(self._parking, p)
 
     def categories(self, categories):
@@ -157,7 +157,7 @@ class User(object):
 
     def add_features(self, stars=None, location_lat=None, location_lon=None, wifi=[], alcohol=[],
                      noise_level=[], music=[], attire=[], ambience=[], price_range=[],
-                 good_for=[], parking=[], categories=[], dietary_restrictions=[], misc_attributes=[]):
+                     good_for=[], parking=[], categories=[], dietary_restrictions=[], misc_attributes=[]):
         self.stars(stars)
         self.update_location_lon(location_lon)
         self.update_location_lat(location_lat)
@@ -177,7 +177,7 @@ class User(object):
     def compute_feature_weight(self, weight, value, rating):
         return weight + value * rating
 
-    def update_feature_weight (self, feature, value):
+    def update_feature_weight(self, feature, value):
         flag = 0
         for f in feature:
             (v, w) = f
@@ -191,8 +191,7 @@ class User(object):
             feature.append((value, 0))
         return feature
 
-
-    def update_feature_weight_los (self, feature, lvalue):
+    def update_feature_weight_los(self, feature, lvalue):
         for l in lvalue:
             flag = 0
             value = l
@@ -207,22 +206,21 @@ class User(object):
                 feature.append((value, 0))
             return feature
 
-
     def normalize_feature_weight(self, feature):
         """
         Iterates through all the weight vectors and normalizes its values to 1.
         """
-        print "Normalize"
+        # print "Normalize"
         total = 0
         for f in feature:
-            (v,w) = f
+            (v, w) = f
             total += w
-        print total
+        # print total
         for f in feature:
-                (v, w) = f
-                if total != 0:
-                    w /= total
-                feature[feature.index(f)] = (v, round(w, 4))
+            (v, w) = f
+            if total != 0:
+                w /= total
+            feature[feature.index(f)] = (v, round(w, 4))
         return feature
 
     def normalize(self):
@@ -240,8 +238,8 @@ class User(object):
         self._dietary_restrictions = self.normalize_feature_weight(self._dietary_restrictions)
         self._misc_attributes = self.normalize_feature_weight(self._misc_attributes)
 
-
-
-
-
-
+    def update_user(self, business):
+        b = business
+        self.add_features(b.stars, b.location_lat, b.location_lon, b.wifi, b.alcohol, b.noise_level, b.music,
+                                b.attire, b.ambience, b.price_range, b.good_for,
+                                b.parking, b.categories, b.dietary_restrictions, b.misc_attributes)

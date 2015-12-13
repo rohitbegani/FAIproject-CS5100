@@ -36,7 +36,7 @@ class Business(object):
 
     @name.setter
     def name(self, name):
-        self._name = name
+        self._name = ValueExtractor.stringValueExtractor(name)
 
     @property
     def business_id(self):
@@ -44,7 +44,7 @@ class Business(object):
 
     @business_id.setter
     def business_id(self, business_id):
-        self._business_id = business_id
+        self._business_id = ValueExtractor.stringValueExtractor(business_id)
 
     @property
     def location_lon(self):
@@ -84,7 +84,7 @@ class Business(object):
 
     @wifi.setter
     def wifi(self, wifi):
-        self._wifi = wifi
+        self._wifi = ValueExtractor.stringValueExtractor(wifi)
 
     @property
     def alcohol(self):
@@ -92,7 +92,7 @@ class Business(object):
 
     @alcohol.setter
     def alcohol(self, alcohol):
-        self._alcohol = alcohol
+        self._alcohol = ValueExtractor.stringValueExtractor(alcohol)
 
     @property
     def noise_level(self):
@@ -100,7 +100,7 @@ class Business(object):
 
     @noise_level.setter
     def noise_level(self, noise_level):
-        self._noise_level = noise_level
+        self._noise_level = ValueExtractor.stringValueExtractor(noise_level)
 
     @property
     def music(self):
@@ -108,7 +108,7 @@ class Business(object):
 
     @music.setter
     def music(self, music):
-        self._music = ValueExtractor.booleanValueExtractor(music)
+        self._music = ValueExtractor.booleanDictValueExtractor(music)
 
     @property
     def attire(self):
@@ -116,7 +116,7 @@ class Business(object):
 
     @attire.setter
     def attire(self, attire):
-        self._attire = attire
+        self._attire = ValueExtractor.stringValueExtractor(attire)
 
     @property
     def ambience(self):
@@ -124,7 +124,7 @@ class Business(object):
 
     @ambience.setter
     def ambience(self, ambience):
-        self._ambience = ValueExtractor.booleanValueExtractor(ambience)
+        self._ambience = ValueExtractor.booleanDictValueExtractor(ambience)
 
     @property
     def price_range(self):
@@ -157,7 +157,7 @@ class Business(object):
 
     @parking.setter
     def parking(self, parking):
-        self._parking = ValueExtractor.booleanValueExtractor(parking)
+        self._parking = ValueExtractor.booleanDictValueExtractor(parking)
 
     @property
     def categories(self):
@@ -173,7 +173,7 @@ class Business(object):
 
     @dietary_restrictions.setter
     def dietary_restrictions(self, dietary_restrictions):
-        self._dietary_restrictions = ValueExtractor.booleanValueExtractor(dietary_restrictions)
+        self._dietary_restrictions = ValueExtractor.booleanDictValueExtractor(dietary_restrictions)
 
     @property
     def misc_attributes(self):
