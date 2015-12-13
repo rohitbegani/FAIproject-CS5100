@@ -35,5 +35,11 @@ class Knn(object):
         cc.business = dataRow
         similarityFactor = 0.0
         similarityFactor += cc.wifi() \
-                            + cc.alcohol()
+                            + cc.alcohol() \
+                            + cc.noise_level() \
+                            + cc.music() \
+                            + cc.attire() \
+                            + cc.ambience() \
+                            + cc.price_range() \
+                            + cc.good_for() + cc.parking() + cc.categories() + cc.dietary_restrictions()
         return similarityFactor
