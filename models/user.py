@@ -5,7 +5,7 @@ from util.valueExtractor import ValueExtractor
 
 
 class User(object):
-    def __init__(self, user_id=None, name=None, location_lat=None, location_lon=None, stars=None,
+    def __init__(self, user_id=None, name=None, location_lat=None, location_lon=None, stars=None, userRating=None,
                  wifi=[], alcohol=[], noise_level=[], music=[], attire=[], ambience=[], price_range=[],
                  good_for=[], parking=[], categories=[], dietary_restrictions=[], misc_attributes=[]
                  ):
@@ -14,6 +14,7 @@ class User(object):
         self._location_lat = location_lat
         self._location_lon = location_lon
         self._stars = stars
+        self._userRating = userRating
         self._wifi = wifi
         self._alcohol = alcohol
         self._noise_level = noise_level
@@ -26,6 +27,7 @@ class User(object):
         self._categories = categories
         self._dietary_restrictions = dietary_restrictions
         self._misc_attributes = misc_attributes
+        self.trainingFactor = 0.8
 
     @property
     def name(self):
@@ -66,6 +68,14 @@ class User(object):
     @stars.setter
     def stars(self, stars):
         self._stars = stars
+
+    @property
+    def userRating(self):
+        return self._userRating
+
+    @userRating.setter
+    def userRating(self, userRating):
+        self._userRating = userRating
 
     @property
     def wifi(self):
@@ -187,6 +197,7 @@ class User(object):
                "location_lat: %s\n" \
                "location_lon: %s\n" \
                "stars: %s\n" \
+                "userRating: %s\n" \
                "wifi: %s\n" \
                "alcohol: %s\n" \
                "noise_level: %s\n" \
@@ -204,6 +215,7 @@ class User(object):
                   self._location_lat,
                   self._location_lon,
                   self._stars,
+                  self._userRating,
                   self._wifi,
                   self._alcohol,
                   self._noise_level,
@@ -217,10 +229,11 @@ class User(object):
                   self._dietary_restrictions,
                   self._misc_attributes)
 
-    def add_features(self, stars=None, location_lat=None, location_lon=None, wifi=[], alcohol=[],
+    def add_features(self, stars=None, userRating=None, location_lat=None, location_lon=None, wifi=[], alcohol=[],
                      noise_level=[], music=[], attire=[], ambience=[], price_range=[],
                      good_for=[], parking=[], categories=[], dietary_restrictions=[], misc_attributes=[]):
         self.stars = stars
+        self.userRating = userRating
         self.location_lon = location_lon
         self.location_lat = location_lat
         self.wifi = wifi
@@ -237,18 +250,17 @@ class User(object):
         self.misc_attributes = misc_attributes
 
     # can be used to compute weights using complex algo.
-    def compute_feature_weight(self, weight, value, rating):
-        return weight + value * rating
+    def compute_feature_weight(self, userRating, overallRating):
+        return self.trainingFactor * (userRating/5) + (1 - self.trainingFactor) * (overallRating/5)
 
     def update_feature_weight(self, feature, value):
         flag = 0
         for f in feature:
             (v, w) = f
-
             if v == value:
                 flag = 1
-                w += self._stars / 5
-                feature[feature.index(f)] = (v, w)
+                w += self.compute_feature_weight(self.userRating, self.stars)
+                feature[feature.index(f)] = (v, self.compute_feature_weight(self.userRating, self.stars))
 
         if flag == 0 and value is not None:
             feature.append((value, self._stars/5))
@@ -293,6 +305,6 @@ class User(object):
 
     def update_user(self, business):
         b = business
-        self.add_features(b.stars, b.location_lat, b.location_lon, b.wifi, b.alcohol, b.noise_level, b.music,
+        self.add_features(b.stars, b.userRating, b.location_lat, b.location_lon, b.wifi, b.alcohol, b.noise_level, b.music,
                           b.attire, b.ambience, b.price_range, b.good_for,
                           b.parking, b.categories, b.dietary_restrictions, b.misc_attributes)
