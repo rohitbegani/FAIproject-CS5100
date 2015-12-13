@@ -1,103 +1,101 @@
 [
-  {
-    "review_id": "fZIKNRMfZ86yrmwWYuib-Q",
-    "text": "Wow, what a disappointment!  I was not impressed with this place.  It was the night of the NCAA BB Finals and the front bar was too packed.  We went to the the back room and small patio area to join some friends who were part of a large party.  \n\nThere was hardly any room back there either and the server ignored us for most of the night.  We had to serve ourselves by going into the bar.  We also had to bus our own tables because nobody came out to clean up.  Also, the back room was very muggy and humid....this can't be the first time they've done large parties, right?!\n\nLike I said, I expected more out of this place and left disappointed.\n\nReturn Factor - 10%",
-    "business_id": "45puCRQ6Vh_IIAy7kkfFDQ",
-    "full_address": "24 N 2nd St\nPhoenix, AZ 85004",
-    "hours": {},
-    "userRating": 2,
-    "date": "2011-04-15",
-    "review_count": 170,
-    "open": true,
-    "categories": [
-      "Bars",
-      "Restaurants",
-      "American (Traditional)",
-      "Sports Bars",
-      "Nightlife"
-    ],
-    "city": "Phoenix",
-    "votes": {
-      "funny": 1,
-      "useful": 2,
-      "cool": 2
+    {
+      "review_id": "fZIKNRMfZ86yrmwWYuib-Q",
+      "text": "Wow, what a disappointment!  I was not impressed with this place.  It was the night of the NCAA BB Finals and the front bar was too packed.  We went to the the back room and small patio area to join some friends who were part of a large party.  \n\nThere was hardly any room back there either and the server ignored us for most of the night.  We had to serve ourselves by going into the bar.  We also had to bus our own tables because nobody came out to clean up.  Also, the back room was very muggy and humid....this can't be the first time they've done large parties, right?!\n\nLike I said, I expected more out of this place and left disappointed.\n\nReturn Factor - 10%",
+      "business_id": "45puCRQ6Vh_IIAy7kkfFDQ",
+      "full_address": "24 N 2nd St\nPhoenix, AZ 85004",
+      "hours": {},
+        "date": "2011-04-15",
+      "review_count": 170,
+      "open": true,
+      "categories": [
+        "Bars",
+        "Restaurants",
+        "American (Traditional)",
+        "Sports Bars",
+        "Nightlife"
+      ],
+      "city": "Phoenix",
+      "votes": {
+        "funny": 1,
+        "useful": 2,
+        "cool": 2
+      },
+      "user_id": "kGgAARL2UmvCcTRfiscjug",
+      "name": "Majerle's Sports Grill",
+      "neighborhoods": [],
+      "longitude": -112.0712574,
+      "state": "AZ",
+      "stars": 3.5,
+      "latitude": 33.4484654,
+      "attributes": {
+        "Alcohol": "full_bar",
+        "Noise Level": "average",
+        "Music": {
+          "dj": false,
+          "background_music": true,
+          "karaoke": false,
+          "live": false,
+          "video": false,
+          "jukebox": false
+        },
+        "Attire": "casual",
+        "Ambience": {
+          "romantic": false,
+          "intimate": false,
+          "touristy": false,
+          "hipster": false,
+          "divey": false,
+          "classy": false,
+          "trendy": false,
+          "upscale": false,
+          "casual": true
+        },
+        "Good for Kids": false,
+        "Price Range": 2,
+        "Good For Dancing": false,
+        "Delivery": false,
+        "Coat Check": false,
+        "Smoking": "outdoor",
+        "Accepts Credit Cards": true,
+        "Take-out": true,
+        "Happy Hour": true,
+        "Wheelchair Accessible": true,
+        "Outdoor Seating": true,
+        "Takes Reservations": true,
+        "Waiter Service": true,
+        "Wi-Fi": "no",
+        "Caters": true,
+        "Good For": {
+          "dessert": false,
+          "latenight": true,
+          "lunch": true,
+          "dinner": false,
+          "brunch": false,
+          "breakfast": false
+        },
+        "Parking": {
+          "garage": false,
+          "street": true,
+          "validated": false,
+          "lot": false,
+          "valet": false
+        },
+        "Has TV": true,
+        "Good For Kids": false,
+        "Good For Groups": true
+      },
+      "_id": {
+        "$oid": "564b8ff97388471cfc44d377"
+      },
+      "type": "business"
     },
-    "user_id": "kGgAARL2UmvCcTRfiscjug",
-    "name": "Majerle's Sports Grill",
-    "neighborhoods": [],
-    "longitude": -112.0712574,
-    "state": "AZ",
-    "stars": 3.5,
-    "latitude": 33.4484654,
-    "attributes": {
-      "Alcohol": "full_bar",
-      "Noise Level": "average",
-      "Music": {
-        "dj": false,
-        "background_music": true,
-        "karaoke": false,
-        "live": false,
-        "video": false,
-        "jukebox": false
-      },
-      "Attire": "casual",
-      "Ambience": {
-        "romantic": false,
-        "intimate": false,
-        "touristy": false,
-        "hipster": false,
-        "divey": false,
-        "classy": false,
-        "trendy": false,
-        "upscale": false,
-        "casual": true
-      },
-      "Good for Kids": false,
-      "Price Range": 2,
-      "Good For Dancing": false,
-      "Delivery": false,
-      "Coat Check": false,
-      "Smoking": "outdoor",
-      "Accepts Credit Cards": true,
-      "Take-out": true,
-      "Happy Hour": true,
-      "Wheelchair Accessible": true,
-      "Outdoor Seating": true,
-      "Takes Reservations": true,
-      "Waiter Service": true,
-      "Wi-Fi": "no",
-      "Caters": true,
-      "Good For": {
-        "dessert": false,
-        "latenight": true,
-        "lunch": true,
-        "dinner": false,
-        "brunch": false,
-        "breakfast": false
-      },
-      "Parking": {
-        "garage": false,
-        "street": true,
-        "validated": false,
-        "lot": false,
-        "valet": false
-      },
-      "Has TV": true,
-      "Good For Kids": false,
-      "Good For Groups": true
-    },
-    "_id": {
-      "$oid": "564b8ff97388471cfc44d377"
-    },
-    "type": "business"
-  },
   {
     "review_id": "3RVdcl6DzMQNtNYTbgM8rA",
     "text": "Upgrading this place 1 Star.  Over the past couple of years, we've dropped by here after a game (Suns/Dbacks/Rattlers).  It's a fun place to come and hangout and have a nightcap.\n\nAfter Rattlers games, the team will come and party with the fans in the back room.  Those guys are super cool and the atmosphere is fun.\n\nReturn Factor - 75%",
     "business_id": "45puCRQ6Vh_IIAy7kkfFDQ",
     "full_address": "24 N 2nd St\nPhoenix, AZ 85004",
     "hours": {},
-    "userRating": 3,
     "date": "2013-10-17",
     "review_count": 170,
     "open": true,
@@ -218,7 +216,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2013-04-21",
     "review_count": 335,
     "open": true,
@@ -342,7 +339,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-26",
     "review_count": 67,
     "open": true,
@@ -422,7 +418,6 @@
     "business_id": "OT0gFIAr_c-d3i-IQ6TZQg",
     "full_address": "1615 E Camelback Rd\nPhoenix, AZ 85016",
     "hours": {},
-    "userRating": 4,
     "date": "2013-03-09",
     "review_count": 18,
     "open": false,
@@ -526,7 +521,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-04",
     "review_count": 132,
     "open": true,
@@ -648,7 +642,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-27",
     "review_count": 91,
     "open": true,
@@ -759,7 +752,6 @@
         "open": "06:30"
       }
     },
-    "userRating": 5,
     "date": "2013-04-05",
     "review_count": 206,
     "open": true,
@@ -880,7 +872,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-14",
     "review_count": 277,
     "open": true,
@@ -997,7 +988,6 @@
         "open": "18:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-12",
     "review_count": 221,
     "open": true,
@@ -1107,7 +1097,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 2,
     "date": "2013-10-29",
     "review_count": 11,
     "open": true,
@@ -1206,7 +1195,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-03",
     "review_count": 31,
     "open": true,
@@ -1284,7 +1272,6 @@
     "business_id": "ydnc0p_oPL80BBKJNZGw_Q",
     "full_address": "3329 E Bell Rd\nPhoenix, AZ 85032",
     "hours": {},
-    "userRating": 2,
     "date": "2013-08-25",
     "review_count": 10,
     "open": true,
@@ -1379,7 +1366,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 2,
     "date": "2013-08-19",
     "review_count": 36,
     "open": true,
@@ -1454,7 +1440,6 @@
     "business_id": "4zBdx_EZFaDFJ9MvqxYNeg",
     "full_address": "3202 E Greenway Rd\nPhoenix, AZ 85032",
     "hours": {},
-    "userRating": 3,
     "date": "2014-12-31",
     "review_count": 22,
     "open": true,
@@ -1559,7 +1544,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2011-08-03",
     "review_count": 148,
     "open": true,
@@ -1636,7 +1620,6 @@
     "business_id": "UNFcMOWOsr9ilM6lqXIC6w",
     "full_address": "4926 E Chandler Blvd\nPhoenix, AZ 85048",
     "hours": {},
-    "userRating": 3,
     "date": "2013-03-12",
     "review_count": 16,
     "open": true,
@@ -1741,7 +1724,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2011-08-02",
     "review_count": 13,
     "open": false,
@@ -1848,7 +1830,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 3,
     "date": "2013-11-24",
     "review_count": 121,
     "open": true,
@@ -1968,7 +1949,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 3,
     "date": "2014-09-14",
     "review_count": 80,
     "open": true,
@@ -2047,7 +2027,6 @@
     "business_id": "TX44pKdAmynE8E3TaH0q3A",
     "full_address": "9140 E Indian Bend Rd\nScottsdale, AZ 85250",
     "hours": {},
-    "userRating": 3,
     "date": "2011-06-07",
     "review_count": 10,
     "open": true,
@@ -2124,7 +2103,6 @@
     "business_id": "TX44pKdAmynE8E3TaH0q3A",
     "full_address": "9140 E Indian Bend Rd\nScottsdale, AZ 85250",
     "hours": {},
-    "userRating": 4,
     "date": "2013-10-12",
     "review_count": 10,
     "open": true,
@@ -2230,7 +2208,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2011-05-04",
     "review_count": 204,
     "open": true,
@@ -2353,7 +2330,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-19",
     "review_count": 204,
     "open": true,
@@ -2476,7 +2452,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-09-19",
     "review_count": 90,
     "open": true,
@@ -2584,7 +2559,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 3,
     "date": "2012-02-18",
     "review_count": 4,
     "open": true,
@@ -2653,7 +2627,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 4,
     "date": "2010-11-23",
     "review_count": 247,
     "open": true,
@@ -2776,7 +2749,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-18",
     "review_count": 247,
     "open": true,
@@ -2899,7 +2871,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2013-01-18",
     "review_count": 257,
     "open": true,
@@ -3013,7 +2984,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2014-12-28",
     "review_count": 32,
     "open": true,
@@ -3134,7 +3104,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2011-04-16",
     "review_count": 62,
     "open": true,
@@ -3237,7 +3206,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-06-12",
     "review_count": 116,
     "open": true,
@@ -3344,7 +3312,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-05-02",
     "review_count": 60,
     "open": true,
@@ -3452,7 +3419,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2011-07-31",
     "review_count": 56,
     "open": true,
@@ -3530,7 +3496,6 @@
     "business_id": "k0qo_gk1rB-ImG9kUZTRtw",
     "full_address": "16495 N Scottsdale Rd\nScottsdale, AZ 85254",
     "hours": {},
-    "userRating": 1,
     "date": "2012-12-01",
     "review_count": 6,
     "open": false,
@@ -3607,7 +3572,6 @@
         "open": "16:30"
       }
     },
-    "userRating": 4,
     "date": "2013-08-01",
     "review_count": 116,
     "open": true,
@@ -3713,7 +3677,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-23",
     "review_count": 58,
     "open": true,
@@ -3831,7 +3794,6 @@
         "open": "16:30"
       }
     },
-    "userRating": 4,
     "date": "2013-02-17",
     "review_count": 82,
     "open": true,
@@ -3937,7 +3899,6 @@
         "open": "09:30"
       }
     },
-    "userRating": 4,
     "date": "2012-01-08",
     "review_count": 54,
     "open": false,
@@ -4044,7 +4005,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2013-07-29",
     "review_count": 9,
     "open": true,
@@ -4151,7 +4111,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-26",
     "review_count": 86,
     "open": true,
@@ -4267,7 +4226,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-04-12",
     "review_count": 77,
     "open": true,
@@ -4343,7 +4301,6 @@
     "business_id": "EJkiV-vOO2NfQH71KeqaXw",
     "full_address": "9619 N Hayden Rd\nScottsdale, AZ 85258",
     "hours": {},
-    "userRating": 4,
     "date": "2012-02-24",
     "review_count": 70,
     "open": false,
@@ -4448,7 +4405,6 @@
         "open": "07:30"
       }
     },
-    "userRating": 4,
     "date": "2011-08-03",
     "review_count": 72,
     "open": false,
@@ -4552,7 +4508,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 2,
     "date": "2013-08-08",
     "review_count": 15,
     "open": true,
@@ -4629,7 +4584,6 @@
     "business_id": "Y7UZz1U8FhWKuoPp-_z5Dg",
     "full_address": "9990 North 90th Street\nScottsdale, AZ 85258",
     "hours": {},
-    "userRating": 3,
     "date": "2011-05-09",
     "review_count": 19,
     "open": true,
@@ -4708,7 +4662,6 @@
     "business_id": "Q-qvDFHD3FCy82KIWoc3tA",
     "full_address": "9393 N 90th St\nSte 122\nScottsdale, AZ 85258",
     "hours": {},
-    "userRating": 4,
     "date": "2014-09-14",
     "review_count": 82,
     "open": true,
@@ -4813,7 +4766,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-08-09",
     "review_count": 21,
     "open": true,
@@ -4919,7 +4871,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2011-04-10",
     "review_count": 94,
     "open": true,
@@ -5035,7 +4986,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-04-26",
     "review_count": 38,
     "open": false,
@@ -5140,7 +5090,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-06-02",
     "review_count": 36,
     "open": true,
@@ -5245,7 +5194,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-19",
     "review_count": 36,
     "open": true,
@@ -5350,7 +5298,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-04-30",
     "review_count": 263,
     "open": true,
@@ -5429,7 +5376,6 @@
     "business_id": "qgXhs-oY900b-cqY1NIcOw",
     "full_address": "9330 E Poinsettia Dr\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 3,
     "date": "2011-05-01",
     "review_count": 17,
     "open": false,
@@ -5520,7 +5466,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2011-10-15",
     "review_count": 8,
     "open": true,
@@ -5627,7 +5572,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2013-07-10",
     "review_count": 8,
     "open": true,
@@ -5734,7 +5678,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-09-14",
     "review_count": 92,
     "open": true,
@@ -5810,7 +5753,6 @@
     "business_id": "SYHatptm7gpcmYjW1d-o5A",
     "full_address": "14858 N Frnk Llyd Wrght Blvd\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 3,
     "date": "2011-06-01",
     "review_count": 15,
     "open": false,
@@ -5914,7 +5856,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2011-07-08",
     "review_count": 12,
     "open": true,
@@ -6007,7 +5948,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2013-09-19",
     "review_count": 12,
     "open": true,
@@ -6100,7 +6040,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-07-16",
     "review_count": 49,
     "open": true,
@@ -6207,7 +6146,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-06",
     "review_count": 49,
     "open": true,
@@ -6285,7 +6223,6 @@
     "business_id": "GMkgJsA2Jg6kTnOzF5Rf8Q",
     "full_address": "15416 N Pima Rd\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 3,
     "date": "2013-04-12",
     "review_count": 7,
     "open": true,
@@ -6391,7 +6328,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2011-05-11",
     "review_count": 162,
     "open": true,
@@ -6508,7 +6444,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-05",
     "review_count": 162,
     "open": true,
@@ -6596,7 +6531,6 @@
     "business_id": "xI0UZH734lJtm39DbLf-Bw",
     "full_address": "15236 N Pima Rd\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 3,
     "date": "2011-10-08",
     "review_count": 113,
     "open": true,
@@ -6704,7 +6638,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 3,
     "date": "2011-04-22",
     "review_count": 62,
     "open": false,
@@ -6811,7 +6744,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-08-05",
     "review_count": 349,
     "open": true,
@@ -6930,7 +6862,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-17",
     "review_count": 349,
     "open": true,
@@ -7049,7 +6980,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 3,
     "date": "2011-04-10",
     "review_count": 106,
     "open": true,
@@ -7155,7 +7085,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 5,
     "date": "2012-11-03",
     "review_count": 46,
     "open": true,
@@ -7237,7 +7166,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-26",
     "review_count": 46,
     "open": true,
@@ -7290,7 +7218,6 @@
     "business_id": "jVp2NDys7GX81jLFn8kGhQ",
     "full_address": "13367 W Grand Ave\nSurprise, AZ 85374",
     "hours": {},
-    "userRating": 3,
     "date": "2012-10-26",
     "review_count": 20,
     "open": true,
@@ -7365,7 +7292,6 @@
     "business_id": "38nEHav_0tMMCMZXTisfCg",
     "full_address": "412 E Wickenburg Way\nWickenburg, AZ 85390",
     "hours": {},
-    "userRating": 3,
     "date": "2010-09-19",
     "review_count": 5,
     "open": true,
@@ -7441,7 +7367,6 @@
     "business_id": "dS5qlJ6au0Wz9FwmbPSjYA",
     "full_address": "1301 W Sunset Rd\nHenderson, NV 89014",
     "hours": {},
-    "userRating": 3,
     "date": "2011-02-23",
     "review_count": 205,
     "open": true,
@@ -7520,7 +7445,6 @@
     "business_id": "THEsYolDkHaJofZLs6ufWg",
     "full_address": "3821 E Craig Rd\nNorth Las Vegas, NV 89030",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-28",
     "review_count": 6,
     "open": true,
@@ -7615,7 +7539,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2010-12-30",
     "review_count": 263,
     "open": true,
@@ -7733,7 +7656,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2010-06-20",
     "review_count": 1514,
     "open": true,
@@ -7842,7 +7764,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-27",
     "review_count": 1514,
     "open": true,
@@ -7922,7 +7843,6 @@
     "business_id": "JBMfMZS_Oac8_ktOULqTAg",
     "full_address": "3441 W Sahara Ave Ste B2\nWestside\nLas Vegas, NV 89102",
     "hours": {},
-    "userRating": 5,
     "date": "2007-03-21",
     "review_count": 4,
     "open": false,
@@ -7984,7 +7904,6 @@
     "business_id": "mjgs24NO7oZvwafPKN5dDw",
     "full_address": "4590 W Sahara Ave\nWestside\nLas Vegas, NV 89102",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-16",
     "review_count": 10,
     "open": true,
@@ -8064,7 +7983,6 @@
     "business_id": "kAlR7X4jiDPZdISJAAKkmg",
     "full_address": "4760 W Sahara Ave\nWestside\nLas Vegas, NV 89102",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-15",
     "review_count": 11,
     "open": false,
@@ -8168,7 +8086,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2010-04-28",
     "review_count": 288,
     "open": true,
@@ -8274,7 +8191,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2010-06-05",
     "review_count": 79,
     "open": true,
@@ -8384,7 +8300,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2007-03-19",
     "review_count": 231,
     "open": true,
@@ -8504,7 +8419,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2010-08-07",
     "review_count": 231,
     "open": true,
@@ -8624,7 +8538,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-05",
     "review_count": 50,
     "open": true,
@@ -8699,7 +8612,6 @@
     "business_id": "MIYdMxSFC53wnQYm9iYteA",
     "full_address": "2025 Buffalo Drive\nSummerlin\nLas Vegas, NV 89128",
     "hours": {},
-    "userRating": 3,
     "date": "2011-03-26",
     "review_count": 5,
     "open": true,
@@ -8764,7 +8676,6 @@
     "business_id": "8YN0_08op4_chO3GTOUJLQ",
     "full_address": "7210 W Lake Mead Blvd\nLas Vegas, NV 89128",
     "hours": {},
-    "userRating": 4,
     "date": "2010-10-19",
     "review_count": 51,
     "open": true,
@@ -8839,7 +8750,6 @@
     "business_id": "8YN0_08op4_chO3GTOUJLQ",
     "full_address": "7210 W Lake Mead Blvd\nLas Vegas, NV 89128",
     "hours": {},
-    "userRating": 4,
     "date": "2011-02-10",
     "review_count": 51,
     "open": true,
@@ -8943,7 +8853,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-02-22",
     "review_count": 30,
     "open": true,
@@ -9050,7 +8959,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2010-10-22",
     "review_count": 81,
     "open": true,
@@ -9156,7 +9064,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 5,
     "date": "2011-02-07",
     "review_count": 81,
     "open": true,
@@ -9262,7 +9169,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-08",
     "review_count": 71,
     "open": true,
@@ -9371,7 +9277,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-11-02",
     "review_count": 69,
     "open": true,
@@ -9459,7 +9364,6 @@
     "business_id": "kfhlEFpZlKIfInAC5XDuxw",
     "full_address": "7480 W Lake Mead Blvd\nLas Vegas, NV 89128",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-18",
     "review_count": 16,
     "open": true,
@@ -9563,7 +9467,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2010-06-20",
     "review_count": 8,
     "open": true,
@@ -9664,7 +9567,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2010-11-29",
     "review_count": 10,
     "open": true,
@@ -9743,7 +9645,6 @@
     "business_id": "AR6Yx2677bu5INGALoOsdw",
     "full_address": "2400 N Rancho Dr\nNorth Las Vegas, NV 89030",
     "hours": {},
-    "userRating": 2,
     "date": "2011-02-03",
     "review_count": 52,
     "open": true,
@@ -9849,7 +9750,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-24",
     "review_count": 208,
     "open": true,
@@ -9967,7 +9867,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 1,
     "date": "2010-09-02",
     "review_count": 19,
     "open": true,
@@ -10047,7 +9946,6 @@
     "business_id": "k2CdgSzyVR7b-L75tfXHUA",
     "full_address": "9480 W. Lake Mead Blvd.\nSummerlin\nLas Vegas, NV 89134",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-20",
     "review_count": 4,
     "open": true,
@@ -10094,7 +9992,6 @@
     "business_id": "yhrTMjhnrCsqDR_tJfyLCQ",
     "full_address": "9490 W Lake Mead Blvd\nSummerlin\nLas Vegas, NV 89134",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-22",
     "review_count": 3,
     "open": false,
@@ -10158,7 +10055,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-02-24",
     "review_count": 164,
     "open": true,
@@ -10239,7 +10135,6 @@
     "business_id": "gwAIppG7JZRmqnV7ywmJxQ",
     "full_address": "6110 W Sahara Ave\nWestside\nLas Vegas, NV 89102",
     "hours": {},
-    "userRating": 3,
     "date": "2011-01-10",
     "review_count": 8,
     "open": false,
@@ -10337,7 +10232,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 5,
     "date": "2007-03-21",
     "review_count": 99,
     "open": true,
@@ -10446,7 +10340,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-13",
     "review_count": 47,
     "open": false,
@@ -10553,7 +10446,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2013-03-18",
     "review_count": 192,
     "open": true,
@@ -10630,7 +10522,6 @@
     "business_id": "lHFsO4nIwwgjC_oQYqfAPg",
     "full_address": "1618 W Bell Road\nPhoenix, AZ 85023",
     "hours": {},
-    "userRating": 4,
     "date": "2013-05-19",
     "review_count": 11,
     "open": true,
@@ -10733,7 +10624,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-03-10",
     "review_count": 80,
     "open": true,
@@ -10840,7 +10730,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-03",
     "review_count": 145,
     "open": true,
@@ -10932,7 +10821,6 @@
     "business_id": "vGI3QO3wDBuQ2fPXVJmL9A",
     "full_address": "4353 E University Dr\nMesa, AZ 85205",
     "hours": {},
-    "userRating": 3,
     "date": "2013-07-28",
     "review_count": 5,
     "open": true,
@@ -11006,7 +10894,6 @@
     "business_id": "W_KPYn5tKfAOY6Blz26acw",
     "full_address": "8001 E Indian School Rd\nScottsdale, AZ 85251",
     "hours": {},
-    "userRating": 3,
     "date": "2011-06-13",
     "review_count": 13,
     "open": true,
@@ -11082,7 +10969,6 @@
     "business_id": "W_KPYn5tKfAOY6Blz26acw",
     "full_address": "8001 E Indian School Rd\nScottsdale, AZ 85251",
     "hours": {},
-    "userRating": 3,
     "date": "2013-08-06",
     "review_count": 13,
     "open": true,
@@ -11187,7 +11073,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-30",
     "review_count": 19,
     "open": true,
@@ -11293,7 +11178,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-01-20",
     "review_count": 95,
     "open": true,
@@ -11382,7 +11266,6 @@
     "business_id": "mWfZYDrozrCxwAO60-gLJA",
     "full_address": "7620 E Indian School Rd\nScottsdale, AZ 85251",
     "hours": {},
-    "userRating": 4,
     "date": "2013-01-21",
     "review_count": 5,
     "open": true,
@@ -11452,7 +11335,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-20",
     "review_count": 208,
     "open": true,
@@ -11532,7 +11414,6 @@
     "business_id": "_dVPzYGXKNg2rIsc40VtyA",
     "full_address": "8030 E Indian School Rd\nScottsdale, AZ 85251",
     "hours": {},
-    "userRating": 3,
     "date": "2013-01-19",
     "review_count": 9,
     "open": true,
@@ -11636,7 +11517,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-05-08",
     "review_count": 245,
     "open": true,
@@ -11746,7 +11626,6 @@
         "open": "18:00"
       }
     },
-    "userRating": 4,
     "date": "2010-09-16",
     "review_count": 333,
     "open": true,
@@ -11865,7 +11744,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 5,
     "date": "2013-02-01",
     "review_count": 514,
     "open": true,
@@ -11984,7 +11862,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2012-02-24",
     "review_count": 12,
     "open": true,
@@ -12077,7 +11954,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2013-08-14",
     "review_count": 12,
     "open": true,
@@ -12170,7 +12046,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 3,
     "date": "2011-04-12",
     "review_count": 157,
     "open": true,
@@ -12275,7 +12150,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-05-04",
     "review_count": 411,
     "open": true,
@@ -12386,7 +12260,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-09-19",
     "review_count": 465,
     "open": true,
@@ -12506,7 +12379,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-13",
     "review_count": 315,
     "open": true,
@@ -12585,7 +12457,6 @@
     "business_id": "9SKdOoDHcFoxK5ZtsgHJoA",
     "full_address": "7919 E Thomas Rd\nScottsdale, AZ 85251",
     "hours": {},
-    "userRating": 4,
     "date": "2010-09-19",
     "review_count": 73,
     "open": true,
@@ -12695,7 +12566,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 2,
     "date": "2013-03-21",
     "review_count": 103,
     "open": true,
@@ -12804,7 +12674,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-04-10",
     "review_count": 433,
     "open": true,
@@ -12922,7 +12791,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-03-16",
     "review_count": 37,
     "open": true,
@@ -13028,7 +12896,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 5,
     "date": "2011-04-30",
     "review_count": 277,
     "open": true,
@@ -13137,7 +13004,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 5,
     "date": "2013-12-11",
     "review_count": 277,
     "open": true,
@@ -13246,7 +13112,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-12",
     "review_count": 72,
     "open": true,
@@ -13348,7 +13213,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-06",
     "review_count": 86,
     "open": true,
@@ -13454,7 +13318,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-05-06",
     "review_count": 141,
     "open": true,
@@ -13578,7 +13441,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-11",
     "review_count": 141,
     "open": true,
@@ -13702,7 +13564,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-14",
     "review_count": 130,
     "open": true,
@@ -13808,7 +13669,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 5,
     "date": "2011-09-19",
     "review_count": 29,
     "open": true,
@@ -13913,7 +13773,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-15",
     "review_count": 94,
     "open": true,
@@ -14018,7 +13877,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2011-06-11",
     "review_count": 26,
     "open": true,
@@ -14125,7 +13983,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 2,
     "date": "2013-08-11",
     "review_count": 47,
     "open": true,
@@ -14232,7 +14089,6 @@
         "open": "06:30"
       }
     },
-    "userRating": 4,
     "date": "2013-07-27",
     "review_count": 162,
     "open": true,
@@ -14338,7 +14194,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2013-03-13",
     "review_count": 16,
     "open": true,
@@ -14414,7 +14269,6 @@
     "business_id": "xvCWAzIS_EpTwDIUVhY_Og",
     "full_address": "7412 E McDowell Rd\nScottsdale, AZ 85257",
     "hours": {},
-    "userRating": 3,
     "date": "2013-03-11",
     "review_count": 8,
     "open": true,
@@ -14499,7 +14353,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 3,
     "date": "2011-08-01",
     "review_count": 244,
     "open": true,
@@ -14605,7 +14458,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-29",
     "review_count": 549,
     "open": true,
@@ -14687,7 +14539,6 @@
     "business_id": "-M1rR1Ip7NOlMn5EbUkuog",
     "full_address": "11425 E Via Linda\nScottsdale, AZ 85259",
     "hours": {},
-    "userRating": 3,
     "date": "2013-02-13",
     "review_count": 8,
     "open": true,
@@ -14784,7 +14635,6 @@
         "open": "06:30"
       }
     },
-    "userRating": 4,
     "date": "2013-07-11",
     "review_count": 43,
     "open": true,
@@ -14860,7 +14710,6 @@
     "business_id": "Gy6hVorUNFCqNr-eYh5ZVA",
     "full_address": "11054 N Frank Lloyd Wright Blvd\nScottsdale, AZ 85259",
     "hours": {},
-    "userRating": 3,
     "date": "2011-08-02",
     "review_count": 6,
     "open": true,
@@ -14934,7 +14783,6 @@
     "business_id": "ypONG7TOwU7ZTTFc03Zx3w",
     "full_address": "11339 E Via Linda\nScottsdale, AZ 85259",
     "hours": {},
-    "userRating": 4,
     "date": "2013-02-18",
     "review_count": 6,
     "open": true,
@@ -15004,7 +14852,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-06-28",
     "review_count": 187,
     "open": true,
@@ -15115,7 +14962,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2013-03-20",
     "review_count": 47,
     "open": false,
@@ -15225,7 +15071,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-06-01",
     "review_count": 208,
     "open": true,
@@ -15339,7 +15184,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-23",
     "review_count": 480,
     "open": true,
@@ -15418,7 +15262,6 @@
     "business_id": "367BbOm_KU4ljgj41p9f3g",
     "full_address": "9672 W Camelback Rd\nGlendale, AZ 85305",
     "hours": {},
-    "userRating": 3,
     "date": "2013-10-07",
     "review_count": 8,
     "open": true,
@@ -15522,7 +15365,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 4,
     "date": "2012-11-03",
     "review_count": 153,
     "open": true,
@@ -15639,7 +15481,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2010-12-05",
     "review_count": 407,
     "open": true,
@@ -15751,7 +15592,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 2,
     "date": "2011-03-02",
     "review_count": 132,
     "open": true,
@@ -15877,7 +15717,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 1,
     "date": "2013-11-22",
     "review_count": 132,
     "open": true,
@@ -16003,7 +15842,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 5,
     "date": "2007-03-20",
     "review_count": 224,
     "open": true,
@@ -16114,7 +15952,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2007-03-21",
     "review_count": 166,
     "open": true,
@@ -16223,7 +16060,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 5,
     "date": "2010-07-20",
     "review_count": 341,
     "open": true,
@@ -16341,7 +16177,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 4,
     "date": "2008-12-12",
     "review_count": 291,
     "open": true,
@@ -16451,7 +16286,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 5,
     "date": "2010-05-07",
     "review_count": 1352,
     "open": false,
@@ -16564,7 +16398,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 2,
     "date": "2010-06-18",
     "review_count": 46,
     "open": true,
@@ -16673,7 +16506,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-06",
     "review_count": 319,
     "open": true,
@@ -16764,7 +16596,6 @@
     "business_id": "hQigmhYy2uyQUsuk6mauAw",
     "full_address": "3333 S Maryland Pkwy\nEastside\nLas Vegas, NV 89169",
     "hours": {},
-    "userRating": 4,
     "date": "2007-03-21",
     "review_count": 5,
     "open": false,
@@ -16860,7 +16691,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-07",
     "review_count": 363,
     "open": true,
@@ -16942,7 +16772,6 @@
     "business_id": "uW9uoAl4bHoSyP1xacjbDA",
     "full_address": "365 E Flamingo Rd\nEastside\nLas Vegas, NV 89109",
     "hours": {},
-    "userRating": 4,
     "date": "2010-11-23",
     "review_count": 68,
     "open": false,
@@ -17052,7 +16881,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 1,
     "date": "2012-10-21",
     "review_count": 729,
     "open": true,
@@ -17164,7 +16992,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 5,
     "date": "2010-11-01",
     "review_count": 565,
     "open": true,
@@ -17245,7 +17072,6 @@
     "business_id": "BgnXX6NAMzL4tXES5FAadw",
     "full_address": "8471 W Sahara Ave\nWestside\nLas Vegas, NV 89117",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-15",
     "review_count": 16,
     "open": true,
@@ -17351,7 +17177,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-14",
     "review_count": 69,
     "open": false,
@@ -17459,7 +17284,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2007-03-21",
     "review_count": 37,
     "open": false,
@@ -17586,7 +17410,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 5,
     "date": "2010-12-16",
     "review_count": 237,
     "open": true,
@@ -17696,7 +17519,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-11",
     "review_count": 10,
     "open": true,
@@ -17804,7 +17626,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-02",
     "review_count": 63,
     "open": true,
@@ -17881,7 +17702,6 @@
     "business_id": "qy40Nr-xCumWo1r7SNhbYw",
     "full_address": "8780 W. Charleston Blvd.\nSte 102\nWestside\nLas Vegas, NV 89117",
     "hours": {},
-    "userRating": 4,
     "date": "2010-10-26",
     "review_count": 46,
     "open": true,
@@ -17990,7 +17810,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2010-06-23",
     "review_count": 252,
     "open": true,
@@ -18110,7 +17929,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-26",
     "review_count": 251,
     "open": true,
@@ -18232,7 +18050,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-04-27",
     "review_count": 111,
     "open": true,
@@ -18335,7 +18152,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2008-12-12",
     "review_count": 49,
     "open": false,
@@ -18437,7 +18253,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-20",
     "review_count": 49,
     "open": false,
@@ -18514,7 +18329,6 @@
     "business_id": "bUEcGqSBzcoofYo4RSr-AA",
     "full_address": "8560 Las Vegas Blvd S\nSoutheast\nLas Vegas, NV 89123",
     "hours": {},
-    "userRating": 4,
     "date": "2010-12-29",
     "review_count": 34,
     "open": false,
@@ -18621,7 +18435,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 2,
     "date": "2010-08-22",
     "review_count": 399,
     "open": true,
@@ -18731,7 +18544,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 5,
     "date": "2010-10-13",
     "review_count": 144,
     "open": true,
@@ -18840,7 +18652,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 5,
     "date": "2011-01-02",
     "review_count": 144,
     "open": true,
@@ -18949,7 +18760,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 5,
     "date": "2011-02-05",
     "review_count": 144,
     "open": true,
@@ -19058,7 +18868,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2010-12-31",
     "review_count": 12,
     "open": true,
@@ -19167,7 +18976,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 3,
     "date": "2010-10-17",
     "review_count": 30,
     "open": true,
@@ -19246,7 +19054,6 @@
     "business_id": "DISyf3MjqNqGVZE2hgmcoA",
     "full_address": "8300 W Cheyenne Ave\nSummerlin\nLas Vegas, NV 89129",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-18",
     "review_count": 19,
     "open": true,
@@ -19324,7 +19131,6 @@
     "business_id": "Ys8Kq2JgTZ8vdSBIYt0wpg",
     "full_address": "8600 W Cheyenne Ave\nNorthwest\nLas Vegas, NV 89129",
     "hours": {},
-    "userRating": 2,
     "date": "2010-12-15",
     "review_count": 7,
     "open": true,
@@ -19431,7 +19237,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2011-04-02",
     "review_count": 18,
     "open": true,
@@ -19518,7 +19323,6 @@
     "business_id": "hGe8h7iEAEVbCYH4E2G42g",
     "full_address": "3205 N Tenaya Way\nNorthwest\nLas Vegas, NV 89129",
     "hours": {},
-    "userRating": 3,
     "date": "2011-01-22",
     "review_count": 130,
     "open": true,
@@ -19626,7 +19430,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2010-10-17",
     "review_count": 44,
     "open": true,
@@ -19733,7 +19536,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 3,
     "date": "2011-03-27",
     "review_count": 22,
     "open": true,
@@ -19812,7 +19614,6 @@
     "business_id": "ns-NxkoIKUJgfZ_WSTzLdw",
     "full_address": "7660 W Cheyenne Avenue\nSummerlin\nLas Vegas, NV 89129",
     "hours": {},
-    "userRating": 2,
     "date": "2010-10-06",
     "review_count": 44,
     "open": true,
@@ -19892,7 +19693,6 @@
     "business_id": "heBREJDcYo2skmEuyxk1vg",
     "full_address": "10320 W Charleston Blvd\nSummerlin\nLas Vegas, NV 89135",
     "hours": {},
-    "userRating": 3,
     "date": "2011-04-08",
     "review_count": 30,
     "open": true,
@@ -20001,7 +19801,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 2,
     "date": "2011-01-25",
     "review_count": 22,
     "open": true,
@@ -20080,7 +19879,6 @@
     "business_id": "8p1hx2a-GYQAhQzP5F7yDQ",
     "full_address": "10880 W Charleston Blvd\nSummerlin\nLas Vegas, NV 89135",
     "hours": {},
-    "userRating": 3,
     "date": "2011-03-07",
     "review_count": 11,
     "open": true,
@@ -20172,7 +19970,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-07-10",
     "review_count": 90,
     "open": true,
@@ -20250,7 +20047,6 @@
     "business_id": "KZlUVn6jXSjvmijteNwCvA",
     "full_address": "900 S Rampart Boulevard\nWestside\nLas Vegas, NV 89145",
     "hours": {},
-    "userRating": 3,
     "date": "2013-09-30",
     "review_count": 23,
     "open": true,
@@ -20358,7 +20154,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-02-23",
     "review_count": 157,
     "open": true,
@@ -20467,7 +20262,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-02",
     "review_count": 196,
     "open": true,
@@ -20546,7 +20340,6 @@
     "business_id": "wOwJenlfZfz2X0kahwiN6g",
     "full_address": "7930 W Tropical Pkwy\nCentennial\nLas Vegas, NV 89149",
     "hours": {},
-    "userRating": 3,
     "date": "2010-12-21",
     "review_count": 4,
     "open": false,
@@ -20613,7 +20406,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-29",
     "review_count": 78,
     "open": false,
@@ -20717,7 +20509,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-12-03",
     "review_count": 1453,
     "open": true,
@@ -20830,7 +20621,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2013-03-12",
     "review_count": 460,
     "open": true,
@@ -20955,7 +20745,6 @@
         "open": "15:00"
       }
     },
-    "userRating": 4,
     "date": "2011-09-10",
     "review_count": 337,
     "open": true,
@@ -21078,7 +20867,6 @@
         "open": "15:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-18",
     "review_count": 337,
     "open": true,
@@ -21201,7 +20989,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-09-18",
     "review_count": 140,
     "open": true,
@@ -21309,7 +21096,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-20",
     "review_count": 1986,
     "open": true,
@@ -21432,7 +21218,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 4,
     "date": "2013-03-18",
     "review_count": 425,
     "open": true,
@@ -21556,7 +21341,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-09",
     "review_count": 317,
     "open": true,
@@ -21663,7 +21447,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2012-11-04",
     "review_count": 4578,
     "open": true,
@@ -21748,7 +21531,6 @@
     "business_id": "rEiyb2uYjaL-MrVRmndOkw",
     "full_address": "2535 Las Vegas Blvd S\nThe Strip\nLas Vegas, NV 89109",
     "hours": {},
-    "userRating": 2,
     "date": "2011-02-20",
     "review_count": 192,
     "open": false,
@@ -21821,7 +21603,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-04-26",
     "review_count": 1394,
     "open": true,
@@ -21950,7 +21731,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-10",
     "review_count": 1394,
     "open": true,
@@ -22079,7 +21859,6 @@
         "open": "17:30"
       }
     },
-    "userRating": 3,
     "date": "2010-07-04",
     "review_count": 1531,
     "open": true,
@@ -22192,7 +21971,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-24",
     "review_count": 1163,
     "open": true,
@@ -22304,7 +22082,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-24",
     "review_count": 210,
     "open": false,
@@ -22421,7 +22198,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-07-31",
     "review_count": 67,
     "open": true,
@@ -22541,7 +22317,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 1,
     "date": "2013-07-27",
     "review_count": 67,
     "open": true,
@@ -22661,7 +22436,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-06-03",
     "review_count": 122,
     "open": true,
@@ -22769,7 +22543,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-06-29",
     "review_count": 124,
     "open": true,
@@ -22886,7 +22659,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 5,
     "date": "2011-03-24",
     "review_count": 1176,
     "open": true,
@@ -23006,7 +22778,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-06",
     "review_count": 736,
     "open": true,
@@ -23113,7 +22884,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2013-03-02",
     "review_count": 216,
     "open": true,
@@ -23234,7 +23004,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-24",
     "review_count": 390,
     "open": true,
@@ -23344,7 +23113,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-24",
     "review_count": 1424,
     "open": true,
@@ -23457,7 +23225,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 2,
     "date": "2010-08-08",
     "review_count": 627,
     "open": true,
@@ -23570,7 +23337,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 5,
     "date": "2011-04-06",
     "review_count": 264,
     "open": true,
@@ -23685,7 +23451,6 @@
         "open": "17:30"
       }
     },
-    "userRating": 2,
     "date": "2010-05-07",
     "review_count": 323,
     "open": false,
@@ -23810,7 +23575,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 3,
     "date": "2011-02-06",
     "review_count": 85,
     "open": true,
@@ -23893,7 +23657,6 @@
     "business_id": "VFjeCLwVMguUNWH-DeOgyw",
     "full_address": "Sky Harbor International Airport\nTerminal 4, C Gates\nPhoenix, AZ 85034",
     "hours": {},
-    "userRating": 3,
     "date": "2011-08-05",
     "review_count": 35,
     "open": true,
@@ -23985,7 +23748,6 @@
     "business_id": "VFjeCLwVMguUNWH-DeOgyw",
     "full_address": "Sky Harbor International Airport\nTerminal 4, C Gates\nPhoenix, AZ 85034",
     "hours": {},
-    "userRating": 4,
     "date": "2013-11-28",
     "review_count": 35,
     "open": true,
@@ -24106,7 +23868,6 @@
         "open": "17:30"
       }
     },
-    "userRating": 3,
     "date": "2011-08-02",
     "review_count": 356,
     "open": true,
@@ -24226,7 +23987,6 @@
         "open": "18:00"
       }
     },
-    "userRating": 5,
     "date": "2012-12-01",
     "review_count": 151,
     "open": true,
@@ -24335,7 +24095,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2012-10-10",
     "review_count": 282,
     "open": true,
@@ -24455,7 +24214,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-12-11",
     "review_count": 61,
     "open": false,
@@ -24561,7 +24319,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2013-03-20",
     "review_count": 107,
     "open": true,
@@ -24668,7 +24425,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-11",
     "review_count": 140,
     "open": true,
@@ -24786,7 +24542,6 @@
         "open": "07:30"
       }
     },
-    "userRating": 4,
     "date": "2010-09-28",
     "review_count": 2395,
     "open": true,
@@ -24899,7 +24654,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-04-08",
     "review_count": 634,
     "open": true,
@@ -25011,7 +24765,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 3,
     "date": "2010-10-20",
     "review_count": 218,
     "open": false,
@@ -25123,7 +24876,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-04-09",
     "review_count": 315,
     "open": true,
@@ -25239,7 +24991,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-01-17",
     "review_count": 315,
     "open": true,
@@ -25355,7 +25106,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 3,
     "date": "2012-11-20",
     "review_count": 349,
     "open": true,
@@ -25446,7 +25196,6 @@
     "business_id": "_LsGlbpybDbENusCXuEpyQ",
     "full_address": "Paris Las Vegas\n3655 Las Vegas Blvd S\nThe Strip\nLas Vegas, NV 89109",
     "hours": {},
-    "userRating": 4,
     "date": "2013-10-01",
     "review_count": 122,
     "open": true,
@@ -25555,7 +25304,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-04-19",
     "review_count": 770,
     "open": true,
@@ -25667,7 +25415,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2010-09-16",
     "review_count": 218,
     "open": false,
@@ -25779,7 +25526,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2013-09-15",
     "review_count": 218,
     "open": false,
@@ -25891,7 +25637,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-03",
     "review_count": 100,
     "open": false,
@@ -25970,7 +25715,6 @@
     "business_id": "-zcZNlO0JwZHppan8rGkBQ",
     "full_address": "Phoenix Sky Harbor Int'l Airport\nTerminal 4\nPhoenix, AZ 85073",
     "hours": {},
-    "userRating": 3,
     "date": "2011-06-13",
     "review_count": 29,
     "open": false,
@@ -26073,7 +25817,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 5,
     "date": "2007-03-19",
     "review_count": 54,
     "open": false,
@@ -26181,7 +25924,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 5,
     "date": "2010-10-26",
     "review_count": 54,
     "open": false,
@@ -26260,7 +26002,6 @@
     "business_id": "b9dv7Q0A8XcJ44zzTDJeYw",
     "full_address": "12005 N Tatum Blvd\nSte 109\nPhoenix, AZ 85028",
     "hours": {},
-    "userRating": 4,
     "date": "2011-07-17",
     "review_count": 37,
     "open": true,
@@ -26336,7 +26077,6 @@
     "business_id": "b9dv7Q0A8XcJ44zzTDJeYw",
     "full_address": "12005 N Tatum Blvd\nSte 109\nPhoenix, AZ 85028",
     "hours": {},
-    "userRating": 3,
     "date": "2013-12-03",
     "review_count": 37,
     "open": true,
@@ -26441,7 +26181,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-03-29",
     "review_count": 97,
     "open": true,
@@ -26547,7 +26286,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-10-16",
     "review_count": 97,
     "open": true,
@@ -26649,7 +26387,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-05-11",
     "review_count": 253,
     "open": true,
@@ -26755,7 +26492,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 3,
     "date": "2011-02-26",
     "review_count": 106,
     "open": true,
@@ -26863,7 +26599,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-27",
     "review_count": 577,
     "open": true,
@@ -26970,7 +26705,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-06",
     "review_count": 577,
     "open": true,
@@ -27077,7 +26811,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 5,
     "date": "2013-05-28",
     "review_count": 336,
     "open": true,
@@ -27156,7 +26889,6 @@
     "business_id": "WEKQZap6YHcU25b6kIypNg",
     "full_address": "Green Valley Ranch Resort and Spa\n2304 Paseo Verde Pkwy\nAnthem\nHenderson, NV 89052",
     "hours": {},
-    "userRating": 5,
     "date": "2013-05-05",
     "review_count": 192,
     "open": true,
@@ -27266,7 +26998,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-07-31",
     "review_count": 177,
     "open": true,
@@ -27386,7 +27117,6 @@
         "open": "05:30"
       }
     },
-    "userRating": 5,
     "date": "2010-06-21",
     "review_count": 756,
     "open": true,
@@ -27498,7 +27228,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-14",
     "review_count": 149,
     "open": false,
@@ -27606,7 +27335,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 4,
     "date": "2011-04-04",
     "review_count": 299,
     "open": true,
@@ -27699,7 +27427,6 @@
     "business_id": "MqPRtyOXXJF-uUYJPK-5sA",
     "full_address": "5690 Centennial Center Blvd\nCentennial\nLas Vegas, NV 89149",
     "hours": {},
-    "userRating": 5,
     "date": "2010-08-05",
     "review_count": 111,
     "open": true,
@@ -27809,7 +27536,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2007-03-19",
     "review_count": 350,
     "open": true,
@@ -27918,7 +27644,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-07-31",
     "review_count": 350,
     "open": true,
@@ -28027,7 +27752,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-07-09",
     "review_count": 242,
     "open": true,
@@ -28146,7 +27870,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-29",
     "review_count": 257,
     "open": true,
@@ -28254,7 +27977,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-07",
     "review_count": 233,
     "open": true,
@@ -28374,7 +28096,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-28",
     "review_count": 151,
     "open": true,
@@ -28480,7 +28201,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-05",
     "review_count": 569,
     "open": true,
@@ -28562,7 +28282,6 @@
     "business_id": "g9jX2oXQr8zrOQgynYnYjQ",
     "full_address": "7467 E Frank Lloyd Wright Blvd\nScottsdale, AZ 85257",
     "hours": {},
-    "userRating": 5,
     "date": "2013-02-10",
     "review_count": 120,
     "open": true,
@@ -28672,7 +28391,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-09-28",
     "review_count": 280,
     "open": true,
@@ -28782,7 +28500,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-11",
     "review_count": 280,
     "open": true,
@@ -28863,7 +28580,6 @@
     "business_id": "3m57PxtZU08ReZ3Xn_el3Q",
     "full_address": "1495 N Hayden Rd\nScottsdale, AZ 85257",
     "hours": {},
-    "userRating": 4,
     "date": "2013-02-09",
     "review_count": 8,
     "open": true,
@@ -28954,7 +28670,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-08-27",
     "review_count": 88,
     "open": true,
@@ -29076,7 +28791,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 3,
     "date": "2013-07-16",
     "review_count": 34,
     "open": true,
@@ -29175,7 +28889,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-08-05",
     "review_count": 134,
     "open": true,
@@ -29252,7 +28965,6 @@
     "business_id": "sH17KGxbMVrlr66n92Qh8g",
     "full_address": "16649 N Tatum Blvd\nPhoenix, AZ 85032",
     "hours": {},
-    "userRating": 3,
     "date": "2011-07-16",
     "review_count": 10,
     "open": true,
@@ -29329,7 +29041,6 @@
     "business_id": "sH17KGxbMVrlr66n92Qh8g",
     "full_address": "16649 N Tatum Blvd\nPhoenix, AZ 85032",
     "hours": {},
-    "userRating": 3,
     "date": "2013-07-04",
     "review_count": 10,
     "open": true,
@@ -29435,7 +29146,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 3,
     "date": "2011-04-18",
     "review_count": 34,
     "open": true,
@@ -29512,7 +29222,6 @@
     "business_id": "WidRcJJQT3gb39bDwyRiLg",
     "full_address": "4915 N Pima Rd\nScottsdale, AZ 85251",
     "hours": {},
-    "userRating": 2,
     "date": "2011-04-09",
     "review_count": 7,
     "open": true,
@@ -29604,7 +29313,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 3,
     "date": "2013-08-23",
     "review_count": 184,
     "open": true,
@@ -29710,7 +29418,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2011-08-03",
     "review_count": 8,
     "open": true,
@@ -29816,7 +29523,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2013-10-13",
     "review_count": 8,
     "open": true,
@@ -29893,7 +29599,6 @@
     "business_id": "RIPM5kJ6xHvIu6umgOrg4A",
     "full_address": "15355 N Northsight Blvd\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 3,
     "date": "2013-02-16",
     "review_count": 5,
     "open": true,
@@ -29970,7 +29675,6 @@
     "business_id": "OzsPadMLSTU7Z5Rdf5eW4A",
     "full_address": "9049 E Indian Bend Road\nScottsdale, AZ 85250",
     "hours": {},
-    "userRating": 3,
     "date": "2013-01-16",
     "review_count": 6,
     "open": true,
@@ -30073,7 +29777,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-09-18",
     "review_count": 107,
     "open": true,
@@ -30191,7 +29894,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2012-02-22",
     "review_count": 102,
     "open": true,
@@ -30310,7 +30012,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-04",
     "review_count": 102,
     "open": true,
@@ -30429,7 +30130,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-03-01",
     "review_count": 130,
     "open": true,
@@ -30507,7 +30207,6 @@
     "business_id": "Oex3VZYYYHSQRHIlgoHnLA",
     "full_address": "6977 N Hayden Rd\nScottsdale, AZ 85250",
     "hours": {},
-    "userRating": 4,
     "date": "2012-06-14",
     "review_count": 6,
     "open": true,
@@ -30583,7 +30282,6 @@
     "business_id": "Oex3VZYYYHSQRHIlgoHnLA",
     "full_address": "6977 N Hayden Rd\nScottsdale, AZ 85250",
     "hours": {},
-    "userRating": 4,
     "date": "2013-10-18",
     "review_count": 6,
     "open": true,
@@ -30688,7 +30386,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-01",
     "review_count": 63,
     "open": true,
@@ -30808,7 +30505,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-28",
     "review_count": 26,
     "open": true,
@@ -30912,7 +30608,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2011-06-14",
     "review_count": 9,
     "open": true,
@@ -30992,7 +30687,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2013-10-12",
     "review_count": 9,
     "open": true,
@@ -31043,7 +30737,6 @@
     "business_id": "zwFpOl3BNBazrdXynuQb-A",
     "full_address": "4250 W Anthem Way\nAnthem, AZ 85086",
     "hours": {},
-    "userRating": 4,
     "date": "2013-07-08",
     "review_count": 4,
     "open": true,
@@ -31146,7 +30839,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-17",
     "review_count": 80,
     "open": true,
@@ -31223,7 +30915,6 @@
     "business_id": "j-_jKQ-5IE4hqQzA-hsApw",
     "full_address": "14995 N 87th St\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 3,
     "date": "2011-06-02",
     "review_count": 55,
     "open": true,
@@ -31330,7 +31021,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 5,
     "date": "2011-07-04",
     "review_count": 139,
     "open": true,
@@ -31436,7 +31126,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-19",
     "review_count": 171,
     "open": true,
@@ -31544,7 +31233,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2010-12-26",
     "review_count": 26,
     "open": true,
@@ -31624,7 +31312,6 @@
     "business_id": "sX_RzD1FYZzb0sdC4qZGGQ",
     "full_address": "5915 W Sahara Ave\nWestside\nLas Vegas, NV 89146",
     "hours": {},
-    "userRating": 3,
     "date": "2011-01-10",
     "review_count": 10,
     "open": true,
@@ -31721,7 +31408,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-05",
     "review_count": 302,
     "open": true,
@@ -31830,7 +31516,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-17",
     "review_count": 302,
     "open": true,
@@ -31910,7 +31595,6 @@
     "business_id": "Lq1sLz-UDRXBqduwXOvDyA",
     "full_address": "8000 W Sahara Ave\nWestside\nLas Vegas, NV 89117",
     "hours": {},
-    "userRating": 4,
     "date": "2011-01-12",
     "review_count": 5,
     "open": true,
@@ -31975,7 +31659,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-05-26",
     "review_count": 17,
     "open": false,
@@ -32043,7 +31726,6 @@
     "business_id": "84JrJfQPA9SLk4GVSBaorw",
     "full_address": "4835 S. Ft. Apache\nSpring Valley\nLas Vegas, NV 89147",
     "hours": {},
-    "userRating": 3,
     "date": "2011-01-11",
     "review_count": 12,
     "open": true,
@@ -32150,7 +31832,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2010-12-23",
     "review_count": 59,
     "open": true,
@@ -32267,7 +31948,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 2,
     "date": "2010-11-03",
     "review_count": 5,
     "open": true,
@@ -32376,7 +32056,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-20",
     "review_count": 184,
     "open": true,
@@ -32454,7 +32133,6 @@
     "business_id": "zFbQ-8AvAIM1tQoqIh_sew",
     "full_address": "3250 N Durango Dr\nNorthwest\nLas Vegas, NV 89129",
     "hours": {},
-    "userRating": 3,
     "date": "2010-11-23",
     "review_count": 9,
     "open": true,
@@ -32532,7 +32210,6 @@
     "business_id": "10GBdcrKBSL1QFnkXWjfjQ",
     "full_address": "1200 N Town Center Dr\nSte B\nSummerlin\nLas Vegas, NV 89114",
     "hours": {},
-    "userRating": 4,
     "date": "2012-11-03",
     "review_count": 46,
     "open": true,
@@ -32638,7 +32315,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-12-30",
     "review_count": 8,
     "open": true,
@@ -32704,7 +32380,6 @@
     "business_id": "gMktjGqJj2qJYWJOuDcj9Q",
     "full_address": "6630 N Durango Dr\nCentennial\nLas Vegas, NV 89149",
     "hours": {},
-    "userRating": 3,
     "date": "2010-05-22",
     "review_count": 44,
     "open": true,
@@ -32811,7 +32486,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-10",
     "review_count": 167,
     "open": true,
@@ -32917,7 +32591,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-29",
     "review_count": 217,
     "open": true,
@@ -32995,7 +32668,6 @@
     "business_id": "WK-ybgPWrv2oAqBNVJnNwA",
     "full_address": "5180 S Fort Apache Rd\nSpring Valley\nLas Vegas, NV 89148",
     "hours": {},
-    "userRating": 4,
     "date": "2011-01-13",
     "review_count": 8,
     "open": true,
@@ -33061,7 +32733,6 @@
     "business_id": "QvXKpK2KsguA8j22Ak65dQ",
     "full_address": "6311 Centennial Center Blvd\nCentennial\nLas Vegas, NV 89149",
     "hours": {},
-    "userRating": 3,
     "date": "2011-04-06",
     "review_count": 11,
     "open": true,
@@ -33167,7 +32838,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2011-02-09",
     "review_count": 117,
     "open": true,
@@ -33287,7 +32957,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 3,
     "date": "2010-07-19",
     "review_count": 327,
     "open": true,
@@ -33399,7 +33068,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-05-23",
     "review_count": 103,
     "open": false,
@@ -33478,7 +33146,6 @@
     "business_id": "wrkErbl0Pi4mszqdqQ8_8g",
     "full_address": "10767 N 116th St\nScottsdale, AZ 85250",
     "hours": {},
-    "userRating": 4,
     "date": "2013-08-04",
     "review_count": 41,
     "open": false,
@@ -33596,7 +33263,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2007-06-18",
     "review_count": 149,
     "open": true,
@@ -33706,7 +33372,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-03-26",
     "review_count": 91,
     "open": true,
@@ -33815,7 +33480,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2010-05-27",
     "review_count": 232,
     "open": true,
@@ -33894,7 +33558,6 @@
     "business_id": "tPmjepYrjiKyfGOpedyDBw",
     "full_address": "3890 S Maryland Pkwy\nSte 137\nEastside\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 3,
     "date": "2010-08-16",
     "review_count": 102,
     "open": true,
@@ -34004,7 +33667,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-11-02",
     "review_count": 63,
     "open": true,
@@ -34111,7 +33773,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 5,
     "date": "2011-04-24",
     "review_count": 546,
     "open": true,
@@ -34205,7 +33866,6 @@
     "business_id": "6TuM3UyFP9O9uzTP0dVZMw",
     "full_address": "7704 E. Doubletree Ranch Rd\nScottsdale, AZ 85258",
     "hours": {},
-    "userRating": 4,
     "date": "2013-08-01",
     "review_count": 83,
     "open": true,
@@ -34296,7 +33956,6 @@
     "business_id": "UigtwOB_B0Wba3yH4IK1AA",
     "full_address": "4275 Dean Martin Dr\nLas Vegas, NV 89103",
     "hours": {},
-    "userRating": 3,
     "date": "2011-01-07",
     "review_count": 34,
     "open": true,
@@ -34408,7 +34067,6 @@
         "open": "06:30"
       }
     },
-    "userRating": 4,
     "date": "2010-09-29",
     "review_count": 97,
     "open": true,
@@ -34517,7 +34175,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 3,
     "date": "2013-07-29",
     "review_count": 227,
     "open": true,
@@ -34628,7 +34285,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-20",
     "review_count": 197,
     "open": true,
@@ -34736,7 +34392,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2012-12-24",
     "review_count": 253,
     "open": true,
@@ -34845,7 +34500,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 5,
     "date": "2010-06-27",
     "review_count": 3984,
     "open": true,
@@ -34954,7 +34608,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2013-10-04",
     "review_count": 92,
     "open": true,
@@ -35060,7 +34713,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2010-09-20",
     "review_count": 159,
     "open": true,
@@ -35169,7 +34821,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-08-07",
     "review_count": 148,
     "open": true,
@@ -35278,7 +34929,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-05-04",
     "review_count": 172,
     "open": true,
@@ -35385,7 +35035,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-01-06",
     "review_count": 299,
     "open": true,
@@ -35492,7 +35141,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-05-07",
     "review_count": 163,
     "open": true,
@@ -35601,7 +35249,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-03-01",
     "review_count": 106,
     "open": false,
@@ -35710,7 +35357,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2011-02-06",
     "review_count": 277,
     "open": true,
@@ -35819,7 +35465,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-05-30",
     "review_count": 58,
     "open": false,
@@ -35927,7 +35572,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 5,
     "date": "2013-04-13",
     "review_count": 163,
     "open": true,
@@ -36033,7 +35677,6 @@
         "open": "16:30"
       }
     },
-    "userRating": 5,
     "date": "2012-12-30",
     "review_count": 500,
     "open": true,
@@ -36142,7 +35785,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 5,
     "date": "2013-05-15",
     "review_count": 508,
     "open": true,
@@ -36252,7 +35894,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-27",
     "review_count": 260,
     "open": true,
@@ -36359,7 +36000,6 @@
         "open": "06:30"
       }
     },
-    "userRating": 4,
     "date": "2013-04-15",
     "review_count": 18,
     "open": true,
@@ -36462,7 +36102,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2013-01-09",
     "review_count": 158,
     "open": true,
@@ -36573,7 +36212,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-01-24",
     "review_count": 165,
     "open": true,
@@ -36665,7 +36303,6 @@
     "business_id": "CdWrHBOvTZ6i0Z37iFaV3g",
     "full_address": "14795 N Northsight Blvd\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 2,
     "date": "2011-05-06",
     "review_count": 30,
     "open": false,
@@ -36757,7 +36394,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-08",
     "review_count": 170,
     "open": false,
@@ -36877,7 +36513,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2013-03-06",
     "review_count": 204,
     "open": true,
@@ -36982,7 +36617,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2011-03-24",
     "review_count": 262,
     "open": true,
@@ -37089,7 +36723,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-11-27",
     "review_count": 70,
     "open": false,
@@ -37197,7 +36830,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-25",
     "review_count": 180,
     "open": true,
@@ -37309,7 +36941,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-01",
     "review_count": 192,
     "open": true,
@@ -37388,7 +37019,6 @@
     "business_id": "ZqvDf2wNGkgPEmmc_QssDQ",
     "full_address": "5757 Wayne Newton Blvd\nTerminal C\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 4,
     "date": "2011-01-26",
     "review_count": 32,
     "open": true,
@@ -37486,7 +37116,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-08-01",
     "review_count": 59,
     "open": false,
@@ -37568,7 +37197,6 @@
     "business_id": "bH6UxhVuIeQ72mBGtPV9dQ",
     "full_address": "Hard Rock Hotel and Casino\n4455 Paradise Rd\nLas Vegas, NV 89133",
     "hours": {},
-    "userRating": 4,
     "date": "2011-02-04",
     "review_count": 53,
     "open": false,
@@ -37672,7 +37300,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-05-06",
     "review_count": 51,
     "open": true,
@@ -37780,7 +37407,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-15",
     "review_count": 46,
     "open": true,
@@ -37891,7 +37517,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 5,
     "date": "2010-07-10",
     "review_count": 178,
     "open": true,
@@ -38001,7 +37626,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-19",
     "review_count": 181,
     "open": false,
@@ -38110,7 +37734,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2013-09-29",
     "review_count": 70,
     "open": false,
@@ -38215,7 +37838,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-21",
     "review_count": 583,
     "open": true,
@@ -38322,7 +37944,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-04",
     "review_count": 725,
     "open": true,
@@ -38445,7 +38066,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2010-07-19",
     "review_count": 725,
     "open": true,
@@ -38568,7 +38188,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 4,
     "date": "2013-01-25",
     "review_count": 1264,
     "open": true,
@@ -38687,7 +38306,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-04",
     "review_count": 140,
     "open": false,
@@ -38795,7 +38413,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-05-22",
     "review_count": 289,
     "open": true,
@@ -38902,7 +38519,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-07-16",
     "review_count": 100,
     "open": true,
@@ -39020,7 +38636,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-06-21",
     "review_count": 229,
     "open": true,
@@ -39128,7 +38743,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2010-07-26",
     "review_count": 229,
     "open": true,
@@ -39236,7 +38850,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 5,
     "date": "2011-03-22",
     "review_count": 340,
     "open": true,
@@ -39313,7 +38926,6 @@
     "business_id": "AIN4FSq5ZM4Il5BzXzMNXg",
     "full_address": "1007 N Dobson Rd\nMesa, AZ 85201",
     "hours": {},
-    "userRating": 4,
     "date": "2011-08-01",
     "review_count": 110,
     "open": true,
@@ -39390,7 +39002,6 @@
     "business_id": "iFJwlYqD0ytvtmYYthZ5yg",
     "full_address": "7662 W Lake Mead Blvd\nSummerlin\nLas Vegas, NV 89128",
     "hours": {},
-    "userRating": 3,
     "date": "2011-03-24",
     "review_count": 4,
     "open": true,
@@ -39453,7 +39064,6 @@
     "business_id": "glLo_FNtgQ7OmAR8hUrDqQ",
     "full_address": "5757 Wayne Newton Blvd\nMcCarran International Airport D-West\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 3,
     "date": "2011-03-05",
     "review_count": 41,
     "open": true,
@@ -39561,7 +39171,6 @@
         "open": "17:30"
       }
     },
-    "userRating": 4,
     "date": "2013-03-02",
     "review_count": 66,
     "open": true,
@@ -39666,7 +39275,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2013-08-23",
     "review_count": 40,
     "open": true,
@@ -39742,7 +39350,6 @@
     "business_id": "FT3fZDLg8EiL1V2I2aKalg",
     "full_address": "McCarran International Airport\nJust past A and B Gates\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 3,
     "date": "2010-06-01",
     "review_count": 28,
     "open": true,
@@ -39805,7 +39412,6 @@
     "business_id": "FT3fZDLg8EiL1V2I2aKalg",
     "full_address": "McCarran International Airport\nJust past A and B Gates\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 2,
     "date": "2011-01-13",
     "review_count": 28,
     "open": true,
@@ -39893,7 +39499,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2010-12-18",
     "review_count": 307,
     "open": true,
@@ -40001,7 +39606,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 4,
     "date": "2010-11-02",
     "review_count": 139,
     "open": true,
@@ -40109,7 +39713,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 2,
     "date": "2010-11-29",
     "review_count": 5,
     "open": false,
@@ -40210,7 +39813,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-05-24",
     "review_count": 73,
     "open": true,
@@ -40316,7 +39918,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-10",
     "review_count": 73,
     "open": true,
@@ -40422,7 +40023,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-06-10",
     "review_count": 66,
     "open": true,
@@ -40527,7 +40127,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-11-25",
     "review_count": 68,
     "open": true,
@@ -40632,7 +40231,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-02",
     "review_count": 120,
     "open": true,
@@ -40741,7 +40339,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2010-05-07",
     "review_count": 155,
     "open": true,
@@ -40864,7 +40461,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 2,
     "date": "2010-07-31",
     "review_count": 155,
     "open": true,
@@ -40987,7 +40583,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-25",
     "review_count": 112,
     "open": true,
@@ -41097,7 +40692,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2012-06-14",
     "review_count": 186,
     "open": true,
@@ -41217,7 +40811,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-06-14",
     "review_count": 89,
     "open": false,
@@ -41321,7 +40914,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-07",
     "review_count": 79,
     "open": true,
@@ -41427,7 +41019,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2010-05-02",
     "review_count": 25,
     "open": false,
@@ -41532,7 +41123,6 @@
         "open": "06:30"
       }
     },
-    "userRating": 4,
     "date": "2013-05-20",
     "review_count": 273,
     "open": true,
@@ -41621,7 +41211,6 @@
     "business_id": "QUtmIFtYU0d3udJVTEmu5w",
     "full_address": "7908 E Chaparral Rd\nScottsdale, AZ 85251",
     "hours": {},
-    "userRating": 4,
     "date": "2013-02-28",
     "review_count": 6,
     "open": true,
@@ -41694,7 +41283,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-22",
     "review_count": 215,
     "open": true,
@@ -41799,7 +41387,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-08",
     "review_count": 125,
     "open": true,
@@ -41906,7 +41493,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-14",
     "review_count": 362,
     "open": true,
@@ -41998,7 +41584,6 @@
     "business_id": "jBIMDAwgJ57GUsI9xy4wEw",
     "full_address": "Las Vegas Hilton\n3000 Paradise Blvd\nEastside\nLas Vegas, NV 89109",
     "hours": {},
-    "userRating": 4,
     "date": "2010-10-17",
     "review_count": 29,
     "open": true,
@@ -42105,7 +41690,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2012-10-21",
     "review_count": 227,
     "open": true,
@@ -42185,7 +41769,6 @@
     "business_id": "0tUlPATGNNR7zq5uzh3nog",
     "full_address": "LVH Las Vegas Hotel and Casino\n3000 Paradise Rd\nEastside\nLas Vegas, NV 89109",
     "hours": {},
-    "userRating": 4,
     "date": "2011-01-09",
     "review_count": 90,
     "open": true,
@@ -42263,7 +41846,6 @@
     "business_id": "T6dbW2UuWTKar_22zbbiUw",
     "full_address": "3220 W Bell Rd\nPhoenix, AZ 85053",
     "hours": {},
-    "userRating": 2,
     "date": "2013-11-25",
     "review_count": 23,
     "open": true,
@@ -42368,7 +41950,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-19",
     "review_count": 908,
     "open": true,
@@ -42483,7 +42064,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-15",
     "review_count": 466,
     "open": true,
@@ -42600,7 +42180,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-21",
     "review_count": 250,
     "open": false,
@@ -42709,7 +42288,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 1,
     "date": "2013-07-12",
     "review_count": 250,
     "open": false,
@@ -42818,7 +42396,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-02-12",
     "review_count": 384,
     "open": true,
@@ -42924,7 +42501,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2014-08-04",
     "review_count": 216,
     "open": false,
@@ -43044,7 +42620,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2013-01-23",
     "review_count": 739,
     "open": true,
@@ -43155,7 +42730,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-10",
     "review_count": 739,
     "open": true,
@@ -43266,7 +42840,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2012-09-10",
     "review_count": 67,
     "open": true,
@@ -43371,7 +42944,6 @@
         "open": "06:30"
       }
     },
-    "userRating": 4,
     "date": "2012-09-21",
     "review_count": 149,
     "open": false,
@@ -43446,7 +43018,6 @@
     "business_id": "oRwWdpARqCjam6k_za8wOA",
     "full_address": "The Scottsdale Princess Hotel\n7575 E. Princess Drive\nScottsdale, AZ 85255",
     "hours": {},
-    "userRating": 2,
     "date": "2012-10-26",
     "review_count": 9,
     "open": true,
@@ -43509,7 +43080,6 @@
     "business_id": "l1bPbXMloY-bsM1oWlNmhA",
     "full_address": "Lone Butte Casino\n1077 S Kyrene Rd\nChandler, AZ 85226",
     "hours": {},
-    "userRating": 3,
     "date": "2013-03-09",
     "review_count": 12,
     "open": true,
@@ -43602,7 +43172,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 2,
     "date": "2013-01-14",
     "review_count": 74,
     "open": true,
@@ -43677,7 +43246,6 @@
     "business_id": "bmphS_u3GKdDboTpN4zTww",
     "full_address": "6640 N Durango Dr\nSte 180\nCentennial\nLas Vegas, NV 89149",
     "hours": {},
-    "userRating": 3,
     "date": "2010-10-06",
     "review_count": 20,
     "open": false,
@@ -43752,7 +43320,6 @@
     "business_id": "fO4Da8qQtt7pH1WmLWRPvg",
     "full_address": "9890 S Maryland Pkwy\nSoutheast\nLas Vegas, NV 89183",
     "hours": {},
-    "userRating": 3,
     "date": "2010-10-05",
     "review_count": 63,
     "open": true,
@@ -43859,7 +43426,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 4,
     "date": "2012-10-24",
     "review_count": 167,
     "open": true,
@@ -43977,7 +43543,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 2,
     "date": "2013-02-25",
     "review_count": 11,
     "open": true,
@@ -44063,7 +43628,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-17",
     "review_count": 133,
     "open": true,
@@ -44142,7 +43706,6 @@
     "business_id": "WfgVmyjy_HyZkvzQPtXcxg",
     "full_address": "6605 Las Vegas Blvd S\nSte N\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 3,
     "date": "2010-05-16",
     "review_count": 18,
     "open": false,
@@ -44234,7 +43797,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 2,
     "date": "2010-06-14",
     "review_count": 45,
     "open": true,
@@ -44312,7 +43874,6 @@
     "business_id": "Iscx1IBY0lzksGfr-F2i_Q",
     "full_address": "12300 Las Vegas Blvd. S\nHenderson, NV 89044",
     "hours": {},
-    "userRating": 3,
     "date": "2010-05-24",
     "review_count": 25,
     "open": false,
@@ -44401,7 +43962,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2010-09-07",
     "review_count": 34,
     "open": true,
@@ -44509,7 +44069,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2010-05-09",
     "review_count": 165,
     "open": true,
@@ -44617,7 +44176,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2010-06-20",
     "review_count": 165,
     "open": true,
@@ -44725,7 +44283,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 2,
     "date": "2011-03-24",
     "review_count": 58,
     "open": false,
@@ -44803,7 +44360,6 @@
     "business_id": "1dnarzaw3bwFrK38hldi_Q",
     "full_address": "5757 Wayne Newton Blvd\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 2,
     "date": "2011-01-15",
     "review_count": 72,
     "open": true,
@@ -44881,7 +44437,6 @@
     "business_id": "1dnarzaw3bwFrK38hldi_Q",
     "full_address": "5757 Wayne Newton Blvd\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 1,
     "date": "2013-05-07",
     "review_count": 72,
     "open": true,
@@ -44988,7 +44543,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-06-25",
     "review_count": 139,
     "open": true,
@@ -45066,7 +44620,6 @@
     "business_id": "f_LpprTSkr8jyQ2uXa9sIg",
     "full_address": "Town Square Mall\n6593 Las Vegas Blvd S\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 2,
     "date": "2010-09-03",
     "review_count": 84,
     "open": false,
@@ -45144,7 +44697,6 @@
     "business_id": "f_LpprTSkr8jyQ2uXa9sIg",
     "full_address": "Town Square Mall\n6593 Las Vegas Blvd S\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 3,
     "date": "2010-09-20",
     "review_count": 84,
     "open": false,
@@ -45251,7 +44803,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-31",
     "review_count": 268,
     "open": true,
@@ -45358,7 +44909,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 3,
     "date": "2011-06-14",
     "review_count": 50,
     "open": true,
@@ -45464,7 +45014,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2010-07-10",
     "review_count": 364,
     "open": true,
@@ -45570,7 +45119,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-06-15",
     "review_count": 30,
     "open": true,
@@ -45649,7 +45197,6 @@
     "business_id": "_uUlWKhPmjFUUxOSS-EP_w",
     "full_address": "20385 N  Hayden Rd\nScottsdale, AZ 85255",
     "hours": {},
-    "userRating": 3,
     "date": "2011-06-09",
     "review_count": 6,
     "open": true,
@@ -45740,7 +45287,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 5,
     "date": "2013-10-01",
     "review_count": 376,
     "open": true,
@@ -45847,7 +45393,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-30",
     "review_count": 79,
     "open": false,
@@ -45955,7 +45500,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-13",
     "review_count": 114,
     "open": true,
@@ -46062,7 +45606,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2012-10-10",
     "review_count": 61,
     "open": true,
@@ -46168,7 +45711,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 5,
     "date": "2010-07-01",
     "review_count": 46,
     "open": true,
@@ -46275,7 +45817,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 2,
     "date": "2013-04-23",
     "review_count": 8,
     "open": true,
@@ -46379,7 +45920,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 5,
     "date": "2011-01-02",
     "review_count": 95,
     "open": true,
@@ -46457,7 +45997,6 @@
     "business_id": "RCAiM58UdsGl94QA7HeCAQ",
     "full_address": "Town Square Las Vegas\n6605 Las Vegas Blvd South\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 4,
     "date": "2010-04-28",
     "review_count": 25,
     "open": false,
@@ -46519,7 +46058,6 @@
     "business_id": "g-eZgnBDvSDguF8cUxKCkA",
     "full_address": "7500 E Doubletree Ranch Rd\nScottsdale, AZ 85258",
     "hours": {},
-    "userRating": 4,
     "date": "2013-08-29",
     "review_count": 46,
     "open": true,
@@ -46624,7 +46162,6 @@
         "open": "03:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-14",
     "review_count": 56,
     "open": true,
@@ -46731,7 +46268,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 3,
     "date": "2011-03-02",
     "review_count": 23,
     "open": true,
@@ -46796,7 +46332,6 @@
     "business_id": "4wcDUnb2y2fW8sSzFd8EaQ",
     "full_address": "1980 Village Ctr Cir\nSummerlin\nLas Vegas, NV 89134",
     "hours": {},
-    "userRating": 3,
     "date": "2010-10-30",
     "review_count": 31,
     "open": true,
@@ -46874,7 +46409,6 @@
     "business_id": "Tax-j94zbTqxpLtJFG9tgg",
     "full_address": "3189 N Rainbow Blvd\nNorthwest\nLas Vegas, NV 89108",
     "hours": {},
-    "userRating": 2,
     "date": "2011-02-28",
     "review_count": 4,
     "open": true,
@@ -46980,7 +46514,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 3,
     "date": "2011-02-17",
     "review_count": 206,
     "open": false,
@@ -47088,7 +46621,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-05",
     "review_count": 43,
     "open": true,
@@ -47192,7 +46724,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 2,
     "date": "2013-02-24",
     "review_count": 10,
     "open": true,
@@ -47259,7 +46790,6 @@
     "business_id": "xczdDnDIUoVZ2ILT9nEvPA",
     "full_address": "3208 E Bell Rd\nPhoenix, AZ 85032",
     "hours": {},
-    "userRating": 2,
     "date": "2012-02-18",
     "review_count": 22,
     "open": true,
@@ -47365,7 +46895,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-09-22",
     "review_count": 413,
     "open": true,
@@ -47472,7 +47001,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-05-22",
     "review_count": 66,
     "open": false,
@@ -47577,7 +47105,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 4,
     "date": "2011-07-29",
     "review_count": 117,
     "open": true,
@@ -47682,7 +47209,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2012-12-24",
     "review_count": 52,
     "open": true,
@@ -47786,7 +47312,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 4,
     "date": "2010-12-14",
     "review_count": 97,
     "open": false,
@@ -47905,7 +47430,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-14",
     "review_count": 49,
     "open": true,
@@ -48012,7 +47536,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2014-08-16",
     "review_count": 407,
     "open": true,
@@ -48132,7 +47655,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 4,
     "date": "2011-04-02",
     "review_count": 990,
     "open": true,
@@ -48211,7 +47733,6 @@
     "business_id": "cMr1t7WlChRhfh3rzsVY1Q",
     "full_address": "6505 N Decatur Blvd\nLas Vegas, NV 89131",
     "hours": {},
-    "userRating": 3,
     "date": "2010-07-05",
     "review_count": 58,
     "open": true,
@@ -48287,7 +47808,6 @@
     "business_id": "cMr1t7WlChRhfh3rzsVY1Q",
     "full_address": "6505 N Decatur Blvd\nLas Vegas, NV 89131",
     "hours": {},
-    "userRating": 3,
     "date": "2010-05-03",
     "review_count": 58,
     "open": true,
@@ -48392,7 +47912,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2012-01-29",
     "review_count": 169,
     "open": true,
@@ -48489,7 +48008,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2011-04-02",
     "review_count": 515,
     "open": true,
@@ -48570,7 +48088,6 @@
     "business_id": "Gy7ERh2GhmAYMZMO48ztBg",
     "full_address": "7575 East Princess Drive\nScottsdale, AZ 85255",
     "hours": {},
-    "userRating": 4,
     "date": "2013-07-12",
     "review_count": 105,
     "open": true,
@@ -48675,7 +48192,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2014-02-08",
     "review_count": 239,
     "open": true,
@@ -48753,7 +48269,6 @@
     "business_id": "t803CrM2RLHWktYTw5y_mg",
     "full_address": "37770 N Vulture Mine Rd\nWickenburg, AZ 85390",
     "hours": {},
-    "userRating": 4,
     "date": "2013-03-19",
     "review_count": 4,
     "open": true,
@@ -48786,7 +48301,6 @@
     "business_id": "TDvqljD6XbP6nWZBfy1OBg",
     "full_address": "14144 N 100th St\nSuite 125\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 4,
     "date": "2012-01-08",
     "review_count": 4,
     "open": true,
@@ -48841,7 +48355,6 @@
     "business_id": "hfe5StFcj1AH4DVe8coBgA",
     "full_address": "3800 E Sky Harbor Blvd\nSte 4340\nPhoenix, AZ 85034",
     "hours": {},
-    "userRating": 2,
     "date": "2011-06-03",
     "review_count": 14,
     "open": true,
@@ -48946,7 +48459,6 @@
         "open": "21:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-18",
     "review_count": 17,
     "open": false,
@@ -49019,7 +48531,6 @@
     "business_id": "3vUKmOsGepPY64Du5oHo-A",
     "full_address": "2120 N Rampart Blvd\nSummerlin\nLas Vegas, NV 89128",
     "hours": {},
-    "userRating": 3,
     "date": "2010-10-13",
     "review_count": 34,
     "open": false,
@@ -49113,7 +48624,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-28",
     "review_count": 215,
     "open": true,
@@ -49218,7 +48728,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-06-25",
     "review_count": 281,
     "open": true,
@@ -49296,7 +48805,6 @@
     "business_id": "uigVIpiLYQdM3mgCgioMVw",
     "full_address": "6584 N Decatur Blvd\nCentennial\nLas Vegas, NV 89131",
     "hours": {},
-    "userRating": 3,
     "date": "2010-07-08",
     "review_count": 17,
     "open": false,
@@ -49400,7 +48908,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-17",
     "review_count": 31,
     "open": true,
@@ -49492,7 +48999,6 @@
     "business_id": "_ZR4CE9JwB42By5R7qVi2g",
     "full_address": "9196 W Cheyenne Ave\nSte 101\nNorthwest\nLas Vegas, NV 89129",
     "hours": {},
-    "userRating": 3,
     "date": "2011-03-02",
     "review_count": 5,
     "open": true,
@@ -49598,7 +49104,6 @@
         "open": "06:00"
       }
     },
-    "userRating": 2,
     "date": "2010-10-20",
     "review_count": 8,
     "open": true,
@@ -49675,7 +49180,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-12-06",
     "review_count": 24,
     "open": true,
@@ -49780,7 +49284,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-10-13",
     "review_count": 24,
     "open": true,
@@ -49885,7 +49388,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-02",
     "review_count": 83,
     "open": false,
@@ -49994,7 +49496,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-08",
     "review_count": 83,
     "open": false,
@@ -50103,7 +49604,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2010-10-11",
     "review_count": 83,
     "open": false,
@@ -50183,7 +49683,6 @@
     "business_id": "GRF1UUkskqwBB0tOPi563A",
     "full_address": "1300 W Sunset Rd\nSte 2837\nHenderson, NV 89014",
     "hours": {},
-    "userRating": 2,
     "date": "2010-08-05",
     "review_count": 5,
     "open": true,
@@ -50252,7 +49751,6 @@
     "business_id": "ARpPb7Mx4VQ5lFVkhDy7fQ",
     "full_address": "6595 N Decatur Blvd\nCentennial\nLas Vegas, NV 89131",
     "hours": {},
-    "userRating": 3,
     "date": "2010-08-11",
     "review_count": 16,
     "open": true,
@@ -50360,7 +49858,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-26",
     "review_count": 195,
     "open": true,
@@ -50467,7 +49964,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2012-11-27",
     "review_count": 112,
     "open": true,
@@ -50574,7 +50070,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2013-03-08",
     "review_count": 60,
     "open": false,
@@ -50690,7 +50185,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 4,
     "date": "2010-04-08",
     "review_count": 10,
     "open": false,
@@ -50782,7 +50276,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 4,
     "date": "2013-11-22",
     "review_count": 455,
     "open": true,
@@ -50902,7 +50395,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2011-02-21",
     "review_count": 207,
     "open": false,
@@ -51008,7 +50500,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2010-08-08",
     "review_count": 162,
     "open": true,
@@ -51110,7 +50601,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-22",
     "review_count": 352,
     "open": true,
@@ -51220,7 +50710,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 3,
     "date": "2010-08-19",
     "review_count": 101,
     "open": true,
@@ -51331,7 +50820,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2014-08-17",
     "review_count": 323,
     "open": true,
@@ -51437,7 +50925,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2013-05-27",
     "review_count": 71,
     "open": false,
@@ -51516,7 +51003,6 @@
     "business_id": "EQQOPKL3rmPsH73IF7kvjw",
     "full_address": "Hard Rock Hotel & Casino\n4455 Paradise Rd\nEastside\nLas Vegas, NV 89199",
     "hours": {},
-    "userRating": 4,
     "date": "2011-01-21",
     "review_count": 136,
     "open": false,
@@ -51623,7 +51109,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-18",
     "review_count": 132,
     "open": true,
@@ -51702,7 +51187,6 @@
     "business_id": "cRfn_vMQ9YExuKb378CwjQ",
     "full_address": "3475 Las Vegas Blvd S\nThe Strip\nLas Vegas, NV 89109",
     "hours": {},
-    "userRating": 5,
     "date": "2011-03-24",
     "review_count": 317,
     "open": true,
@@ -51809,7 +51293,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2010-10-03",
     "review_count": 30,
     "open": false,
@@ -51926,7 +51409,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-05-06",
     "review_count": 89,
     "open": true,
@@ -52033,7 +51515,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-18",
     "review_count": 89,
     "open": true,
@@ -52140,7 +51621,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-11-04",
     "review_count": 130,
     "open": true,
@@ -52246,7 +51726,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 5,
     "date": "2011-01-20",
     "review_count": 130,
     "open": true,
@@ -52323,7 +51802,6 @@
     "business_id": "KFCnsNX51KYk58hSSbLK-w",
     "full_address": "3950 Las Vegas Blvd S\nThe Strip\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 2,
     "date": "2010-05-12",
     "review_count": 3,
     "open": false,
@@ -52415,7 +51893,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-13",
     "review_count": 172,
     "open": true,
@@ -52523,7 +52000,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 1,
     "date": "2010-05-31",
     "review_count": 59,
     "open": false,
@@ -52630,7 +52106,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-24",
     "review_count": 421,
     "open": true,
@@ -52753,7 +52228,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-01-07",
     "review_count": 421,
     "open": true,
@@ -52876,7 +52350,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-06",
     "review_count": 902,
     "open": true,
@@ -52984,7 +52457,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-24",
     "review_count": 46,
     "open": false,
@@ -53092,7 +52564,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-07",
     "review_count": 46,
     "open": false,
@@ -53171,7 +52642,6 @@
     "business_id": "AHrBnZhMnWtb9Eqenzy1BQ",
     "full_address": "6575 N Decatur Blvd\nCentennial\nLas Vegas, NV 89131",
     "hours": {},
-    "userRating": 3,
     "date": "2010-06-08",
     "review_count": 48,
     "open": true,
@@ -53277,7 +52747,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-09-08",
     "review_count": 46,
     "open": true,
@@ -53385,7 +52854,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-19",
     "review_count": 60,
     "open": true,
@@ -53461,7 +52929,6 @@
     "business_id": "tw6GRnK752GAl3ylfjuRuQ",
     "full_address": "9837 W Tropicana Ave\nSpring Valley\nLas Vegas, NV 89147",
     "hours": {},
-    "userRating": 4,
     "date": "2010-10-28",
     "review_count": 50,
     "open": true,
@@ -53569,7 +53036,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-07-28",
     "review_count": 57,
     "open": true,
@@ -53683,7 +53149,6 @@
         "open": "11:30"
       }
     },
-    "userRating": 4,
     "date": "2013-05-08",
     "review_count": 1323,
     "open": true,
@@ -53791,7 +53256,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2011-01-08",
     "review_count": 209,
     "open": true,
@@ -53899,7 +53363,6 @@
         "open": "12:00"
       }
     },
-    "userRating": 4,
     "date": "2010-05-11",
     "review_count": 285,
     "open": true,
@@ -54009,7 +53472,6 @@
         "open": "12:00"
       }
     },
-    "userRating": 4,
     "date": "2010-06-26",
     "review_count": 285,
     "open": true,
@@ -54119,7 +53581,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-02-10",
     "review_count": 9,
     "open": false,
@@ -54206,7 +53667,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2010-08-01",
     "review_count": 11,
     "open": true,
@@ -54297,7 +53757,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-27",
     "review_count": 89,
     "open": true,
@@ -54402,7 +53861,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2010-09-06",
     "review_count": 462,
     "open": true,
@@ -54512,7 +53970,6 @@
         "open": "15:00"
       }
     },
-    "userRating": 4,
     "date": "2012-02-22",
     "review_count": 247,
     "open": true,
@@ -54618,7 +54075,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-04-16",
     "review_count": 146,
     "open": true,
@@ -54732,7 +54188,6 @@
         "open": "16:30"
       }
     },
-    "userRating": 4,
     "date": "2013-02-27",
     "review_count": 20,
     "open": true,
@@ -54837,7 +54292,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 1,
     "date": "2012-09-10",
     "review_count": 83,
     "open": false,
@@ -54917,7 +54371,6 @@
     "business_id": "wnTdMwMjTSuJs7FEKStaag",
     "full_address": "Green Valley Ranch Resort\n2300 Paseo Verde Pkwy\nAnthem\nHenderson, NV 89052",
     "hours": {},
-    "userRating": 4,
     "date": "2013-05-05",
     "review_count": 9,
     "open": true,
@@ -55024,7 +54477,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2010-09-13",
     "review_count": 535,
     "open": true,
@@ -55102,7 +54554,6 @@
     "business_id": "-eEZHb5r8ZIzFfZAtekg1Q",
     "full_address": "15560 N Frank Lloyd Wright Blvd\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 4,
     "date": "2011-08-02",
     "review_count": 31,
     "open": true,
@@ -55209,7 +54660,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 2,
     "date": "2011-07-30",
     "review_count": 3,
     "open": true,
@@ -55283,7 +54733,6 @@
     "business_id": "ioYXDntVqJudIYGoLJfuSg",
     "full_address": "7345 S Jones Blvd\nSouthwest\nLas Vegas, NV 89139",
     "hours": {},
-    "userRating": 3,
     "date": "2010-09-21",
     "review_count": 3,
     "open": false,
@@ -55347,7 +54796,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 5,
     "date": "2010-10-07",
     "review_count": 153,
     "open": true,
@@ -55452,7 +54900,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-10-06",
     "review_count": 353,
     "open": true,
@@ -55530,7 +54977,6 @@
     "business_id": "8jCaPSCw_2VewvPPHPQQcg",
     "full_address": "3655 W Anthem Way\nSte D105\nAnthem, AZ 85086",
     "hours": {},
-    "userRating": 3,
     "date": "2013-01-27",
     "review_count": 55,
     "open": true,
@@ -55631,7 +55077,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-26",
     "review_count": 36,
     "open": true,
@@ -55708,7 +55153,6 @@
     "business_id": "le1IsRLrTq2Xo78RyFpsnw",
     "full_address": "15425 N Scottsdale Rd\nScottsdale, AZ 85254",
     "hours": {},
-    "userRating": 4,
     "date": "2011-05-15",
     "review_count": 46,
     "open": true,
@@ -55785,7 +55229,6 @@
     "business_id": "le1IsRLrTq2Xo78RyFpsnw",
     "full_address": "15425 N Scottsdale Rd\nScottsdale, AZ 85254",
     "hours": {},
-    "userRating": 4,
     "date": "2013-10-04",
     "review_count": 46,
     "open": true,
@@ -55862,7 +55305,6 @@
     "business_id": "S3ccQHpkBQTBBfRB-Q4adg",
     "full_address": "14900 N Pima Rd\nSte 103\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 4,
     "date": "2011-06-15",
     "review_count": 38,
     "open": true,
@@ -55937,7 +55379,6 @@
     "business_id": "S3ccQHpkBQTBBfRB-Q4adg",
     "full_address": "14900 N Pima Rd\nSte 103\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 4,
     "date": "2013-10-05",
     "review_count": 38,
     "open": true,
@@ -56041,7 +55482,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2010-12-13",
     "review_count": 746,
     "open": true,
@@ -56149,7 +55589,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2010-10-11",
     "review_count": 86,
     "open": true,
@@ -56257,7 +55696,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 5,
     "date": "2010-10-18",
     "review_count": 86,
     "open": true,
@@ -56361,7 +55799,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 5,
     "date": "2010-10-20",
     "review_count": 341,
     "open": true,
@@ -56465,7 +55902,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 5,
     "date": "2011-01-25",
     "review_count": 341,
     "open": true,
@@ -56544,7 +55980,6 @@
     "business_id": "PbU5sHd2KziM-LZ5dU6sFQ",
     "full_address": "5757 Wayne Newton Blvd\nSoutheast\nLas Vegas, NV 89119",
     "hours": {},
-    "userRating": 4,
     "date": "2010-10-21",
     "review_count": 26,
     "open": true,
@@ -56665,7 +56100,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-08-07",
     "review_count": 85,
     "open": true,
@@ -56780,7 +56214,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-29",
     "review_count": 14,
     "open": true,
@@ -56882,7 +56315,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 3,
     "date": "2011-05-22",
     "review_count": 74,
     "open": true,
@@ -56987,7 +56419,6 @@
         "open": "15:00"
       }
     },
-    "userRating": 5,
     "date": "2011-04-14",
     "review_count": 111,
     "open": false,
@@ -57106,7 +56537,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-02-14",
     "review_count": 12,
     "open": true,
@@ -57226,7 +56656,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-25",
     "review_count": 1757,
     "open": true,
@@ -57336,7 +56765,6 @@
         "open": "12:00"
       }
     },
-    "userRating": 4,
     "date": "2012-11-20",
     "review_count": 493,
     "open": true,
@@ -57414,7 +56842,6 @@
     "business_id": "kMxYp2GZL5ic6b05gPP57Q",
     "full_address": "3800 W Sky Harbor Blvd\nT4/S3\nPhoenix, AZ 85034",
     "hours": {},
-    "userRating": 3,
     "date": "2011-06-16",
     "review_count": 14,
     "open": true,
@@ -57517,7 +56944,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 3,
     "date": "2013-01-25",
     "review_count": 438,
     "open": true,
@@ -57626,7 +57052,6 @@
         "open": "12:00"
       }
     },
-    "userRating": 4,
     "date": "2012-02-18",
     "review_count": 705,
     "open": true,
@@ -57705,7 +57130,6 @@
     "business_id": "OkO7zRnvV2NQR5aPmbRZeA",
     "full_address": "2000 East Rio Salado Pkwy\nTempe, AZ 85281",
     "hours": {},
-    "userRating": 4,
     "date": "2011-05-08",
     "review_count": 26,
     "open": true,
@@ -57812,7 +57236,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2012-10-15",
     "review_count": 2105,
     "open": true,
@@ -57890,7 +57313,6 @@
     "business_id": "_U8nP4aJ5b-sVvveWYJkbg",
     "full_address": "7450 W Cheyenne Ave\nNorthwest\nLas Vegas, NV 89129",
     "hours": {},
-    "userRating": 5,
     "date": "2011-01-10",
     "review_count": 13,
     "open": false,
@@ -57966,7 +57388,6 @@
     "business_id": "qls-_r8KdQw4lH9x60qYEw",
     "full_address": "1516 N Hayden Rd\nScottsdale, AZ 85257",
     "hours": {},
-    "userRating": 3,
     "date": "2013-02-28",
     "review_count": 12,
     "open": true,
@@ -58071,7 +57492,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-08-26",
     "review_count": 197,
     "open": true,
@@ -58177,7 +57597,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-13",
     "review_count": 426,
     "open": true,
@@ -58286,7 +57705,6 @@
         "open": "12:00"
       }
     },
-    "userRating": 5,
     "date": "2013-10-01",
     "review_count": 326,
     "open": true,
@@ -58405,7 +57823,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-02-09",
     "review_count": 57,
     "open": true,
@@ -58508,7 +57925,6 @@
         "open": "12:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-08",
     "review_count": 678,
     "open": true,
@@ -58624,7 +58040,6 @@
         "open": "16:00"
       }
     },
-    "userRating": 5,
     "date": "2013-04-10",
     "review_count": 191,
     "open": true,
@@ -58746,7 +58161,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 4,
     "date": "2012-12-25",
     "review_count": 20,
     "open": true,
@@ -58854,7 +58268,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2011-03-13",
     "review_count": 8,
     "open": true,
@@ -58958,7 +58371,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 3,
     "date": "2011-03-17",
     "review_count": 10,
     "open": true,
@@ -59067,7 +58479,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2011-07-08",
     "review_count": 179,
     "open": true,
@@ -59190,7 +58601,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2011-04-18",
     "review_count": 11,
     "open": true,
@@ -59274,7 +58684,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-16",
     "review_count": 11,
     "open": true,
@@ -59358,7 +58767,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2012-02-23",
     "review_count": 88,
     "open": true,
@@ -59448,7 +58856,6 @@
     "business_id": "k_aOcqWOHWprjs7ykdzlAQ",
     "full_address": "3800 E Sky Harbor Blvd\nPhoenix, AZ 85034",
     "hours": {},
-    "userRating": 3,
     "date": "2013-02-04",
     "review_count": 69,
     "open": true,
@@ -59552,7 +58959,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-02",
     "review_count": 164,
     "open": true,
@@ -59670,7 +59076,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 3,
     "date": "2013-02-28",
     "review_count": 132,
     "open": true,
@@ -59778,7 +59183,6 @@
         "open": "15:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-15",
     "review_count": 243,
     "open": true,
@@ -59900,7 +59304,6 @@
         "open": "00:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-11",
     "review_count": 46,
     "open": true,
@@ -59975,7 +59378,6 @@
     "business_id": "VWRcE5u_V-J8ptbSR6_ICw",
     "full_address": "401 E Jefferson St., Unit # 2102\nChase Field\nPheonix, AZ 85004",
     "hours": {},
-    "userRating": 4,
     "date": "2013-09-30",
     "review_count": 6,
     "open": true,
@@ -60074,7 +59476,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-27",
     "review_count": 170,
     "open": true,
@@ -60167,7 +59568,6 @@
     "business_id": "RQe1UP_PZ0vdmg9oCYFKqQ",
     "full_address": "8300 N Hayden Rd\nScottsdale, AZ 85258",
     "hours": {},
-    "userRating": 4,
     "date": "2012-10-26",
     "review_count": 24,
     "open": true,
@@ -60272,7 +59672,6 @@
         "open": "09:30"
       }
     },
-    "userRating": 2,
     "date": "2013-01-31",
     "review_count": 63,
     "open": false,
@@ -60391,7 +59790,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 1,
     "date": "2013-04-09",
     "review_count": 72,
     "open": false,
@@ -60508,7 +59906,6 @@
         "open": "17:00"
       }
     },
-    "userRating": 5,
     "date": "2013-03-11",
     "review_count": 164,
     "open": true,
@@ -60627,7 +60024,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-09",
     "review_count": 608,
     "open": true,
@@ -60735,7 +60131,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-10",
     "review_count": 87,
     "open": true,
@@ -60839,7 +60234,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-30",
     "review_count": 428,
     "open": true,
@@ -60947,7 +60341,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2012-12-02",
     "review_count": 67,
     "open": false,
@@ -61053,7 +60446,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-02-15",
     "review_count": 286,
     "open": true,
@@ -61158,7 +60550,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-11-30",
     "review_count": 177,
     "open": true,
@@ -61267,7 +60658,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2014-12-28",
     "review_count": 291,
     "open": true,
@@ -61372,7 +60762,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-08",
     "review_count": 55,
     "open": true,
@@ -61477,7 +60866,6 @@
         "open": "15:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-22",
     "review_count": 40,
     "open": false,
@@ -61599,7 +60987,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-18",
     "review_count": 51,
     "open": true,
@@ -61709,7 +61096,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-10-06",
     "review_count": 420,
     "open": true,
@@ -61815,7 +61201,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-19",
     "review_count": 355,
     "open": true,
@@ -61921,7 +61306,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-02",
     "review_count": 220,
     "open": true,
@@ -62025,7 +61409,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2013-05-11",
     "review_count": 246,
     "open": true,
@@ -62148,7 +61531,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-01-08",
     "review_count": 163,
     "open": true,
@@ -62265,7 +61647,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-07",
     "review_count": 63,
     "open": true,
@@ -62371,7 +61752,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-28",
     "review_count": 11,
     "open": false,
@@ -62473,7 +61853,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-27",
     "review_count": 83,
     "open": true,
@@ -62579,7 +61958,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 2,
     "date": "2014-02-09",
     "review_count": 135,
     "open": false,
@@ -62694,7 +62072,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-01-13",
     "review_count": 64,
     "open": true,
@@ -62815,7 +62192,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 3,
     "date": "2013-10-07",
     "review_count": 105,
     "open": true,
@@ -62920,7 +62296,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 3,
     "date": "2013-08-14",
     "review_count": 39,
     "open": true,
@@ -63026,7 +62401,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-04-14",
     "review_count": 259,
     "open": true,
@@ -63130,7 +62504,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-07-26",
     "review_count": 73,
     "open": true,
@@ -63234,7 +62607,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 1,
     "date": "2012-11-27",
     "review_count": 88,
     "open": false,
@@ -63342,7 +62714,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 4,
     "date": "2013-05-31",
     "review_count": 61,
     "open": true,
@@ -63448,7 +62819,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 3,
     "date": "2013-05-18",
     "review_count": 27,
     "open": false,
@@ -63564,7 +62934,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 4,
     "date": "2013-07-11",
     "review_count": 64,
     "open": true,
@@ -63671,7 +63040,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2012-12-28",
     "review_count": 98,
     "open": false,
@@ -63760,7 +63128,6 @@
     "business_id": "nGRwQoNA5CT520hZmDuCDQ",
     "full_address": "2485 Village View Dr\nAnthem\nHenderson, NV 89052",
     "hours": {},
-    "userRating": 2,
     "date": "2013-05-05",
     "review_count": 45,
     "open": true,
@@ -63866,7 +63233,6 @@
         "open": "09:30"
       }
     },
-    "userRating": 3,
     "date": "2013-08-18",
     "review_count": 249,
     "open": true,
@@ -63983,7 +63349,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-31",
     "review_count": 126,
     "open": true,
@@ -64089,7 +63454,6 @@
         "open": "10:30"
       }
     },
-    "userRating": 3,
     "date": "2013-01-31",
     "review_count": 152,
     "open": true,
@@ -64165,7 +63529,6 @@
     "business_id": "4XDbyBF6hoRFC9hj1RXa7g",
     "full_address": "4032 N Scottsdale Rd\nScottsdale, AZ 85251",
     "hours": {},
-    "userRating": 3,
     "date": "2013-10-07",
     "review_count": 17,
     "open": false,
@@ -64239,7 +63602,6 @@
     "business_id": "rsefsrlBgnOCvdcb4TyF8w",
     "full_address": "1015 N Dobson Rd\nMesa, AZ 85201",
     "hours": {},
-    "userRating": 4,
     "date": "2013-08-08",
     "review_count": 6,
     "open": true,
@@ -64333,7 +63695,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 5,
     "date": "2013-04-22",
     "review_count": 80,
     "open": false,
@@ -64454,7 +63815,6 @@
         "open": "08:00"
       }
     },
-    "userRating": 5,
     "date": "2013-10-08",
     "review_count": 65,
     "open": false,
@@ -64558,7 +63918,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-07-03",
     "review_count": 78,
     "open": true,
@@ -64662,7 +64021,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-07-18",
     "review_count": 85,
     "open": false,
@@ -64768,7 +64126,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2011-02-23",
     "review_count": 79,
     "open": true,
@@ -64848,7 +64205,6 @@
     "business_id": "iAe55bO88EwBiPL2GhwBew",
     "full_address": "15807 E. Frank Lloyd Wright\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 3,
     "date": "2013-02-15",
     "review_count": 21,
     "open": true,
@@ -64926,7 +64282,6 @@
     "business_id": "aS2aNPE861FI4dRrz1Z7Ow",
     "full_address": "3400 E Sky Harbor Blvd\nTerminal 4\nPhoenix, AZ 85034",
     "hours": {},
-    "userRating": 3,
     "date": "2013-05-04",
     "review_count": 64,
     "open": true,
@@ -65001,7 +64356,6 @@
     "business_id": "seucL50Dvg0mpBriQLap5w",
     "full_address": "9120 E Indian Bend Rd\nScottsdale, AZ 85258",
     "hours": {},
-    "userRating": 4,
     "date": "2012-12-02",
     "review_count": 9,
     "open": true,
@@ -65105,7 +64459,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-11-28",
     "review_count": 54,
     "open": true,
@@ -65212,7 +64565,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 3,
     "date": "2014-11-10",
     "review_count": 308,
     "open": true,
@@ -65319,7 +64671,6 @@
         "open": "07:00"
       }
     },
-    "userRating": 4,
     "date": "2013-11-01",
     "review_count": 61,
     "open": true,
@@ -65427,7 +64778,6 @@
         "open": "10:00"
       }
     },
-    "userRating": 4,
     "date": "2013-07-10",
     "review_count": 72,
     "open": true,
@@ -65503,7 +64853,6 @@
     "business_id": "iKY2EGEVPxiAgIWC6vcFUw",
     "full_address": "37220 Mule Train Rd\nCarefree, AZ 85377",
     "hours": {},
-    "userRating": 4,
     "date": "2012-12-26",
     "review_count": 8,
     "open": true,
@@ -65549,7 +64898,6 @@
     "business_id": "lmIXtLgu1tIoFAsqXnTpmA",
     "full_address": "14144 N 100th St\nSte B100\nScottsdale, AZ 85260",
     "hours": {},
-    "userRating": 4,
     "date": "2013-02-19",
     "review_count": 32,
     "open": true,
@@ -65652,7 +65000,6 @@
         "open": "06:30"
       }
     },
-    "userRating": 4,
     "date": "2013-10-02",
     "review_count": 518,
     "open": true,
@@ -65727,7 +65074,6 @@
     "business_id": "bVNXS0uMq3BKIrnLHTvpbg",
     "full_address": "1195 W Sunset Rd\nHenderson, NV 89014",
     "hours": {},
-    "userRating": 3,
     "date": "2013-05-07",
     "review_count": 12,
     "open": true,
@@ -65832,7 +65178,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-03-27",
     "review_count": 123,
     "open": true,
@@ -65922,7 +65267,6 @@
     "business_id": "-RWF1l9kbp2woe3xoQYeVA",
     "full_address": "2950 S Durango Dr\nSte 135\nWestside\nLas Vegas, NV 89117",
     "hours": {},
-    "userRating": 4,
     "date": "2013-10-02",
     "review_count": 32,
     "open": true,
@@ -66028,7 +65372,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 3,
     "date": "2013-05-27",
     "review_count": 10,
     "open": true,
@@ -66135,7 +65478,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-08-31",
     "review_count": 161,
     "open": true,
@@ -66251,7 +65593,6 @@
         "open": "11:00"
       }
     },
-    "userRating": 4,
     "date": "2013-09-17",
     "review_count": 48,
     "open": true,
@@ -66355,7 +65696,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 5,
     "date": "2013-08-04",
     "review_count": 227,
     "open": true,
@@ -66464,7 +65804,6 @@
         "open": "09:00"
       }
     },
-    "userRating": 4,
     "date": "2013-08-02",
     "review_count": 55,
     "open": true,

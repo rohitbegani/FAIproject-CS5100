@@ -41,6 +41,7 @@ for r in db.review.find({"user_id": max_review_user}):
 		#print business_attr
 		new_info = r.copy()
 		new_info.update(business_data)
+		new_info["userRating"] = r["stars"]
 		reviewdb.append(new_info)
 
 data = reviewdb
