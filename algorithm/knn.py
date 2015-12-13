@@ -1,5 +1,3 @@
-import collections
-
 import operator
 
 from algorithm.classComaprator import ClassComparator
