@@ -4,7 +4,6 @@ from setuptools import setup, find_packages
 
 requires = [
         'pymongo',
-        'numpy'
         ]
 
 setup(
