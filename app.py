@@ -19,4 +19,4 @@ dataSet.trainUserModel()
 
 knn = Knn()
 knn.inputData = dataSet
-predication = knn.getNearestNeighbours(5)
+prediction = knn.getNearestNeighbours(5)

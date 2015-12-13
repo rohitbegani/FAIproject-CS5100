@@ -248,7 +248,7 @@ class User(object):
                 feature[feature.index(f)] = (v, w)
 
         if flag == 0 and value is not None:
-            feature.append((value, 0))
+            feature.append((value, self._stars/5))
         return feature
 
     def update_feature_weight_los(self, feature, lvalue):
