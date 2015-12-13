@@ -90,7 +90,9 @@ class User(object):
 
     @noise_level.setter
     def noise_level(self, noise_level):
-        self._noise_level = self.update_feature_weight(self._noise_level, noise_level)
+        if noise_level:
+            for n in noise_level:
+                self._noise_level = self.update_feature_weight(self._noise_level, noise_level)
 
     @property
     def music(self):
@@ -104,11 +106,13 @@ class User(object):
 
     @property
     def attire(self):
-        return self._property
+        return self._attire
 
     @attire.setter
     def attire(self, attire):
-        self._attire = self.update_feature_weight(self._attire, attire)
+        if attire:
+            for a in attire:
+                self._attire = self.update_feature_weight(self._attire, attire)
 
     @property
     def ambience(self):
