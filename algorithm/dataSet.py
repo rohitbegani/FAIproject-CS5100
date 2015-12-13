@@ -2,8 +2,7 @@ import json
 import os
 import sys
 from util.jsonToObject import Decode
-# import random
-# from numpy.random import permutation
+from numpy.random import permutation
 
 
 class DataSet(object):
@@ -16,17 +15,15 @@ class DataSet(object):
         # self._trainData = trainData
         self._businessModels = self.loadBusinessModels()
 
-
-
     def loadData(self):
         print(self.jsonFile)
         complete_jsonFilePath = os.path.join(os.path.abspath(os.curdir), self.jsonFile)
         with open(complete_jsonFilePath) as data_file:
             return json.load(data_file)
 
-    # def shuffleData(self):
+    def shuffleData(self):
         # Shuffle the indexes of the loaded data
-        # random = permutation(self._rawData.index)
+        random = permutation(self._rawData.index)
 
     def loadBusinessModels(self):
         jsonDecoder = Decode()
