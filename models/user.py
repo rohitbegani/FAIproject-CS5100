@@ -60,7 +60,6 @@ class User(object):
     def location_lon(self):
     	self._location_lon = -115.17284840000002
 
-
     def stars(self, stars):
         self._stars = stars
 
@@ -80,152 +79,45 @@ class User(object):
         self._noise_level = self.update_feature_weight(self._noise_level, noise_level)
 
     def music(self, music):
-        for m in music:
-            self._music = self.update_feature_weight(self._music, m)
+        if type(music) == "list":
+            for m in music:
+                self._music = self.update_feature_weight(self._music, m)
 
     def attire(self, attire):
         self._attire = self.update_feature_weight(self._attire, attire)
 
     def ambience(self, ambience):
-        for a in ambience:
-            self._ambience = self.update_feature_weight(self._music, a)
+        if type(ambience) == "list":
+            for a in ambience:
+                self._ambience = self.update_feature_weight(self._music, a)
 
     def price_range(self, price_range):
         self._price_range = self.update_feature_weight(self._price_range, price_range)
 
     def good_for(self, good_for):
-        for i in good_for:
-            self._good_for = self.update_feature_weight(self._good_for, i)
+        if type(good_for) == "list":
+            for i in good_for:
+                self._good_for = self.update_feature_weight(self._good_for, i)
 
     def parking(self, parking):
-       for p in parking:
-            self._parking = self.update_feature_weight(self._parking, p)
+        if type(parking) == "list":
+           for p in parking:
+                self._parking = self.update_feature_weight(self._parking, p)
 
     def categories(self, categories):
-        for c in categories:
-            self._categories = self.update_feature_weight(self._categories, c)
+        if type(categories) == "list":
+            for c in categories:
+                self._categories = self.update_feature_weight(self._categories, c)
 
     def dietary_restrictions(self, dietary_restrictions):
-       if dietary_restrictions:
+        if type(dietary_restrictions) == "list":
            for d in dietary_restrictions:
                 self._dietary_restrictions = self.update_feature_weight(self._dietary_restrictions, d)
 
     def misc_attributes(self, misc_attributes):
-       for m in misc_attributes:
-            self._misc_attributes = self.update_feature_weight(self._misc_attributes, m)
-
-    # @property
-    # def stars(self):
-    #     return self._stars
-	#
-    # @stars.setter
-    # def stars(self, stars):
-    #     self._stars = stars
-	#
-    # @property
-    # def wifi(self):
-    #     return self._wifi
-	#
-    # @wifi.setter
-    # def wifi(self, wifi):
-    #     self._wifi = self.update_feature_weight(self._wifi, wifi)
-	#
-    # @property
-    # def alcohol(self):
-    #     return self._alcohol
-	#
-    # @alcohol.setter
-    # def alcohol(self, alcohol):
-    #     self._alcohol = self.update_feature_weight (self._alcohol, alcohol)
-	#
-    # @property
-    # def noise_level(self):
-    #     return self._noise_level
-	#
-    # @noise_level.setter
-    # def noise_level(self, noise_level):
-    #     self._noise_level = self.update_feature_weight(self._noise_level, noise_level)
-	#
-    # @property
-    # def music(self):
-    #     return self._music
-	#
-    # @music.setter
-    # def music(self, music):
-    #     for m in music:
-    #         self._music = self.update_feature_weight(self._music, m)
-	#
-    # @property
-    # def attire(self):
-    #     return self._attire
-	#
-    # @attire.setter
-    # def attire(self, attire):
-    #     self._attire = self.update_feature_weight(self._attire, attire)
-	#
-    # @property
-    # def ambience(self):
-    #     return self._ambience
-	#
-    # @ambience.setter
-    # def ambience(self, ambience):
-    #     for a in ambience:
-    #         self._ambience = self.update_feature_weight(self._music, a)
-	#
-    # @property
-    # def price_range(self):
-    #     return self._price_range
-	#
-    # @price_range.setter
-    # def price_range(self, price_range):
-    #     self._price_range = self.update_feature_weight(self._price_range, price_range)
-	#
-    # @property
-    # def good_for(self):
-    #     return self._good_for
-	#
-    # @good_for.setter
-    # def good_for(self, good_for):
-    #     for i in good_for:
-    #         self._good_for = self.update_feature_weight(self._good_for, i)
-	#
-    # @property
-    # def parking(self):
-    #     return self._parking
-	#
-    # @parking.setter
-    # def parking(self, parking):
-    #    for p in parking:
-    #         self._parking = self.update_feature_weight(self._parking, p)
-	#
-    # @property
-    # def categories(self):
-    #     return self._categories
-	#
-    # @categories.setter
-    # def categories(self, categories):
-    #     for c in categories:
-    #         self._categories = self.update_feature_weight(self._categories, c)
-	#
-    # @property
-    # def dietary_restrictions(self):
-    #     return self._dietary_restrictions
-	#
-    # @dietary_restrictions.setter
-    # def dietary_restrictions(self, dietary_restrictions):
-    #    for d in dietary_restrictions:
-    #         self._dietary_restrictions = self.update_feature_weight(self._dietary_restrictions, d)
-	#
-	#
-    # @property
-    # def misc_attributes(self):
-    #     return self._misc_attributes
-	#
-    # @misc_attributes.setter
-    # def misc_attributes(self, misc_attributes):
-    #    for m in misc_attributes:
-    #         self._misc_attributes = self.update_feature_weight(self._misc_attributes, m)
-
+       if type(misc_attributes) == "list":
+            for m in misc_attributes:
+                self._misc_attributes = self.update_feature_weight(self._misc_attributes, m)
 
     def __str__(self):
         return "user_id: %s\n" \
@@ -297,17 +189,20 @@ class User(object):
         # self._misc_attributes = misc_attributes
 
     def compute_feature_weight(self, weight, value, rating):
-        #return weight + value * rating
-        return weight * rating
+        return weight + value * rating
 
     def update_feature_weight (self, feature, value):
+        flag = 0
         for f in feature:
             (v, w) = f
+
             if v == value:
-                w = self.compute_feature_weight(w, v, self._stars)
-                feature.remove(f)
-                feature.append((v, w))
-        else:
+                flag = 1
+                w += self._stars/5
+                #self.compute_feature_weight(w, v, self._stars)
+                feature[feature.index(f)] = (v, w)
+
+        if flag == 0:
             feature.append((value, 0))
         return feature
 
@@ -315,7 +210,7 @@ class User(object):
         """
         Iterates through all the weight vectors and normalizes its values to 1.
         """
-        if type(feature) == "dict":
+        if type(feature) == "list":
             n = sum(feature.values())
             for k in feature.keys():
                 feature[k] /= n
