@@ -1,6 +1,6 @@
 import operator
 
-from algorithm.classComaprator import ClassComparator
+from algorithm.classComparator import ClassComparator
 
 
 class Knn(object):
