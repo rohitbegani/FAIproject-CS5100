@@ -11,7 +11,7 @@ class Knn(object):
 
     def getNearestNeighbours(self, k):
         """
-         This method retursn the 'k' nearest neighbours for the data
+         This method returns the 'k' nearest neighbours for the data
          :param k: the no neighbours
          """
         nDict = {}
@@ -28,7 +28,7 @@ class Knn(object):
     def getSimilarityFactor(self, dataRow):
         """
         This method returns the similarity factor of the most given dataRow and the user.
-        :param dataRow:
+        :param dataRow: It the each row of Business in the test data
         """
         cc = ClassComparator()
         cc.user = self.inputData.userData
