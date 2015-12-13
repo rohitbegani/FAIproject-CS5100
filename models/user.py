@@ -48,72 +48,132 @@ class User(object):
         return self._location_lat
 
     @location_lat.setter
-    def location_lat(self):
-        self._location_lat = 36.11470649999999
+    def location_lat(self, location_lat):
+        self.update_location_lat(location_lat)
 
     @property
     def location_lon(self):
         return self._location_lon
 
     @location_lon.setter
-    def location_lon(self):
-        self._location_lon = -115.17284840000002
+    def location_lon(self, location_lon):
+        self.update_location_lon(location_lon)
 
+    @property
+    def stars(self):
+        return self._stars
+
+    @stars.setter
     def stars(self, stars):
         # TODO We need to have some kind of function for the ratings. Right now it is simply overriding the ratings.
         self._stars = stars
 
-    def update_location_lat(self, l):
-        self._location_lat = 36.11470649999999
+    @property
+    def wifi(self):
+        return self._wifi
 
-    def update_location_lon(self, l):
-        self._location_lon = -115.17284840000002
-
+    @wifi.setter
     def wifi(self, wifi):
         self._wifi = self.update_feature_weight(self._wifi, wifi)
 
+    @property
+    def alcohol(self):
+        return self._alcohol
+
+    @alcohol.setter
     def alcohol(self, alcohol):
         self._alcohol = self.update_feature_weight(self._alcohol, alcohol)
 
+    # TODO there is some issue with the noise level. Coming as empty in the user
+    @property
+    def noise_level(self):
+        return self._noise_level
+
+    @noise_level.setter
     def noise_level(self, noise_level):
         self._noise_level = self.update_feature_weight(self._noise_level, noise_level)
 
+    @property
+    def music(self):
+        return self._music
+
+    @music.setter
     def music(self, music):
         if music:
             for m in music:
                 self._music = self.update_feature_weight(self._music, m)
 
+    @property
+    def attire(self):
+        return self._property
+
+    @attire.setter
     def attire(self, attire):
         self._attire = self.update_feature_weight(self._attire, attire)
 
+    @property
+    def ambience(self):
+        return self._ambience
+
+    @ambience.setter
     def ambience(self, ambience):
         if ambience:
             for a in ambience:
                 self._ambience = self.update_feature_weight(self._ambience, a)
 
+    @property
+    def price_range(self):
+        return self._price_range
+
+    @price_range.setter
     def price_range(self, price_range):
         self._price_range = self.update_feature_weight(self._price_range, price_range)
 
+    @property
+    def good_for(self):
+        return self._good_for
+
+    @good_for.setter
     def good_for(self, good_for):
         if good_for:
             for g in good_for:
                 self.update_feature_weight(self._good_for, g)
 
+    @property
+    def parking(self):
+        return self._parking
+
+    @parking.setter
     def parking(self, parking):
         if parking:
             for p in parking:
                 self._parking = self.update_feature_weight(self._parking, p)
 
+    @property
+    def categories(self):
+        return self._categories
+
+    @categories.setter
     def categories(self, categories):
         if categories:
             for c in categories:
                 self._categories = self.update_feature_weight(self._categories, c)
 
+    @property
+    def dietary_restrictions(self):
+        return self._dietary_restrictions
+
+    @dietary_restrictions.setter
     def dietary_restrictions(self, dietary_restrictions):
         if dietary_restrictions:
             for d in dietary_restrictions:
                 self._dietary_restrictions = self.update_feature_weight(self._dietary_restrictions, d)
 
+    @property
+    def misc_attributes(self):
+        return self._misc_attributes
+
+    @misc_attributes.setter
     def misc_attributes(self, misc_attributes):
         if misc_attributes:
             for m in misc_attributes:
@@ -158,20 +218,20 @@ class User(object):
     def add_features(self, stars=None, location_lat=None, location_lon=None, wifi=[], alcohol=[],
                      noise_level=[], music=[], attire=[], ambience=[], price_range=[],
                      good_for=[], parking=[], categories=[], dietary_restrictions=[], misc_attributes=[]):
-        self.stars(stars)
-        self.update_location_lon(location_lon)
-        self.update_location_lat(location_lat)
-        self.wifi(wifi)
-        self.alcohol(alcohol)
-        self.music(music)
-        self.attire(attire)
-        self.ambience(ambience)
-        self.price_range(price_range)
-        self.good_for(good_for)
-        self.parking(parking)
-        self.categories(categories)
-        self.dietary_restrictions(dietary_restrictions)
-        self.misc_attributes(misc_attributes)
+        self.stars = stars
+        self.location_lon = location_lon
+        self.location_lat = location_lat
+        self.wifi = wifi
+        self.alcohol = alcohol
+        self.music = music
+        self.attire = attire
+        self.ambience = ambience
+        self.price_range = price_range
+        self.good_for = good_for
+        self.parking = parking
+        self.categories = categories
+        self.dietary_restrictions = dietary_restrictions
+        self.misc_attributes = misc_attributes
 
     # can be used to compute weights using complex algo.
     def compute_feature_weight(self, weight, value, rating):
@@ -187,7 +247,7 @@ class User(object):
                 w += self._stars / 5
                 feature[feature.index(f)] = (v, w)
 
-        if flag == 0:
+        if flag == 0 and value is not None:
             feature.append((value, 0))
         return feature
 
@@ -202,7 +262,7 @@ class User(object):
                     flag = 1
                     w += self._stars / 5
                     feature[feature.index(f)] = (v, w)
-            if flag == 0:
+            if flag == 0 and value is not None:
                 feature.append((value, 0))
             return feature
 
@@ -223,8 +283,13 @@ class User(object):
             feature[feature.index(f)] = (v, round(w, 4))
         return feature
 
+    def update_location_lat(self, l):
+        self._location_lat = 36.11470649999999
+
+    def update_location_lon(self, l):
+        self._location_lon = -115.17284840000002
+
     def normalize(self):
-        self._wifi = self.normalize_feature_weight(self._wifi)
         self._wifi = self.normalize_feature_weight(self._wifi)
         self._alcohol = self.normalize_feature_weight(self._alcohol)
         self._noise_level = self.normalize_feature_weight(self._noise_level)
@@ -241,5 +306,5 @@ class User(object):
     def update_user(self, business):
         b = business
         self.add_features(b.stars, b.location_lat, b.location_lon, b.wifi, b.alcohol, b.noise_level, b.music,
-                                b.attire, b.ambience, b.price_range, b.good_for,
-                                b.parking, b.categories, b.dietary_restrictions, b.misc_attributes)
+                          b.attire, b.ambience, b.price_range, b.good_for,
+                          b.parking, b.categories, b.dietary_restrictions, b.misc_attributes)

@@ -1,6 +1,7 @@
 import sys
 
 from algorithm.dataSet import DataSet
+from algorithm.knn import Knn
 from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME
 
 reload(sys)
@@ -10,6 +11,12 @@ dataSet.loadRawData()
 dataSet.processBusinessModels()
 dataSet.sliceData()
 dataSet.trainUserModel()
-print(len(dataSet.trainingData))
-print(len(dataSet.testData))
+# for d in dataSet.trainingData:
+#     print(d)
+# print(len(dataSet.trainingData))
+# print(len(dataSet.testData))
 print(dataSet.userData)
+
+knn = Knn()
+knn.inputData = dataSet
+predication = knn.getNearestNeighbours(5)

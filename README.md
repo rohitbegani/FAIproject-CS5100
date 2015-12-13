@@ -7,7 +7,6 @@
 ## Packages Used
 
 `pymongo >= 3.1.1`
-'numpy  >='
 
 
 ## File Structure
