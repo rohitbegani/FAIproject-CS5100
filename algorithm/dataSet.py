@@ -42,4 +42,5 @@ class DataSet(object):
         for td in self.trainingData:
             user.update_user(td)
         user.normalize()
+        print user
         self.userData = user

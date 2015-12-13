@@ -84,7 +84,6 @@ class User(object):
     def alcohol(self, alcohol):
         self._alcohol = self.update_feature_weight(self._alcohol, alcohol)
 
-    # TODO there is some issue with the noise level. Coming as empty in the user
     @property
     def noise_level(self):
         return self._noise_level
@@ -223,6 +222,7 @@ class User(object):
         self.location_lat = location_lat
         self.wifi = wifi
         self.alcohol = alcohol
+        self.noise_level = noise_level
         self.music = music
         self.attire = attire
         self.ambience = ambience
