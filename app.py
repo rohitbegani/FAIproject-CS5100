@@ -25,3 +25,5 @@ print(len(dataSet.testData))
 knn = Knn()
 knn.inputData = dataSet
 prediction = knn.getNearestNeighbours(5)
+for p in prediction:
+	print dataSet.findUserRating(p)

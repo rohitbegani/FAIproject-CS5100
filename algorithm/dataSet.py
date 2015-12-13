@@ -30,7 +30,8 @@ class DataSet(object):
         # Shuffle the Business Model List
         # shuffle(self._businessModels)
         test_cutoff = int(math.floor(len(self._businessModels) / 3))
-        self.testData = self.filterDuplicates(self._businessModels[0:test_cutoff])
+        self.testD = self._businessModels[0:test_cutoff]
+        self.testData = self.filterDuplicates(self.testD)
         #self.testData = self._businessModels[0:test_cutoff]
         self.trainingData = self._businessModels[test_cutoff:]
 
@@ -106,15 +107,11 @@ class DataSet(object):
                 list.append(d)
         return list
 
-        def findHighestRating(self, data):
-        list = []
-        for d in data:
-            f = 0
-            for l in list:
-                if l.name == d.name:
-                    f=1
-                    break
-            if f == 0:
-                list.append(d)
-        return list
+    def findUserRating(self, business):
+        """Returns the highest rating by the user"""
+        rating = None
+        for b in self._businessModels:
+            if b.name == business.name:
+                rating = max(rating, b.userRating)
+        return [business.name, rating]
 
