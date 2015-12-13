@@ -15,7 +15,7 @@ dataSet.sliceData()
 print(len(dataSet.testData))
 dataSet.trainUserModel()
 dataSet.timeFilterBusinessModel(datetime.today())
-dataSet.distFilterBusinessModel(10)
+dataSet.distFilterBusinessModel(5)
 #for d in dataSet.trainingData:
 #     print(d)
 print(len(dataSet.trainingData))
@@ -25,3 +25,5 @@ print(len(dataSet.testData))
 knn = Knn()
 knn.inputData = dataSet
 prediction = knn.getNearestNeighbours(5)
+for p in prediction:
+	print dataSet.findUserRating(p)
