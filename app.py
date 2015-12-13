@@ -15,7 +15,7 @@ dataSet.trainUserModel()
 #     print(d)
 # print(len(dataSet.trainingData))
 # print(len(dataSet.testData))
-print(dataSet.userData)
+# print(dataSet.userData)
 
 knn = Knn()
 knn.inputData = dataSet
