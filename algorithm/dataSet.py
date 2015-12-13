@@ -67,7 +67,14 @@ class DataSet(object):
         self.testData = newData
 
     ## Using the Haversine Formula
+    ## http://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points
+
     def distFilterBusinessModel(self, radius):
+        '''
+        This function u
+        :param radius:
+        :return:
+        '''
         newData = []
         latUser = self.userData.location_lat
         lonUser = self.userData.location_lon
