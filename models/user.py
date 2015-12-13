@@ -8,7 +8,8 @@ class User(object):
 
     def __init__(self, name=None, user_id=None, stars=None, location_lat=None, location_lon=None,
                  wifi={}, alcohol={}, noise_level={}, music={}, attire={}, ambience={}, price_range={},
-                 good_for=None, parking={}, categories={}, dietary_restrictions={}, misc_attributes=None):
+                 good_for={}, parking={}, categories={}, dietary_restrictions={}, misc_attributes={}
+                 ):
         self._name = self.name(name)
         self._user_id = self.user_id(user_id)
         self._stars = self.stars(stars)
@@ -210,22 +211,22 @@ class User(object):
 
     def set_features(self, stars=None, location_lat=None, location_lon=None, wifi={}, alcohol={},
                      noise_level={}, music={}, attire={}, ambience={}, price_range={},
-                 good_for=None, parking={}, categories={}, dietary_restrictions={}, misc_attributes=None):
-        self._stars = self.stars(stars)
-        self._location_lat = self.location_lat(location_lat)
-        self._location_lon = self.location_lon(location_lon)
-        self._wifi = self.wifi(wifi)
-        self._alcohol = self.alcohol(alcohol)
-        self._noise_level = self.noise_level(noise_level)
-        self._music = self.music(music)
-        self._attire = self.attire(attire)
-        self._ambience = self.ambience(ambience)
-        self._price_range = self.price_range(price_range)
-        self._good_for = self.good_for(good_for)
-        self._parking = self.parking(parking)
-        self._categories = self.categories(categories)
-        self._dietary_restrictions = self.dietary_restrictions(dietary_restrictions)
-        self._misc_attributes = self.misc_attributes(misc_attributes)
+                 good_for={}, parking={}, categories={}, dietary_restrictions={}, misc_attributes={}):
+        self._stars = stars
+        self._location_lat = location_lat
+        self._location_lon = location_lon
+        self._wifi = wifi
+        self._alcohol = alcohol
+        self._noise_level = noise_level
+        self._music = music
+        self._attire = attire
+        self._ambience = ambience
+        self._price_range = price_range
+        self._good_for = good_for
+        self._parking = parking
+        self._categories = categories
+        self._dietary_restrictions = dietary_restrictions
+        self._misc_attributes = misc_attributes
 
     def compute_feature_weight(self, weight, value, rating):
         return weight + value * rating

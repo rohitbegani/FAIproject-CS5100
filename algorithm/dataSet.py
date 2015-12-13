@@ -12,12 +12,11 @@ class DataSet(object):
         # Store Default Values for KNN
         print("Inside KNN Init")
         self.jsonFile = jsonFile
-        self._user = User()
+        #self._user = User()
         self._rawData = self.loadData()
         # self._testData = testData
         # self._trainData = trainData
         self._businessModels = self.loadBusinessModels()
-
 
 
     def loadData(self):
