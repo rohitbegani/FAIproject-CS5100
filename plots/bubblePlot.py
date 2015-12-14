@@ -45,7 +45,7 @@ class BubblePlot:
                 name='Current User',
                 text=["Current User %s" % self.user.location_lat],
                 marker=dict(
-                        symbol='circle',
+                        symbol='diamond-dot',
                         sizemode='diameter',
                         sizeref=0.85,
                         size=[self.user.userRating * 5],
@@ -62,7 +62,7 @@ class BubblePlot:
                 name='Businesses',
                 text=self._businessTextList,
                 marker=dict(
-                        symbol='circle',
+                        symbol='circle-open',
                         sizemode='diameter',
                         sizeref=0.85,
                         size=self._businessRatingList,
