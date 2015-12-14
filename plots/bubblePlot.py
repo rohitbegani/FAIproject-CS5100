@@ -4,8 +4,9 @@ import plotly.tools as tls
 
 
 class BubblePlot:
-    def __init__(self, testData=None, predictions=None, userData=None):
+    def __init__(self, testData=None, predictions=None, userData=None, allBusinessModels=None):
         tls.set_credentials_file(username='bhanujain', api_key='pic17ydt8e')
+        self.allBusinessModels = allBusinessModels
         self.testData = testData
         self.predictions = predictions
         self.user = userData
@@ -22,7 +23,7 @@ class BubblePlot:
         for business in self.testData:
             self._businessLatList.append(business.location_lat)
             self._businessLonList.append(business.location_lon)
-            self._businessRatingList.append(business.userRating * 5)
+            self._businessRatingList.append(business.findHighestUserRating(self.allBusinessModels) * 5)
             self._businessTextList.append("Name: %s<br> User Rating: %s<br> General Rating: %s" % (
                 business.name, business.userRating, business.stars))
 
@@ -32,8 +33,8 @@ class BubblePlot:
             self._predictionLonList.append(business.location_lon)
             self._predictionRatingList.append(business.userRating * 5)
             self._predictionTextList.append(
-                "Name: %s<br> User Rating: %s<br> General Rating: %s<br> Prediction Rank: %s" % (
-                    business.name, business.userRating, business.stars, index+1))
+                    "Name: %s<br> User Rating: %s<br> General Rating: %s<br> Prediction Rank: %s" % (
+                        business.name, business.userRating, business.stars, index + 1))
 
     def generate(self):
         self.initBusiness()

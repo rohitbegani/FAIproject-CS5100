@@ -17,9 +17,9 @@ class DataSet(object):
         self.jsonFile = jsonFile
         self.testData = None
         self.trainingData = None
+        self.businessModels = None
         self.userData = User()
         self._rawData = None
-        self._businessModels = None
 
     def loadRawData(self):
         complete_jsonFilePath = os.path.join(os.path.abspath(os.curdir), self.jsonFile)
@@ -29,15 +29,15 @@ class DataSet(object):
     def sliceData(self):
         # Shuffle the Business Model List
         # shuffle(self._businessModels)
-        test_cutoff = int(math.floor(len(self._businessModels) / 3))
-        self.testData = self.filterDuplicates(self._businessModels[0:test_cutoff])
-        self.trainingData = self._businessModels[test_cutoff:]
+        test_cutoff = int(math.floor(len(self.businessModels) / 3))
+        self.testData = self.filterDuplicates(self.businessModels[0:test_cutoff])
+        self.trainingData = self.businessModels[test_cutoff:]
 
     def processBusinessModels(self):
         jsonDecoder = Decode()
         jsonDecoder.data = self._rawData
         businessModels = jsonDecoder.getBusiness()
-        self._businessModels = businessModels
+        self.businessModels = businessModels
 
     def trainUserModel(self):
         user = User(REF_USER_ID, REF_USER_NAME)
@@ -105,12 +105,3 @@ class DataSet(object):
             if f == 0:
                 list.append(d)
         return list
-
-    def findUserRating(self, business):
-        """Returns the highest rating by the user"""
-        rating = None
-        for b in self._businessModels:
-            if b.name == business.name:
-                rating = max(rating, b.userRating)
-        return rating
-

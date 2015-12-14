@@ -40,7 +40,6 @@ class Business(object):
     def predictionScore(self, predictionScore):
         self._predictionScore = predictionScore
 
-
     @property
     def userRating(self):
         return self._userRating
@@ -277,3 +276,13 @@ class Business(object):
                   self.misc_attributes,
                   self.hours,
                   self.userRating)
+
+    def findHighestUserRating(self, allBusiness):
+        """Returns the highest rating by the user
+        :param allBusiness:  All the Business in the System
+        """
+        rating = None
+        for b in allBusiness:
+            if b.name == self.name:
+                rating = max(rating, b.userRating)
+        return rating

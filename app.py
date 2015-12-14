@@ -33,7 +33,7 @@ for index, p in enumerate(predictions):
            "Prediction Rank: %s\n"
            % (p.name,
               p.stars,
-              dataSet.findUserRating(p),
+              p.findHighestUserRating(dataSet.businessModels),
               p.predictionScore,
               index + 1))
 
@@ -42,4 +42,5 @@ if PLOT_RESULTS:
     bp.testData = dataSet.testData
     bp.user = dataSet.userData
     bp.predictions = predictions
+    bp.allBusinessModels = dataSet.businessModels
     bp.generate()
