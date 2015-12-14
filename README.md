@@ -27,9 +27,6 @@ To install all packages `cd` to the working directory and run,
 4. Run `app.py`. That's it!
 
 ## File Structure
-
-- `algorithm` 
-    Main files including knn.
     
 - `helpers:`
     Contains all the helper files.
@@ -44,7 +41,7 @@ To install all packages `cd` to the working directory and run,
     - json
     
 - `algorithm:`
-    This folder will contain the actual KNN algo.
+    This folder contains the actual KNN algo.
 
 - `docs:`
     Contains all the docs related to the project
