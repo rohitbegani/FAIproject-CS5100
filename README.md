@@ -3,7 +3,6 @@
 ##### Project for CS 5100: Foundations of AI.
 
 
-
 ## Packages Used
 
 `pymongo >= 3.1.1`
@@ -13,6 +12,16 @@
 To install all packages `cd` to the working directory and run, 
 
 `pip install -e .`
+
+## How to run
+
+1. Clone this repo to your local machine using `git clone <repo link>`
+
+2. `cd` to the root of the directory
+
+3. Download all the required packages using the command `pip install -e`
+
+4. Run `app.py`. That's it!
 
 ## File Structure
 
