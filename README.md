@@ -1,6 +1,6 @@
 ## Introduction
 
-Modelling User Preferences to provide Location Based Recommendations 
+**Modelling User Preferences to provide Location Based Recommendations**
 
 This application uses KNN to create an artificial agent that can recommend eating places to a user. Our agent will parse through the user's information with an aim to understand different characteristics about the user. Then based on that we will provide different recommendations to the user. Additionally, through user’s feedback, the agent will evolve its preference model and recommendation function. 
 
@@ -28,8 +28,8 @@ To install all packages `cd` to the working directory and run,
 
 ## File Structure
 
-- `lib:` 
-    Main files.
+- `algorithm` 
+    Main files including knn.
     
 - `helpers:`
     Contains all the helper files.
@@ -51,6 +51,18 @@ To install all packages `cd` to the working directory and run,
     
 - `models:`
     Contains the model data classes
+
+- `plots`
+    Contains the code for the graphs
+
+- `tests`
+    Testing
+
+- `app.py` main file to run the program
+
+- `settings.py` contains all the predefined settings
+
+- `setup.py` to setup the project
 
 ## Future Scope
 
