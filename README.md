@@ -9,9 +9,9 @@
 `pymongo >= 3.1.1`
 'plotly'
 
-To install all packages, 
+To install all packages `cd` to the working directory and run, 
 
-run pip install -e .
+`pip install -e .`
 
 ## File Structure
 
