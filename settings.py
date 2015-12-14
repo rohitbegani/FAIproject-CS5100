@@ -6,6 +6,8 @@ JSON_FILE_NAME = "kGgAARL2UmvCcTRfiscjug_reviews_business_model.json"
 REF_USER_ID = "kGgAARL2UmvCcTRfiscjug"
 REF_USER_NAME = "Bob"
 
+USER_TRAINING_FACTOR = 0.85
+
 KNN_NEIGHBOURS = 5
 
 ENABLE_DISTANCE_FILTER = False

@@ -30,7 +30,12 @@ for index, p in enumerate(predictions):
            "User Rating: %s\n" \
            "Business Rating: %s\n" \
            "Prediction Score: %s\n" \
-           "Prediction Rank: %s\n" % (p.name, p.stars, dataSet.findUserRating(p), p.predictionScore, index + 1))
+           "Prediction Rank: %s\n"
+           % (p.name,
+              p.stars,
+              dataSet.findUserRating(p),
+              p.predictionScore,
+              index + 1))
 
 if PLOT_RESULTS:
     bp = BubblePlot()

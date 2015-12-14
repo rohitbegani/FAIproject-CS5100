@@ -1,6 +1,7 @@
 import unicodedata
 
 from models.hours import Hours
+from settings import USER_TRAINING_FACTOR
 from util.valueExtractor import ValueExtractor
 
 
@@ -27,7 +28,7 @@ class User(object):
         self._categories = categories
         self._dietary_restrictions = dietary_restrictions
         self._misc_attributes = misc_attributes
-        self.trainingFactor = 0.97
+        self.trainingFactor = USER_TRAINING_FACTOR
 
     @property
     def name(self):
