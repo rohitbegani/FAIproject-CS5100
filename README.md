@@ -7,7 +7,8 @@
 ## Packages Used
 
 `pymongo >= 3.1.1`
-'plotly'
+
+`plotly`
 
 To install all packages `cd` to the working directory and run, 
 
