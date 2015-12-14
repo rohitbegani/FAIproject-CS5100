@@ -3,6 +3,7 @@ import sys
 from datetime import datetime
 from algorithm.dataSet import DataSet
 from algorithm.knn import Knn
+from util.MAE import getRating, MAE
 from plots.bubblePlot import BubblePlot
 from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME, PLOT_RESULTS, DISTANCE_TO_FILTER, TIME_TO_FILTER, \
     KNN_NEIGHBOURS, ENABLE_DISTANCE_FILTER, ENABLE_TIME_FILTER
@@ -14,32 +15,6 @@ dataSet.loadRawData()
 dataSet.processBusinessModels()
 dataSet.sliceData()
 dataSet.trainUserModel()
-
-def getRating(score):
-    if score == 0:
-        return 0
-    elif score in range(0, 1):
-        return 0.5
-    elif score in range(1,2):
-        return 1
-    elif score in range(2,3):
-        return 1.5
-    elif score in range(3,4):
-        return 2
-    elif score in range(4,5):
-        return 2.5
-    elif score in range(5,6):
-        return 3
-    elif score in range(6,7):
-        return 3.5
-    elif score in range(7,8):
-        return 4
-    elif score in range(8,9):
-        return 4.5
-    elif score in range(9,10):
-        return 5
-    else:
-        return None
 
 
 if ENABLE_TIME_FILTER:
@@ -65,6 +40,8 @@ for index, p in enumerate(predictions):
               p.predictionScore,
               getRating(p.predictionScore),
               index + 1))
+
+print "MAE: %s" % MAE(predictions, dataSet.businessModels)
 
 if PLOT_RESULTS:
     bp = BubblePlot()
