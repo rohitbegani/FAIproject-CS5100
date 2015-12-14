@@ -261,10 +261,10 @@ class User(object):
             if v == value:
                 flag = 1
                 w += self.compute_feature_weight(self.userRating, self.stars)
-                feature[feature.index(f)] = (v, self.compute_feature_weight(self.userRating, self.stars))
+                feature[feature.index(f)] = (v, w)
 
         if flag == 0 and value is not None:
-            feature.append((value, self._stars/5))
+            feature.append((value, self.compute_feature_weight(self.userRating, self.stars)))
         return feature
 
     def normalize_feature_weight(self, feature):
