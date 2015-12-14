@@ -32,4 +32,4 @@ for p in prediction:
 	print dataSet.findUserRating(p)
 	#print dataSet.findUserReview(p)
 	print "_________________________________"
-	print get_topics(dataSet.findUserReview(p))
+	#get_topics(dataSet.findUserReview(p))
