@@ -19,46 +19,99 @@
     </section>
 
     <section class="main-content">
-      <p>Members:
-<a href="https://github.com/bhanupratapjain">Bhanu Pratap Jain</a>
-<a href="https://github.com/rohitbegani">Rohit Begani</a>
-<a href="https://github.com/ronnygeo">Ronny Mathew</a></p>
+      <h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p><strong>Modelling User Preferences to provide Location Based Recommendations</strong></p>
+
+<p>This application uses KNN to create an artificial agent that can recommend eating places to a user. Our agent will parse through the user's information with an aim to understand different characteristics about the user. Then based on that we will provide different recommendations to the user. Additionally, through user’s feedback, the agent will evolve its preference model and recommendation function. </p>
+
+<p>This project is our submission for CS 5100 (Northeastern University).</p>
 
 <h2>
-<a id="about-the-project" class="anchor" href="#about-the-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>About the project:</h2>
-
-<p>In this project we will create an artificial agent that can recommend eating choices to a user. Our agent will run through an existing dataset, representing user’s eating behavior (cuisines, category, etc.) and learn the user’s preference model for food choices. Based on the learned user preferences, current location and time, the agent will recommend an eating choice for the user in terms of food type and the optimal place to eat. Additionally, through user’s feedback, the agent will evolve its preference model and recommendation function. We have used KNN algorithm.</p>
-
-<h2>
-<a id="packages-used" class="anchor" href="#packages-used" aria-hidden="true"><span class="octicon octicon-link"></span></a>Packages Used:</h2>
+<a id="packages-used" class="anchor" href="#packages-used" aria-hidden="true"><span class="octicon octicon-link"></span></a>Packages Used</h2>
 
 <p><code>pymongo &gt;= 3.1.1</code></p>
 
 <p><code>plotly</code></p>
 
-<p>To install all packages cd to the working directory and run,</p>
+<p>To install all packages <code>cd</code> to the working directory and run, </p>
 
 <p><code>pip install -e .</code></p>
+
+<h2>
+<a id="how-to-run" class="anchor" href="#how-to-run" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to run</h2>
+
+<ol>
+<li><p>Clone this repo to your local machine using <code>git clone &lt;repo link&gt;</code></p></li>
+<li><p><code>cd</code> to the root of the directory</p></li>
+<li><p>Download all the required packages using the command <code>pip install -e</code></p></li>
+<li><p>Run <code>app.py</code>. That's it!</p></li>
+</ol>
 
 <h2>
 <a id="file-structure" class="anchor" href="#file-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>File Structure</h2>
 
 <ul>
-<li><p><code>lib</code>: Main files.</p></li>
-<li><p><code>helpers</code>: Contains all the helper files.</p></li>
-<li><p><code>util</code>: This folder contains all the utility functions. File Operations Dictionary Operations</p></li>
+<li><p><code>algorithm</code> 
+Main files including knn.</p></li>
+<li><p><code>helpers:</code>
+Contains all the helper files.</p></li>
+<li><p><code>util:</code>
+This folder contains all the utility functions.
+File Operations
+Dictionary Operations</p></li>
 <li>
-<p><code>static</code>:</p>
+<p><code>static:</code></p>
 
 <ul>
-<li>   csv</li>
-<li>   json</li>
+<li>csv</li>
+<li>json</li>
 </ul>
 </li>
-<li><p><code>algorithm</code>: This folder will contain the actual KNN algo.</p></li>
-<li><p><code>docs</code>: Contains all the docs related to the project</p></li>
-<li><p><code>models</code>: Contains the model data classes* </p></li>
+<li><p><code>algorithm:</code>
+This folder will contain the actual KNN algo.</p></li>
+<li><p><code>docs:</code>
+Contains all the docs related to the project</p></li>
+<li><p><code>models:</code>
+Contains the model data classes</p></li>
+<li><p><code>plots</code>
+Contains the code for the graphs</p></li>
+<li><p><code>tests</code>
+Testing</p></li>
+<li><p><code>app.py</code> main file to run the program</p></li>
+<li><p><code>settings.py</code> contains all the predefined settings</p></li>
+<li><p><code>setup.py</code> to setup the project</p></li>
 </ul>
+
+<h2>
+<a id="future-scope" class="anchor" href="#future-scope" aria-hidden="true"><span class="octicon octicon-link"></span></a>Future Scope</h2>
+
+<p>This application can be extended by adding Natural Language Processing. In future, we aim to apply Natural Language Processing to a user's review and try to understand that if they do or don't like a business then what is the real reasoning behind that? Is it because of some specific thing like a lack of parking? If it is, should we stop recommending businesses which doesn't have parking space? Is it because the business doesn't have free Wi-fi?</p>
+
+<p>All these factors we believe would help us in improving our recommendations and giving even better results.</p>
+
+<h2>
+<a id="team" class="anchor" href="#team" aria-hidden="true"><span class="octicon octicon-link"></span></a>Team</h2>
+
+<ul>
+<li><a href="http://github.com/bhanupratapjain">Bhanu Pratap Jain</a></li>
+<li><a href="https://github.com/rohitbegani">Rohit Begani</a></li>
+<li><a href="http://github.com/ronnygeo">Ronny Mathew</a></li>
+</ul>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>The MIT License (MIT)</p>
+
+<p>Copyright (c) 2015-2017 Rohit Begani</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/rohitbegani/FAIproject-CS5100">Foundations of Artificial Intelligence - CS5100 (Project)</a> is maintained by <a href="https://github.com/rohitbegani">rohitbegani</a>.</span>
