@@ -71,12 +71,12 @@ class DataSet(object):
     ## Using the Haversine Formula
     ## http://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points
 
-    def distFilterBusinessModel(self, rad):
+    def distFilterBusinessModel(self, rad=1):
         '''
         This function implements the Haversine formula to calculate the
         distance from the users current location to the location of the
         business
-        :param radius: 1
+        :param rad: 1
         :return: appends business within a mile
         '''
         newData = []
