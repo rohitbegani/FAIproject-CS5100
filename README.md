@@ -58,13 +58,13 @@ This application can be extended by adding Natural Language Processing. In futur
 
 All these factors we believe would help us in improving our recommendations and giving even better results.
 
-## TEAM
+## Team
 
 * [Bhanu Pratap Jain](http://github.com/bhanupratapjain)
 * [Rohit Begani](https://github.com/rohitbegani)
 * [Ronny Mathew](http://github.com/ronnygeo)
 
-## LICENSE
+## License
 
 The MIT License (MIT)
 
