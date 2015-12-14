@@ -27,20 +27,49 @@ class Knn(object):
         This method returns the similarity factor of the most given dataRow and the user.
         :param dataRow: It the each row of Business in the test data
         """
+
         cc = ClassComparator()
         cc.user = self.inputData.userData
         cc.business = dataRow
         similarityFactor = 0.0
-        similarityFactor += cc.wifi() \
-                            + cc.alcohol() \
-                            + cc.noise_level() \
-                            + cc.music() \
-                            + cc.attire() \
-                            + cc.ambience() \
-                            + cc.price_range() \
-                            + cc.good_for() \
-                            + cc.parking() \
-                            + cc.categories() \
-                            + cc.dietary_restrictions() \
-                            + cc.misc_attributes()
-        return similarityFactor
+
+        factor = [cc.wifi(),
+        cc.alcohol(),
+        cc.noise_level(),
+        cc.music(),
+        cc.attire(),
+        cc.ambience(),
+        cc.price_range(),
+        cc.good_for(),
+        cc.parking(),
+        cc.categories(),
+        cc.dietary_restrictions(),
+        cc.misc_attributes()]
+        total = 0
+        count = 0
+        # for f in factor:
+        #     if f != 0.0:
+        #         count += 1
+        #         total += f
+        # return total/count
+
+        for f in factor:
+            total += f
+        return total
+
+
+
+
+        # similarityFactor += cc.wifi() \
+        #                     + cc.alcohol() \
+        #                     + cc.noise_level() \
+        #                     + cc.music() \
+        #                     + cc.attire() \
+        #                     + cc.ambience() \
+        #                     + cc.price_range() \
+        #                     + cc.good_for() \
+        #                     + cc.parking() \
+        #                     + cc.categories() \
+        #                     + cc.dietary_restrictions() \
+        #                     + cc.misc_attributes()
+        # return similarityFactor
