@@ -26,6 +26,9 @@ print(len(dataSet.testData))
 knn = Knn()
 knn.inputData = dataSet
 predictions = knn.getNearestNeighbours(5)
+for p in predictions:
+	#print p
+	print dataSet.findUserRating(p)
 
 bp = BubblePlot()
 bp.testData = dataSet.testData
