@@ -4,7 +4,7 @@ import sys
 from datetime import datetime
 from algorithm.dataSet import DataSet
 from algorithm.knn import Knn
-from lib.lda import get_topics
+#from lib.lda import get_topics
 from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME
 
 
