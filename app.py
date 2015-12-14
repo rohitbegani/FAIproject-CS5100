@@ -1,11 +1,11 @@
-
 import sys
 
 from datetime import datetime
 from algorithm.dataSet import DataSet
 from algorithm.knn import Knn
 from plots.bubblePlot import BubblePlot
-from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME
+from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME, PLOT_RESULTS, DISTANCE_TO_FILTER, TIME_TO_FILTER, \
+    KNN_NEIGHBOURS, ENABLE_DISTANCE_FILTER, ENABLE_TIME_FILTER
 
 reload(sys)
 sys.setdefaultencoding(SYS_ENCODING_UTF)
@@ -13,25 +13,28 @@ dataSet = DataSet(JSON_FILE_PATH + JSON_FILE_NAME)
 dataSet.loadRawData()
 dataSet.processBusinessModels()
 dataSet.sliceData()
-print(len(dataSet.testData))
 dataSet.trainUserModel()
-dataSet.timeFilterBusinessModel(datetime.today())
-dataSet.distFilterBusinessModel(5)
-#for d in dataSet.trainingData:
-#     print(d)
-print(len(dataSet.trainingData))
-print(len(dataSet.testData))
-# print(dataSet.userData)
+
+if ENABLE_TIME_FILTER:
+    dataSet.timeFilterBusinessModel(TIME_TO_FILTER)
+
+if ENABLE_DISTANCE_FILTER:
+    dataSet.distFilterBusinessModel(DISTANCE_TO_FILTER)
 
 knn = Knn()
 knn.inputData = dataSet
-predictions = knn.getNearestNeighbours(5)
-for p in predictions:
-	#print p
-	print dataSet.findUserRating(p)
+predictions = knn.getNearestNeighbours(KNN_NEIGHBOURS)
 
-bp = BubblePlot()
-bp.testData = dataSet.testData
-bp.user = dataSet.userData
-bp.predictions = predictions
-bp.generate()
+for index, p in enumerate(predictions):
+    print ("Name: %s\n" \
+           "User Rating: %s\n" \
+           "Business Rating: %s\n" \
+           "Prediction Score: %s\n" \
+           "Prediction Rank: %s\n" % (p.name, p.stars, dataSet.findUserRating(p), p.predictionScore, index + 1))
+
+if PLOT_RESULTS:
+    bp = BubblePlot()
+    bp.testData = dataSet.testData
+    bp.user = dataSet.userData
+    bp.predictions = predictions
+    bp.generate()

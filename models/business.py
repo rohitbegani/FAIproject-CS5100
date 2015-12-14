@@ -8,7 +8,7 @@ class Business(object):
     def __init__(self, name=None, business_id=None, location_lon=None, location_lat=None, stars=None, open_now=None,
                  wifi=None, alcohol=None, noise_level=None, music=None, attire=None, ambience=None, price_range=None,
                  good_for=None, parking=None, categories=None, dietary_restrictions=None, misc_attributes=None,
-                 hours=None, userRating=None):
+                 hours=None, userRating=None, predictionScore=None):
 
         self._name = name
         self._business_id = business_id
@@ -30,6 +30,16 @@ class Business(object):
         self._misc_attributes = misc_attributes
         self._hours = hours
         self._userRating = userRating
+        self._predictionScore = predictionScore
+
+    @property
+    def predictionScore(self):
+        return self._predictionScore
+
+    @predictionScore.setter
+    def predictionScore(self, predictionScore):
+        self._predictionScore = predictionScore
+
 
     @property
     def userRating(self):

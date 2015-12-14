@@ -59,7 +59,7 @@ class BubblePlot:
                 x=self._businessLatList,
                 y=self._businessLonList,
                 mode='markers',
-                name='Businesses',
+                name='Business',
                 text=self._businessTextList,
                 marker=dict(
                         symbol='circle-open',
@@ -112,4 +112,4 @@ class BubblePlot:
                 plot_bgcolor='rgb(243, 243, 243)',
         )
         fig = go.Figure(data=data, layout=layout)
-        plot_url = py.plot(fig, filename='life-expectancy-per-GDP-2007')
+        plot_url = py.plot(fig, filename='location-bases-user-prediction')

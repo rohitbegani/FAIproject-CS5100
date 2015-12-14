@@ -18,9 +18,8 @@ class Knn(object):
             nDict[dataRow] = self.getSimilarityFactor(dataRow)
         sortedList = sorted(nDict.items(), key=operator.itemgetter(1), reverse=True)
         for sortedValue in sortedList[:k]:
+            sortedValue[0].predictionScore = sortedValue[1]
             neighbours.append(sortedValue[0])
-            print(sortedValue[0].name)
-            print(sortedValue[1])
         return neighbours
 
     def getSimilarityFactor(self, dataRow):

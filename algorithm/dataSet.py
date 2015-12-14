@@ -30,9 +30,7 @@ class DataSet(object):
         # Shuffle the Business Model List
         # shuffle(self._businessModels)
         test_cutoff = int(math.floor(len(self._businessModels) / 3))
-        self.testD = self._businessModels[0:test_cutoff]
-        self.testData = self.filterDuplicates(self.testD)
-        #self.testData = self._businessModels[0:test_cutoff]
+        self.testData = self.filterDuplicates(self._businessModels[0:test_cutoff])
         self.trainingData = self._businessModels[test_cutoff:]
 
     def processBusinessModels(self):
@@ -96,7 +94,6 @@ class DataSet(object):
                 newData.append(b)
         self.testData = newData
 
-
     def filterDuplicates(self, data):
         list = []
         for d in data:
@@ -115,5 +112,5 @@ class DataSet(object):
         for b in self._businessModels:
             if b.name == business.name:
                 rating = max(rating, b.userRating)
-        return [business.name, rating]
+        return rating
 
