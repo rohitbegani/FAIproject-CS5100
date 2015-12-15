@@ -1,0 +1,6 @@
+How to run
+
+1. Clone this repo to your local machine using git clone <repo link>
+2. cd to the root of the directory
+3. Download all the required packages using the command pip install -e
+4. Run app.py. 
