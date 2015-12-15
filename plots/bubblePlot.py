@@ -113,4 +113,4 @@ class BubblePlot:
                 plot_bgcolor='rgb(243, 243, 243)',
         )
         fig = go.Figure(data=data, layout=layout)
-        plot_url = py.plot(fig, filename='location-bases-user-prediction')
+        plot_url = py.plot(fig, filename='location-bases-user-prediction-all-filter')
