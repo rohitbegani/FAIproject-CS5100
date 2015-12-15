@@ -66,7 +66,7 @@ To install all packages `cd` to the working directory and run,
 The following graph shows the location of the user, the number of businesses in the area and the predicted businesses.
 It takes `time` and `location` restrictions into consideration.
 
-![Graph showing all the information](https://github.com/rohitbegani/FAIproject-CS5100/blob/master/docs/images/location-bases-user-prediction-all-filter-all-plots.png)
+![Graph showing all the information](https://github.com/rohitbegani/FAIproject-CS5100/blob/master/docs/images/full-better-image.png)
 
 ## Performance
 
