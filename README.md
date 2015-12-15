@@ -72,10 +72,10 @@ It takes `time` and `location` restrictions into consideration.
 
 Our algorithm gives an MAE (Mean Absolute Error) of:
 
-- Without any restrictions on the database: `0.6`
-- With time and location restrictions on the database: `0.9`
+- Without any restrictions on the database: `0.7`
+- With time and location restrictions on the database: `1`
 
-The fact that we already have a restricted database gives us a MAE of `0.6` but restricting it further changes our MAE value by a factor of `0.3`. With a deeper dataset our algorithm would give an even better MAE value. 
+The fact that we already have a restricted database gives us a MAE of `0.7` but restricting it further changes our MAE value by a factor of `0.3`. With a deeper dataset our algorithm would give an even better MAE value. 
     
 
 ## Future Scope
