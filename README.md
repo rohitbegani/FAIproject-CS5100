@@ -61,6 +61,12 @@ To install all packages `cd` to the working directory and run,
 
 - `setup.py` to setup the project
 
+## Graphs
+
+The Graphs are used to show our results.
+
+![Graph showing all the information](https://github.com/rohitbegani/FAIproject-CS5100/blob/master/docs/images/with-all.png)
+
 ## Future Scope
 
 This application can be extended by adding Natural Language Processing. In future, we aim to apply Natural Language Processing to a user's review and try to understand that if they do or don't like a business then what is the real reasoning behind that? Is it because of some specific thing like a lack of parking? If it is, should we stop recommending businesses which doesn't have parking space? Is it because the business doesn't have free Wi-fi?
