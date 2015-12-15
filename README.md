@@ -67,6 +67,16 @@ The Graphs are used to show our results.
 
 ![Graph showing all the information](https://github.com/rohitbegani/FAIproject-CS5100/blob/master/docs/images/with-all.png)
 
+## Performance
+
+Our algorithm gives an MAE (Mean Absolute Error) of:
+
+- Without any restrictions on the database: `0.6`
+- With time and location restrictions on the database: `0.9`
+
+The fact that we already have a restricted database gives us a MAE of `0.6` but restricting it further changes our MAE value by a factor of `0.3`. With a deeper dataset our algorithm would give an even better MAE value. 
+    
+
 ## Future Scope
 
 This application can be extended by adding Natural Language Processing. In future, we aim to apply Natural Language Processing to a user's review and try to understand that if they do or don't like a business then what is the real reasoning behind that? Is it because of some specific thing like a lack of parking? If it is, should we stop recommending businesses which doesn't have parking space? Is it because the business doesn't have free Wi-fi?
