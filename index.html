@@ -53,8 +53,6 @@
 <a id="file-structure" class="anchor" href="#file-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>File Structure</h2>
 
 <ul>
-<li><p><code>algorithm</code> 
-Main files including knn.</p></li>
 <li><p><code>helpers:</code>
 Contains all the helper files.</p></li>
 <li><p><code>util:</code>
@@ -70,7 +68,7 @@ Dictionary Operations</p></li>
 </ul>
 </li>
 <li><p><code>algorithm:</code>
-This folder will contain the actual KNN algo.</p></li>
+This folder contains the actual KNN algo.</p></li>
 <li><p><code>docs:</code>
 Contains all the docs related to the project</p></li>
 <li><p><code>models:</code>
@@ -83,6 +81,28 @@ Testing</p></li>
 <li><p><code>settings.py</code> contains all the predefined settings</p></li>
 <li><p><code>setup.py</code> to setup the project</p></li>
 </ul>
+
+<h2>
+<a id="graphs" class="anchor" href="#graphs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Graphs</h2>
+
+<p>The following graph shows the location of the user, the number of businesses in the area and the predicted businesses.
+It takes <code>time</code> and <code>location</code> restrictions into consideration.</p>
+
+<p><img src="https://github.com/rohitbegani/FAIproject-CS5100/blob/master/docs/images/filter-all.png" alt="Graph showing all the information"></p>
+
+<h2>
+<a id="performance" class="anchor" href="#performance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Performance</h2>
+
+<p>Our algorithm gives an MAE (Mean Absolute Error) of:</p>
+
+<ul>
+<li>Without any restrictions on the database: <code>0</code>
+</li>
+<li>With time and location restrictions on the database: <code>1</code>
+</li>
+</ul>
+
+<p>The fact that we already have a restricted database gives us a MAE of <code>0</code> but restricting it further changes our MAE value by a factor of <code>1</code>. With a deeper dataset our algorithm would give an even better MAE value. </p>
 
 <h2>
 <a id="future-scope" class="anchor" href="#future-scope" aria-hidden="true"><span class="octicon octicon-link"></span></a>Future Scope</h2>
