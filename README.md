@@ -27,6 +27,47 @@ To install all packages `cd` to the working directory and run,
 4. Run `app.py`. That's it!
 
 ## File Structure
+
+.
+├── README.md
+├── algorithm
+│   ├── __init__.py
+│   ├── classComparator.py
+│   ├── dataSet.py
+│   └── knn.py
+├── app.py
+├── docs
+│   ├── DataMapping.xlsx
+│   └── images
+├── lib
+│   ├── __init__.py
+│   ├── attrExtractor.py
+│   ├── categoryExtractor.py
+│   ├── dataExtractor.py
+│   └── mongoImport.py
+├── models
+│   ├── __init__.py
+│   ├── business.py
+│   ├── hours.py
+│   ├── review.py
+│   └── user.py
+├── plots
+│   ├── __init__.py
+│   └── bubblePlot.py
+├── settings.py
+├── setup.py
+├── static
+│   ├── csv
+│   └── json
+├── tests
+│   └── unittest.py
+└── util
+    ├── __init__.py
+    ├── dictOperations.py
+    ├── errorCheck.py
+    ├── fileOperations.py
+    ├── jsonToObject.py
+    └── valueExtractor.py
     
 - `helpers:`
     Contains all the helper files.
