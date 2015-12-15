@@ -11,7 +11,7 @@ sys.setdefaultencoding(SYS_ENCODING_UTF)
 dataSet = DataSet(JSON_FILE_PATH + JSON_FILE_NAME)
 dataSet.loadRawData()
 dataSet.processBusinessModels()
-print(len(dataSet.businessModels))
+print("\nNumber of Business Models: %s" % len(dataSet.businessModels))
 dataSet.sliceData()
 
 dataSet.trainUserModel()
@@ -22,8 +22,8 @@ if ENABLE_TIME_FILTER:
 
 if ENABLE_DISTANCE_FILTER:
     dataSet.distFilterBusinessModel(DISTANCE_TO_FILTER)
-print(len(dataSet.testData))
-print(len(dataSet.trainingData))
+print("Test Data: %s" % len(dataSet.testData))
+print("Training Data: %s \n" % len(dataSet.trainingData))
 knn = Knn()
 knn.inputData = dataSet
 predictions = knn.getNearestNeighbours(KNN_NEIGHBOURS)
