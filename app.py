@@ -1,6 +1,4 @@
 import sys
-
-from datetime import datetime
 from algorithm.dataSet import DataSet
 from algorithm.knn import Knn
 from util.errorCheck import getRating, MAE

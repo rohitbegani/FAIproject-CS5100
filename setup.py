@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Setup for dataset-examples."""
+"""Setup for user modelling project."""
 from setuptools import setup, find_packages
 
 requires = [
@@ -8,10 +8,10 @@ requires = [
         ]
 
 setup(
-        name='User-Modelling',
-        description='Modelling user preferences from DataSet.',
+        name='User Based Recommendation System',
+        description='Model user preferences to provide Location Based Recommendation.',
         author='Bhanu Jain, Rohit Begani, Ronny Mathew',
-        homepage='http://github.com',
+        url='http://rohitbegani.github.io/FAIproject-CS5100',
         packages=find_packages(),
         install_requires=requires,
         )

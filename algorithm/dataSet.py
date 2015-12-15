@@ -5,11 +5,8 @@ from datetime import timedelta
 
 from math import sin, cos, radians, atan2, sqrt
 from models.user import User
-from models.business import Business
 from settings import REF_USER_ID, REF_USER_NAME
 from util.jsonToObject import Decode
-from random import shuffle
-
 
 class DataSet(object):
     def __init__(self, jsonFile=None):
@@ -27,8 +24,6 @@ class DataSet(object):
             self._rawData = json.load(data_file)
 
     def sliceData(self):
-        # Shuffle the Business Model List
-        # shuffle(self._businessModels)
         test_cutoff = int(math.floor(len(self.businessModels) / 3))
         self.testData = self.filterDuplicates(self.businessModels[0:test_cutoff])
         self.trainingData = self.businessModels[test_cutoff:]

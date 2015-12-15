@@ -1,9 +1,4 @@
-import unicodedata
-
-from models.hours import Hours
 from settings import USER_TRAINING_FACTOR
-from util.valueExtractor import ValueExtractor
-
 
 class User(object):
     def __init__(self, user_id=None, name=None, location_lat=None, location_lon=None, stars=None, userRating=None,
