@@ -31,31 +31,12 @@ class Knn(object):
         cc = ClassComparator()
         cc.user = self.inputData.userData
         cc.business = dataRow
-        similarityFactor = 0
         factor = [cc.wifi(), cc.alcohol(), cc.noise_level(), cc.music(), cc.attire(), cc.ambience(),
         cc.price_range(), cc.good_for(), cc.parking(), cc.categories(), cc.dietary_restrictions(), cc.misc_attributes()]
         total = 0
         count = 0
         for f in factor:
-            if f != 0.0:
-                count += 1
-                total += f
+            count += 1
+            total += f
         return (total/count) * 10
 
-        # for f in factor:
-        #     total += f
-        # return total
-
-        # similarityFactor += cc.wifi() \
-        #                     + cc.alcohol() \
-        #                     + cc.noise_level() \
-        #                     + cc.music() \
-        #                     + cc.attire() \
-        #                     + cc.ambience() \
-        #                     + cc.price_range() \
-        #                     + cc.good_for() \
-        #                     + cc.parking() \
-        #                     + cc.categories() \
-        #                     + cc.dietary_restrictions() \
-        #                     + cc.misc_attributes()
-        # return similarityFactor
