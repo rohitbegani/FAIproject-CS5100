@@ -13,8 +13,7 @@ dataSet.loadRawData()
 dataSet.processBusinessModels()
 print(len(dataSet.businessModels))
 dataSet.sliceData()
-print(len(dataSet.testData))
-print(len(dataSet.trainingData))
+
 dataSet.trainUserModel()
 
 
@@ -23,7 +22,8 @@ if ENABLE_TIME_FILTER:
 
 if ENABLE_DISTANCE_FILTER:
     dataSet.distFilterBusinessModel(DISTANCE_TO_FILTER)
-
+print(len(dataSet.testData))
+print(len(dataSet.trainingData))
 knn = Knn()
 knn.inputData = dataSet
 predictions = knn.getNearestNeighbours(KNN_NEIGHBOURS)
