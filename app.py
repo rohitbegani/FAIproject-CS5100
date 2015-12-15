@@ -41,7 +41,11 @@ for index, p in enumerate(predictions):
               getRating(p.predictionScore),
               index + 1))
 
-print "MAE: %s" % MAE(predictions, dataSet.businessModels)
+print "Mean Absolute Error (FILTERS: %s): %s" % ((ENABLE_DISTANCE_FILTER or ENABLE_TIME_FILTER), MAE(predictions, dataSet.businessModels))
+if ENABLE_DISTANCE_FILTER: print "DISTANCE FILTER: ON"
+else: print "DISTANCE FILTER: OFF"
+if ENABLE_TIME_FILTER: print "TIME FILTER: ON"
+else: print "TIME FILTER: OFF"
 
 if PLOT_RESULTS:
     bp = BubblePlot()
