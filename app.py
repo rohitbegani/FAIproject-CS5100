@@ -39,7 +39,7 @@ for index, p in enumerate(predictions):
               p.stars,
               p.findHighestUserRating(dataSet.businessModels),
               p.predictionScore,
-              getRating(p.predictionScore),
+              getRating(round(p.predictionScore)),
               index + 1))
 
 print "Mean Absolute Error (FILTERS: %s): %s" % ((ENABLE_DISTANCE_FILTER or ENABLE_TIME_FILTER), MAE(predictions, dataSet.businessModels))

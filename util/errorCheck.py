@@ -27,6 +27,6 @@ def MAE(pred, b):
     count = len(pred)
     for p in pred:
         ur = p.findHighestUserRating(b)
-        pr = getRating(p.predictionScore)
+        pr = getRating(round(p.predictionScore))
         sum += abs(pr - ur)
     return sum/count
