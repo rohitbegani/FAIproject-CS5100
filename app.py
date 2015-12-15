@@ -11,7 +11,10 @@ sys.setdefaultencoding(SYS_ENCODING_UTF)
 dataSet = DataSet(JSON_FILE_PATH + JSON_FILE_NAME)
 dataSet.loadRawData()
 dataSet.processBusinessModels()
+print(len(dataSet.businessModels))
 dataSet.sliceData()
+print(len(dataSet.testData))
+print(len(dataSet.trainingData))
 dataSet.trainUserModel()
 
 
