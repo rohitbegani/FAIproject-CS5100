@@ -3,7 +3,7 @@ import sys
 from datetime import datetime
 from algorithm.dataSet import DataSet
 from algorithm.knn import Knn
-from util.MAE import getRating, MAE
+from util.errorCheck import getRating, MAE
 from plots.bubblePlot import BubblePlot
 from settings import SYS_ENCODING_UTF, JSON_FILE_PATH, JSON_FILE_NAME, PLOT_RESULTS, DISTANCE_TO_FILTER, TIME_TO_FILTER, \
     KNN_NEIGHBOURS, ENABLE_DISTANCE_FILTER, ENABLE_TIME_FILTER
