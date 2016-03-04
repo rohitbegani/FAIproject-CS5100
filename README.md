@@ -1,6 +1,6 @@
 ## Introduction
 
-**Modelling User Preferences to provide Location Based Recommendations**
+**Modeling User Preferences to provide Location Based Recommendations**
 
 This application uses KNN to create an artificial agent that can recommend eating places to a user. Our agent will parse through the user's information with an aim to understand different characteristics about the user. Then based on that we will provide different recommendations to the user. Additionally, through user’s feedback, the agent will evolve its preference model and recommendation function. 
 
